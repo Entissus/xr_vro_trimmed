@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="bridge_units_xl_macro" class="cockpit">
+    <component ref="bridge_units_xl" />
+    <properties />
+  </macro>
+</macros>

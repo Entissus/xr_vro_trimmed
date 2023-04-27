@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Michael (192.168.3.101) at 08.09.2013_12-57-51-->
+<macros>
+  <macro name="props_surf_ar_jumpdrive_l_macro" class="destructible">
+    <component ref="props_surf_ar_jumpdrive_l" />
+    <properties>
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>

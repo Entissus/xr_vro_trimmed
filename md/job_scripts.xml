@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mdscript name="job_delay" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation=""> 
+<cues>
+	<cue name="JobDelayedStart100h" version="1">
+		<conditions>
+			<check_any>
+				<event_game_loaded />
+				<event_cue_signalled cue="md.Setup.Start" />
+			</check_any>
+		</conditions>
+		<delay exact="if (player.age lt 360000) then (360000 - player.age) else 0s"/>
+		<actions>
+			<debug_text text="'Advanced jobs I started...'" />
+			<set_job_active activate="true" job="'xenon_carrier_patrol_xl_border_cluster_02'" />
+			<set_job_active activate="true" job="'terran_battleship_patrol_xl_02'" />
+			<set_job_active activate="true" job="'pioneers_destroyer_patrol_l_exp_02'" />			
+		</actions>
+    </cue>
+	<cue name="JobDelayedStart200h" version="1">
+		<conditions>
+			<check_any>
+				<event_game_loaded />
+				<event_cue_signalled cue="md.Setup.Start" />
+			</check_any>
+		</conditions>
+		<delay exact="if (player.age lt 720000) then (720000 - player.age) else 0s"/>
+		<actions>
+			<debug_text text="'Advanced jobs II started...'" />
+			<set_job_active activate="true" job="'antigone_carrier_patrol_xl_01'" />
+			<set_job_active activate="true" job="'xenon_carrier_patrol_xl_02'" />			
+			<set_job_active activate="true" job="'terran_carrier_patrol_xl_01'" />
+		</actions>
+    </cue>
+</cues>
+	
+</mdscript>

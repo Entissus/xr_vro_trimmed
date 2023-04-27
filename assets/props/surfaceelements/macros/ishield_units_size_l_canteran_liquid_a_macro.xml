@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="ishield_units_size_l_canteran_liquid_a_macro" class="shieldgenerator">
+	<component ref="ishield_units_size_l_canteran_liquid_a" />
+    <properties>
+      <identification name="IG Mirage Liquid Internal Generator" mk="1" />
+      <recharge max="50500" rate="540" delay="0" />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>

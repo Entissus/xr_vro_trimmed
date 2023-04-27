@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+<components>
+	<component name="dockarea_arawn_xl_carrier_01" class="dockarea">
+		<source geometry="extensions\Trimmed_XR\assets\structures\dock\dockarea_arawn_xl_carrier_01_data"/>
+		<layers>
+			<layer>
+				<waypoints>
+					<waypoint name="XU_Waypoint02_mt" tags="dockpath end" group="group_02" x="0" y="50.29399" z="100.5521" qx="-0" qy="-0" qz="-0" qw="-1">
+						<links>
+							<link ref="XU_Waypoint00_mt"/>
+						</links>
+					</waypoint>		
+					<waypoint name="XU_Waypoint00_mt" tags="dockpath end" group="group_02" x="0" y="175" z="0" qx="-0" qy="-0" qz="-0" qw="-1">
+						<links>
+							<link ref="XU_Waypoint01_mt"/>
+						</links>
+					</waypoint>					
+					<waypoint name="XU_Waypoint01_mt" tags="dockpath end " group="group_02" x="0" y="190" z="-750" yaw="-180" pitch="0" roll="0">
+						<links>
+						</links>
+					</waypoint>
+					<waypoint name="XU_Waypoint003_mt" tags="start dockpath " group="group_02" x="0" y="60.56513" z="-1837.681" qx="-0" qy="-0" qz="-0" qw="-1">
+						<links>
+							<link ref="XU_Waypoint004_mt"/>
+						</links>
+					</waypoint>
+					<waypoint name="XU_Waypoint004_mt" tags="dockpath " group="group_02" x="0" y="60.56513" z="-837.681" qx="-0" qy="-0" qz="-0" qw="-1">
+						<links>
+							<link ref="XU_Waypoint005_mt"/>
+						</links>
+					</waypoint>					
+					<waypoint name="XU_Waypoint005_mt" tags="dockpath end" group="group_02" x="0" y="60.56513" z="-180.83" qx="-0" qy="-0" qz="-0" qw="-1">
+						<links>
+							<link ref="XU_Waypoint02_mt"/>
+						</links>
+					</waypoint>					
+					
+					
+
+					
+
+					<waypoint name="XU_Waypoint02_mt001" tags="dockpath end" group="group_01" x="-40" y="50.29399" z="100.5521" qx="-0" qy="-0" qz="-0" qw="-1">
+						<links>
+							<link ref="XU_Waypoint00_mt001"/>
+						</links>
+					</waypoint>						
+					<!--
+					<waypoint name="XU_Waypoint021_mt001" tags="dockpath end" group="group_01" x="-40" y="150.29399" z="100.5521" qx="-0" qy="-0" qz="-0" qw="-1">
+						<links>
+							<link ref="XU_Waypoint00_mt001"/>
+						</links>
+					</waypoint>
+					-->
+					<waypoint name="XU_Waypoint00_mt001" tags="dockpath end" group="group_01" x="-40" y="175" z="0" qx="-0" qy="-0" qz="-0" qw="-1">
+						<links>
+							<link ref="XU_Waypoint01_mt001"/>
+						</links>
+					</waypoint>					
+					<waypoint name="XU_Waypoint01_mt001" tags="dockpath end " group="group_01" x="-40" y="190" z="-750" yaw="-180" pitch="0" roll="0">
+						<links>
+						</links>
+					</waypoint>
+					<waypoint name="XU_Waypoint003_mt001" tags="start dockpath " group="group_01" x="-40" y="60.56513" z="-1837.681" qx="-0" qy="-0" qz="-0" qw="-1">
+						<links>
+							<link ref="XU_Waypoint004_mt001"/>
+						</links>
+					</waypoint>
+					<waypoint name="XU_Waypoint004_mt001" tags="dockpath " group="group_01" x="-40" y="60.56513" z="-837.681" qx="-0" qy="-0" qz="-0" qw="-1">
+						<links>
+							<link ref="XU_Waypoint005_mt001"/>
+						</links>
+					</waypoint>					
+					<waypoint name="XU_Waypoint005_mt001" tags="dockpath end" group="group_01" x="-40" y="60.56513" z="-180.83" qx="-0" qy="-0" qz="-0" qw="-1">
+						<links>
+							<link ref="XU_Waypoint02_mt001"/>
+						</links>
+					</waypoint>
+					
+
+					<waypoint name="XU_Waypoint02_mt002" tags="dockpath end" group="group_03" x="40" y="50.29399" z="100.5521" qx="-0" qy="-0" qz="-0" qw="-1">
+						<links>
+							<link ref="XU_Waypoint00_mt002"/>
+						</links>
+					</waypoint>				
+					<!--					
+					<waypoint name="XU_Waypoint021_mt002" tags="dockpath end" group="group_03" x="40" y="150.29399" z="100.5521" qx="-0" qy="-0" qz="-0" qw="-1">
+						<links>
+							<link ref="XU_Waypoint00_mt002"/>
+						</links>
+					</waypoint>
+					-->
+					<waypoint name="XU_Waypoint00_mt002" tags="dockpath end" group="group_03" x="40" y="175" z="0" qx="-0" qy="-0" qz="-0" qw="-1">
+						<links>
+							<link ref="XU_Waypoint01_mt002"/>
+						</links>
+					</waypoint>							
+					<waypoint name="XU_Waypoint01_mt002" tags="dockpath end " group="group_03" x="40" y="190" z="-750" yaw="-180" pitch="0" roll="0">
+						<links>
+						</links>
+					</waypoint>
+					<waypoint name="XU_Waypoint003_mt002" tags="start dockpath " group="group_03" x="40" y="60.56513" z="-1837.681" qx="-0" qy="-0" qz="-0" qw="-1">
+						<links>
+							<link ref="XU_Waypoint004_mt002"/>
+						</links>
+					</waypoint>
+					<waypoint name="XU_Waypoint004_mt002" tags="dockpath " group="group_03" x="40" y="60.56513" z="-837.681" qx="-0" qy="-0" qz="-0" qw="-1">
+						<links>
+							<link ref="XU_Waypoint005_mt002"/>
+						</links>
+					</waypoint>					
+					<waypoint name="XU_Waypoint005_mt002" tags="dockpath end" group="group_03" x="40" y="60.56513" z="-180.83" qx="-0" qy="-0" qz="-0" qw="-1">
+						<links>
+							<link ref="XU_Waypoint02_mt002"/>
+						</links>
+					</waypoint>
+				</waypoints>
+				<lights/>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0"/>
+			<connection name="position" tags="position" value="1"/>
+			<connection name="space" tags="dockarea">
+				<offset/>
+			</connection>
+			<connection name="Connection01" tags="part noshadowcaster dockarea component platformcollision collisiononly  ">
+				<offset>
+					<position x="8.1865E-06" y="0" z="0"/>
+				</offset>
+				<parts>
+					<part name="part_main" wreck="part_main_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_p1_hullpattern"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="0.8157368" y="0.6352959" z="0.9177036"/>
+							<center x="-2.066372E-08" y="-0.6352959" z="0"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="con_entrypos" tags="entrypos  ">
+				<offset>
+					<position x="0" y="250" z="-650"/>
+				</offset>
+			</connection>
+			
+			
+			
+			<connection name="ConnectionFor_dockingbay_arg_s_01_macro" group="group_02" tags="dockingbay">
+				<offset>
+					<position x="-1.350243E-06" y="0" z="-77.5"/>
+				</offset>
+			</connection>
+			
+			<connection name="ConnectionFor_dockingbay_arg_s_01_macro1" group="group_02" tags="dockingbay">
+				<offset>
+					<position x="0" y="0" z="-32.5"/>
+				</offset>
+			</connection>
+			<connection name="ConnectionFor_dockingbay_arg_s_01_macro2" group="group_02" tags="dockingbay">
+				<offset>
+					<position x="0" y="0" z="-122.5"/>
+				</offset>
+			</connection>
+			<connection name="ConnectionFor_dockingbay_arg_s_01_macro3" group="group_03" tags="dockingbay">
+				<offset>
+					<position x="40" y="0" z="-122.5"/>
+				</offset>
+			</connection>
+			<connection name="ConnectionFor_dockingbay_arg_s_01_macro4" group="group_03" tags="dockingbay">
+				<offset>
+					<position x="40.00003" y="0" z="-32.5"/>
+				</offset>
+			</connection>
+			
+			<connection name="ConnectionFor_dockingbay_arg_s_01_macro5" group="group_03" tags="dockingbay">
+				<offset>
+					<position x="40" y="0" z="-77.5"/>
+				</offset>
+			</connection>
+			
+			<connection name="ConnectionFor_dockingbay_arg_s_01_macro6" group="group_01" tags="dockingbay">
+				<offset>
+					<position x="-40.00001" y="0" z="-122.5"/>
+				</offset>
+			</connection>
+			<connection name="ConnectionFor_dockingbay_arg_s_01_macro7" group="group_01" tags="dockingbay">
+				<offset>
+					<position x="-40" y="0" z="-32.5"/>
+				</offset>
+			</connection>
+			
+			<connection name="ConnectionFor_dockingbay_arg_s_01_macro8" group="group_01" tags="dockingbay">
+				<offset>
+					<position x="-40" y="0" z="-77.5"/>
+				</offset>
+			</connection>
+			
+			<connection name="ConnectionFor_dockingbay_arg_s_01_macro9" group="group_03" tags="dockingbay">
+				<offset>
+					<position x="40.00003" y="0" z="12.5"/>
+				</offset>
+			</connection>
+			
+			<connection name="ConnectionFor_dockingbay_arg_s_01_macro10" group="group_03" tags="dockingbay">
+				<offset>
+					<position x="40.00006" y="0" z="57.5"/>
+				</offset>
+			</connection>
+			<connection name="ConnectionFor_dockingbay_arg_s_01_macro11" group="group_03" tags="dockingbay">
+				<offset>
+					<position x="40.00005" y="0" z="147.5"/>
+				</offset>
+			</connection>
+			
+			<connection name="ConnectionFor_dockingbay_arg_s_01_macro12" group="group_03" tags="dockingbay">
+				<offset>
+					<position x="40.00005" y="0" z="102.5"/>
+				</offset>
+			</connection>
+			
+			<connection name="ConnectionFor_dockingbay_arg_s_01_macro13" group="group_01" tags="dockingbay">
+				<offset>
+					<position x="-40" y="0" z="147.5"/>
+				</offset>
+			</connection>
+			<connection name="ConnectionFor_dockingbay_arg_s_01_macro14" group="group_02" tags="dockingbay">
+				<offset>
+					<position x="0" y="0" z="147.5"/>
+				</offset>
+			</connection>
+			
+			<connection name="ConnectionFor_dockingbay_arg_s_01_macro15" group="group_01" tags="dockingbay">
+				<offset>
+					<position x="-39.99997" y="0" z="12.5"/>
+				</offset>
+			</connection>
+			<connection name="ConnectionFor_dockingbay_arg_s_01_macro16" group="group_02" tags="dockingbay">
+				<offset>
+					<position x="3.488938E-05" y="0" z="12.5"/>
+				</offset>
+			</connection>
+			
+			<connection name="ConnectionFor_dockingbay_arg_s_01_macro17" group="group_02" tags="dockingbay">
+				<offset>
+					<position x="5.396287E-05" y="0" z="102.5"/>
+				</offset>
+			</connection>
+			
+			<connection name="ConnectionFor_dockingbay_arg_s_01_macro18" group="group_02" tags="dockingbay">
+				<offset>
+					<position x="0" y="0" z="57.5"/>
+				</offset>
+			</connection>
+			
+			<connection name="ConnectionFor_dockingbay_arg_s_01_macro19" group="group_01" tags="dockingbay">
+				<offset>
+					<position x="-39.99995" y="0" z="102.5"/>
+				</offset>
+			</connection>
+			
+			<connection name="ConnectionFor_dockingbay_arg_s_01_macro20" group="group_01" tags="dockingbay">
+				<offset>
+					<position x="-40" y="0" z="57.5"/>
+				</offset>
+			</connection>
+		</connections>
+	</component>
+</components>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: SIMONVISTA (192.168.3.106) at 13.01.2011_10-43-58-->
+<macros>
+  <macro name="props_units_explosive_tank_macro" class="destructible">
+    <component ref="props_units_explosive_tank" />
+    <properties>
+      <explosiondamage />
+  <!--    <hull max="4000" /> -->
+			<hull integrated="1" />
+      <shield />
+    </properties>
+  </macro>
+</macros>

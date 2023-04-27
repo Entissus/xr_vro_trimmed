@@ -1,0 +1,1167 @@
+<?xml version="1.0"?>
+<!-- Sulaco -->
+<components>
+	<component name="units_size_l_ice_collector" class="ship_xl">
+		<source geometry="extensions\Trimmed_XR\assets\units\size_xl\units_size_l_ice_collector_data"/>
+		<layers>
+			<layer>
+				<waypoints>
+					<waypoint name="XU_Waypoint04" tags="typenormal sizeLevel1 closelink dynamicmasstraffic " x="-13.5" y="33" z="800">
+						<links>
+							<link ref="XU_Waypoint03"/>
+						</links>
+					</waypoint>
+					<waypoint name="XU_Waypoint03" tags="typenormal sizeLevel1 dynamicmasstraffic " x="-13.5" y="33" z="600">
+						<links>
+							<link ref="XU_Waypoint02"/>
+						</links>
+					</waypoint>
+					<waypoint name="XU_Waypoint02" tags="typenormal sizeLevel1 dynamicmasstraffic " x="-66" y="7" z="455">
+						<links>
+							<link ref="XU_Waypoint01"/>
+						</links>
+					</waypoint>
+					<waypoint name="XU_Waypoint01" tags="sizeLevel1 typedock end dynamicmasstraffic " x="-66" y="7" z="150">
+						<links/>
+					</waypoint>
+					<waypoint name="XU_Waypoint16" tags="sizeLevel1 typedock start dynamicmasstraffic " x="26" y="7" z="150">
+						<links>
+							<link ref="XU_Waypoint15"/>
+						</links>
+					</waypoint>
+					<waypoint name="XU_Waypoint15" tags="typenormal sizeLevel1 dynamicmasstraffic " x="26" y="7" z="455">
+						<links>
+							<link ref="XU_Waypoint14"/>
+						</links>
+					</waypoint>
+					<waypoint name="XU_Waypoint14" tags="typenormal sizeLevel1 dynamicmasstraffic " x="13.5" y="67.25" z="600">
+						<links>
+							<link ref="XU_Waypoint13"/>
+						</links>
+					</waypoint>
+					<waypoint name="XU_Waypoint13" tags="typenormal sizeLevel1 closelink dynamicmasstraffic " x="13.5" y="67.25" z="800">
+						<links/>
+					</waypoint>
+					<waypoint name="XU_Waypoint12" tags="sizeLevel1 typedock start dynamicmasstraffic " x="-26" y="7" z="150">
+						<links>
+							<link ref="XU_Waypoint11"/>
+						</links>
+					</waypoint>
+					<waypoint name="XU_Waypoint11" tags="typenormal sizeLevel1 dynamicmasstraffic " x="-26" y="7" z="455">
+						<links>
+							<link ref="XU_Waypoint10"/>
+						</links>
+					</waypoint>
+					<waypoint name="XU_Waypoint10" tags="typenormal sizeLevel1 dynamicmasstraffic " x="-13.5" y="67.25" z="600">
+						<links>
+							<link ref="XU_Waypoint09"/>
+						</links>
+					</waypoint>
+					<waypoint name="XU_Waypoint09" tags="typenormal sizeLevel1 closelink dynamicmasstraffic " x="-13.5" y="67.25" z="800">
+						<links/>
+					</waypoint>
+					<waypoint name="XU_Waypoint08" tags="typenormal sizeLevel1 closelink dynamicmasstraffic " x="13.5" y="33" z="800">
+						<links>
+							<link ref="XU_Waypoint07"/>
+						</links>
+					</waypoint>
+					<waypoint name="XU_Waypoint07" tags="typenormal sizeLevel1 dynamicmasstraffic " x="13.5" y="33" z="600">
+						<links>
+							<link ref="XU_Waypoint06"/>
+						</links>
+					</waypoint>
+					<waypoint name="XU_Waypoint06" tags="typenormal sizeLevel1 dynamicmasstraffic " x="66" y="7" z="455">
+						<links>
+							<link ref="XU_Waypoint05"/>
+						</links>
+					</waypoint>
+					<waypoint name="XU_Waypoint05" tags="sizeLevel1 typedock end dynamicmasstraffic " x="66" y="7" z="150">
+						<links/>
+					</waypoint>
+				</waypoints>
+				<lights>
+					<omni name="XU Omni01" shadow="0" r="191" g="254" b="255" range="50" shadowrange="50" lighteffect="1" trigger="1" intensity="0.4">
+						<lightanimations/>
+						<offset>
+							<position x="-118.5064" y="1.615064" z="142.8815"/>
+							<quaternion qx="-0.6224938" qy="0.3354125" qz="0.6224937" qw="0.3354126"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni02" shadow="0" r="191" g="254" b="255" range="50" shadowrange="50" lighteffect="1" trigger="1" intensity="0.4">
+						<lightanimations/>
+						<offset>
+							<position x="115.9629" y="1.615064" z="142.8815"/>
+							<quaternion qx="-0.6224951" qy="-0.3354102" qz="0.6224949" qw="-0.3354103"/>
+						</offset>
+					</omni>
+					<box name="XU BoxLight01" shadow="0" r="255" g="239" b="191" lighteffect="1" trigger="1" intensity="0.4">
+						<size x="80" y="40" z="40"/>
+						<lightanimations/>
+						<offset>
+							<position x="-32.30556" y="34.42822" z="272.7796"/>
+							<quaternion qx="-6.181724E-08" qy="0.7071068" qz="6.181724E-08" qw="-0.7071067"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight02" shadow="0" r="255" g="239" b="191" lighteffect="1" trigger="1" intensity="0.4">
+						<size x="80" y="40" z="40"/>
+						<lightanimations/>
+						<offset>
+							<position x="-32.30556" y="34.42825" z="365.3556"/>
+							<quaternion qx="-6.181724E-08" qy="0.7071068" qz="6.181724E-08" qw="-0.7071067"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight03" shadow="0" r="255" g="239" b="191" lighteffect="1" trigger="1" intensity="0.4">
+						<size x="80" y="40" z="40"/>
+						<lightanimations/>
+						<offset>
+							<position x="32.18407" y="34.42825" z="365.3556"/>
+							<quaternion qx="-6.181724E-08" qy="0.7071068" qz="6.181724E-08" qw="-0.7071067"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight04" shadow="0" r="255" g="239" b="191" lighteffect="1" trigger="1" intensity="0.4">
+						<size x="80" y="40" z="40"/>
+						<lightanimations/>
+						<offset>
+							<position x="32.18407" y="34.42822" z="272.7796"/>
+							<quaternion qx="-6.181724E-08" qy="0.7071068" qz="6.181724E-08" qw="-0.7071067"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight05" shadow="0" r="255" g="239" b="191" lighteffect="1" trigger="1" intensity="0.4">
+						<size x="120" y="30" z="30"/>
+						<lightanimations/>
+						<offset>
+							<position x="-101.2431" y="53.90155" z="67.75269"/>
+							<quaternion qx="-6.181724E-08" qy="0.7071068" qz="6.181724E-08" qw="-0.7071067"/>
+						</offset>
+					</box>
+					<omni name="XU Omni04" shadow="0" r="255" g="239" b="191" range="40" shadowrange="40" lighteffect="1" trigger="1" intensity="0.4">
+						<lightanimations/>
+						<offset>
+							<position x="-133.5439" y="39.26636" z="-200.6157"/>
+							<quaternion qx="0.5000001" qy="-0.4999999" qz="-0.5000001" qw="-0.4999999"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni05" shadow="0" r="255" g="239" b="191" range="40" shadowrange="40" lighteffect="1" trigger="1" intensity="0.4">
+						<lightanimations/>
+						<offset>
+							<position x="133.544" y="39.26636" z="-200.6157"/>
+							<quaternion qx="0.5000001" qy="-0.4999999" qz="-0.5000001" qw="-0.4999999"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni06" shadow="0" r="191" g="254" b="255" range="40" shadowrange="40" lighteffect="1" trigger="1" intensity="0.4">
+						<lightanimations/>
+						<offset>
+							<position x="77.26423" y="-77.98598" z="-512.2671"/>
+							<quaternion qx="0.7070901" qy="-1.685914E-07" qz="-1.685834E-07" qw="-0.7071234"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni07" shadow="0" r="191" g="254" b="255" range="40" shadowrange="40" lighteffect="1" trigger="1" intensity="0.4">
+						<lightanimations/>
+						<offset>
+							<position x="-78.56348" y="-77.98598" z="-512.2671"/>
+							<quaternion qx="0.7070901" qy="-1.685914E-07" qz="-1.685834E-07" qw="-0.7071234"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni08" shadow="0" r="191" g="254" b="255" range="70" shadowrange="70" lighteffect="1" trigger="1" intensity="0.4">
+						<lightanimations/>
+						<offset>
+							<position x="-0.5753155" y="-31.20822" z="-535.0076"/>
+							<quaternion qx="0.7070901" qy="-1.685914E-07" qz="-1.685834E-07" qw="-0.7071234"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni09" shadow="0" r="255" g="72" b="0" range="100" shadowrange="100" lighteffect="1" trigger="1" intensity="0.5995616">
+						<animations>
+							<animation name="loop" start="1" end="120"/>
+						</animations>
+						<lightanimations>
+							<lightanimation name="intensity" controller="bezier_float">
+								<key frame="0" value="0.5995616" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="20" value="0.4999066" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="32" value="0.5995616" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="52" value="0.4999066" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="62" value="0.5995616" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="74" value="0.4999066" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="94" value="0.5995616" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="110" value="0.4999066" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="120" value="0.5995616" in_tangent_type="auto" out_tangent_type="auto"/>
+							</lightanimation>
+						</lightanimations>
+						<offset>
+							<position x="0" y="-19.46078" z="-37.52448"/>
+							<quaternion qx="-5.338508E-08" qy="-0.7071066" qz="-0.7071069" qw="5.338509E-08"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni10" shadow="0" r="255" g="72" b="0" range="100" shadowrange="100" lighteffect="1" trigger="1" intensity="0.5995616">
+						<animations>
+							<animation name="loop" start="1" end="120"/>
+						</animations>
+						<lightanimations>
+							<lightanimation name="intensity" controller="bezier_float">
+								<key frame="0" value="0.5995616" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="20" value="0.4999066" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="32" value="0.5995616" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="52" value="0.4999066" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="62" value="0.5995616" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="74" value="0.4999066" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="94" value="0.5995616" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="110" value="0.4999066" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="120" value="0.5995616" in_tangent_type="auto" out_tangent_type="auto"/>
+							</lightanimation>
+						</lightanimations>
+						<offset>
+							<position x="-90.86977" y="-40.80005" z="-37.52448"/>
+							<quaternion qx="-5.338508E-08" qy="-0.7071066" qz="-0.7071069" qw="5.338509E-08"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni11" shadow="0" r="255" g="72" b="0" range="100" shadowrange="100" lighteffect="1" trigger="1" intensity="0.5995616">
+						<animations>
+							<animation name="loop" start="1" end="120"/>
+						</animations>
+						<lightanimations>
+							<lightanimation name="intensity" controller="bezier_float">
+								<key frame="0" value="0.5995616" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="20" value="0.4999066" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="32" value="0.5995616" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="52" value="0.4999066" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="62" value="0.5995616" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="74" value="0.4999066" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="94" value="0.5995616" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="110" value="0.4999066" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="120" value="0.5995616" in_tangent_type="auto" out_tangent_type="auto"/>
+							</lightanimation>
+						</lightanimations>
+						<offset>
+							<position x="80.54939" y="-40.80005" z="-37.52448"/>
+							<quaternion qx="-5.338508E-08" qy="-0.7071066" qz="-0.7071069" qw="5.338509E-08"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni12" shadow="0" r="255" g="72" b="0" range="100" shadowrange="100" lighteffect="1" trigger="1" intensity="0.4996721">
+						<animations>
+							<animation name="loop" start="1" end="120"/>
+						</animations>
+						<lightanimations>
+							<lightanimation name="intensity" controller="bezier_float">
+								<key frame="0" value="0.4996721" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="20" value="0.5999916" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="32" value="0.4996721" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="52" value="0.5999916" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="62" value="0.4996721" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="74" value="0.5999916" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="94" value="0.4996721" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="110" value="0.5999916" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="120" value="0.4996721" in_tangent_type="auto" out_tangent_type="auto"/>
+							</lightanimation>
+						</lightanimations>
+						<offset>
+							<position x="-153.007" y="-32.27175" z="-153.6589"/>
+							<quaternion qx="-5.338508E-08" qy="-0.7071066" qz="-0.7071069" qw="5.338509E-08"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni14" shadow="0" r="255" g="72" b="0" range="100" shadowrange="100" lighteffect="1" trigger="1" intensity="0.4996721">
+						<animations>
+							<animation name="loop" start="1" end="120"/>
+						</animations>
+						<lightanimations>
+							<lightanimation name="intensity" controller="bezier_float">
+								<key frame="0" value="0.4996721" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="20" value="0.5999916" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="32" value="0.4996721" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="52" value="0.5999916" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="62" value="0.4996721" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="74" value="0.5999916" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="94" value="0.4996721" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="110" value="0.5999916" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="120" value="0.4996721" in_tangent_type="auto" out_tangent_type="auto"/>
+							</lightanimation>
+						</lightanimations>
+						<offset>
+							<position x="-104.7737" y="-82.09206" z="-153.6589"/>
+							<quaternion qx="-5.338508E-08" qy="-0.7071066" qz="-0.7071069" qw="5.338509E-08"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni13" shadow="0" r="255" g="72" b="0" range="100" shadowrange="100" lighteffect="1" trigger="1" intensity="0.4996721">
+						<animations>
+							<animation name="loop" start="1" end="120"/>
+						</animations>
+						<lightanimations>
+							<lightanimation name="intensity" controller="bezier_float">
+								<key frame="0" value="0.4996721" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="20" value="0.5999916" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="32" value="0.4996721" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="52" value="0.5999916" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="62" value="0.4996721" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="74" value="0.5999916" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="94" value="0.4996721" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="110" value="0.5999916" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="120" value="0.4996721" in_tangent_type="auto" out_tangent_type="auto"/>
+							</lightanimation>
+						</lightanimations>
+						<offset>
+							<position x="104.774" y="-82.09206" z="-153.6589"/>
+							<quaternion qx="-5.338508E-08" qy="-0.7071066" qz="-0.7071069" qw="5.338509E-08"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni15" shadow="0" r="255" g="72" b="0" range="100" shadowrange="100" lighteffect="1" trigger="1" intensity="0.4996721">
+						<animations>
+							<animation name="loop" start="1" end="120"/>
+						</animations>
+						<lightanimations>
+							<lightanimation name="intensity" controller="bezier_float">
+								<key frame="0" value="0.4996721" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="20" value="0.5999916" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="32" value="0.4996721" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="52" value="0.5999916" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="62" value="0.4996721" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="74" value="0.5999916" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="94" value="0.4996721" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="110" value="0.5999916" in_tangent_type="auto" out_tangent_type="auto"/>
+								<key frame="120" value="0.4996721" in_tangent_type="auto" out_tangent_type="auto"/>
+							</lightanimation>
+						</lightanimations>
+						<offset>
+							<position x="153.007" y="-32.27175" z="-153.6589"/>
+							<quaternion qx="-5.338508E-08" qy="-0.7071066" qz="-0.7071069" qw="5.338509E-08"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni16" shadow="0" r="255" g="255" b="255" range="20" shadowrange="20" lighteffect="1" trigger="1" intensity="0.4">
+						<lightanimations/>
+						<offset>
+							<position x="-113.5439" y="4.618612" z="98.43444"/>
+							<quaternion qx="0.5772656" qy="-0.4083681" qz="-0.5772656" qw="-0.408368"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni17" shadow="0" r="255" g="255" b="255" range="20" shadowrange="20" lighteffect="1" trigger="1" intensity="0.4">
+						<lightanimations/>
+						<offset>
+							<position x="-113.5439" y="4.618605" z="53.86288"/>
+							<quaternion qx="0.5772656" qy="-0.4083681" qz="-0.5772656" qw="-0.408368"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni18" shadow="0" r="255" g="255" b="255" range="20" shadowrange="20" lighteffect="1" trigger="1" intensity="0.4">
+						<lightanimations/>
+						<offset>
+							<position x="-113.5439" y="4.618642" z="14.61901"/>
+							<quaternion qx="0.5772656" qy="-0.4083681" qz="-0.5772656" qw="-0.408368"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni19" shadow="0" r="255" g="255" b="255" range="20" shadowrange="20" lighteffect="1" trigger="1" intensity="0.4">
+						<lightanimations/>
+						<offset>
+							<position x="-113.5439" y="4.618619" z="-26.92842"/>
+							<quaternion qx="0.5772656" qy="-0.4083681" qz="-0.5772656" qw="-0.408368"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni20" shadow="0" r="255" g="255" b="255" range="20" shadowrange="20" lighteffect="1" trigger="1" intensity="0.4">
+						<lightanimations/>
+						<offset>
+							<position x="112.8301" y="4.618619" z="-26.92842"/>
+							<quaternion qx="0.5772656" qy="-0.4083681" qz="-0.5772656" qw="-0.408368"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni21" shadow="0" r="255" g="255" b="255" range="20" shadowrange="20" lighteffect="1" trigger="1" intensity="0.4">
+						<lightanimations/>
+						<offset>
+							<position x="112.8301" y="4.618642" z="14.61901"/>
+							<quaternion qx="0.5772656" qy="-0.4083681" qz="-0.5772656" qw="-0.408368"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni22" shadow="0" r="255" g="255" b="255" range="20" shadowrange="20" lighteffect="1" trigger="1" intensity="0.4">
+						<lightanimations/>
+						<offset>
+							<position x="112.8301" y="4.618605" z="53.86288"/>
+							<quaternion qx="0.5772656" qy="-0.4083681" qz="-0.5772656" qw="-0.408368"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni23" shadow="0" r="255" g="255" b="255" range="20" shadowrange="20" lighteffect="1" trigger="1" intensity="0.4">
+						<lightanimations/>
+						<offset>
+							<position x="112.8301" y="4.618612" z="98.43444"/>
+							<quaternion qx="0.5772656" qy="-0.4083681" qz="-0.5772656" qw="-0.408368"/>
+						</offset>
+					</omni>
+					<box name="XU BoxLight06" shadow="0" r="255" g="239" b="191" lighteffect="1" trigger="1" intensity="0.4">
+						<size x="120" y="30" z="30"/>
+						<lightanimations/>
+						<offset>
+							<position x="101.243" y="53.90155" z="67.75269"/>
+							<quaternion qx="-6.181724E-08" qy="0.7071068" qz="6.181724E-08" qw="-0.7071067"/>
+						</offset>
+					</box>
+					<omni name="XU Omni24" shadow="0" r="255" g="239" b="191" range="30" shadowrange="30" lighteffect="1" trigger="1" intensity="0.4">
+						<lightanimations/>
+						<offset>
+							<position x="0" y="1.182634" z="601.4363"/>
+							<quaternion qx="2.095231E-04" qy="-0.7071072" qz="-0.7071063" qw="-2.095233E-04"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni25" shadow="0" r="255" g="255" b="255" range="30" shadowrange="30" lighteffect="1" trigger="1" intensity="0.6">
+						<lightanimations/>
+						<offset>
+							<position x="0" y="-25.67593" z="578.3483"/>
+							<quaternion qx="2.095231E-04" qy="-0.7071072" qz="-0.7071063" qw="-2.095233E-04"/>
+						</offset>
+					</omni>
+					<box name="XU BoxLight07" shadow="0" r="255" g="255" b="255" lighteffect="1" trigger="1" intensity="0.5">
+						<size x="100" y="20" z="20"/>
+						<lightanimations/>
+						<offset>
+							<position x="0" y="-35.30492" z="605.8735"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight08" shadow="0" r="255" g="255" b="255" lighteffect="1" trigger="1" intensity="0.75">
+						<size x="400" y="30" z="30"/>
+						<lightanimations/>
+						<offset>
+							<position x="-44.59305" y="-4.142015" z="358.4327"/>
+							<quaternion qx="-6.181724E-08" qy="0.7071068" qz="6.181724E-08" qw="-0.7071067"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight09" shadow="0" r="255" g="255" b="255" lighteffect="1" trigger="1" intensity="0.75">
+						<size x="400" y="30" z="30"/>
+						<lightanimations/>
+						<offset>
+							<position x="44.593" y="-4.142015" z="358.4327"/>
+							<quaternion qx="-6.181724E-08" qy="0.7071068" qz="6.181724E-08" qw="-0.7071067"/>
+						</offset>
+					</box>
+					<omni name="XU Omni29" shadow="0" r="255" g="255" b="255" range="30" shadowrange="30" lighteffect="1" trigger="1" intensity="0.6">
+						<lightanimations/>
+						<offset>
+							<position x="-24.56879" y="5.66539" z="392.17"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni30" shadow="0" r="255" g="255" b="255" range="30" shadowrange="30" lighteffect="1" trigger="1" intensity="0.6">
+						<lightanimations/>
+						<offset>
+							<position x="24.569" y="5.66539" z="392.17"/>
+						</offset>
+					</omni>
+					<box name="XU BoxLight10" shadow="0" r="255" g="255" b="255" lighteffect="1" trigger="1" intensity="0.5">
+						<size x="200" y="50" z="50"/>
+						<lightanimations/>
+						<offset>
+							<position x="-37.69942" y="4.165052" z="303.7516"/>
+							<quaternion qx="-6.181724E-08" qy="0.7071068" qz="6.181724E-08" qw="-0.7071067"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight11" shadow="0" r="255" g="255" b="255" lighteffect="1" trigger="1" intensity="0.5">
+						<size x="200" y="50" z="50"/>
+						<lightanimations/>
+						<offset>
+							<position x="37.69469" y="4.165052" z="303.7516"/>
+							<quaternion qx="-6.181724E-08" qy="0.7071068" qz="6.181724E-08" qw="-0.7071067"/>
+						</offset>
+					</box>
+					<omni name="XU Omni31" shadow="0" r="255" g="255" b="255" range="20" shadowrange="20" lighteffect="1" trigger="1" intensity="0.5">
+						<lightanimations/>
+						<offset>
+							<position x="-102.5202" y="-7.740595" z="319.1986"/>
+							<quaternion qx="0.5196162" qy="-0.479582" qz="-0.5196164" qw="-0.479582"/>
+						</offset>
+					</omni>
+					<omni name="XU Omni32" shadow="0" r="255" g="255" b="255" range="20" shadowrange="20" lighteffect="1" trigger="1" intensity="0.5">
+						<lightanimations/>
+						<offset>
+							<position x="102.52" y="-7.740595" z="319.1986"/>
+							<quaternion qx="0.5196162" qy="-0.479582" qz="-0.5196164" qw="-0.479582"/>
+						</offset>
+					</omni>
+					<box name="XU BoxLight12" shadow="0" r="255" g="255" b="255" lighteffect="1" trigger="1" intensity="0.75">
+						<size x="50" y="20" z="20"/>
+						<lightanimations/>
+						<offset>
+							<position x="-75.01357" y="-10.42458" z="524.0123"/>
+							<quaternion qx="0.3179447" qy="-0.6316997" qz="-0.3180871" qw="-0.6314169"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight13" shadow="0" r="255" g="255" b="255" lighteffect="1" trigger="1" intensity="0.75">
+						<size x="50" y="20" z="20"/>
+						<lightanimations/>
+						<offset>
+							<position x="75.01399" y="-10.42458" z="524.0123"/>
+							<quaternion qx="0.3179447" qy="-0.6316997" qz="-0.3180871" qw="-0.6314169"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight14" shadow="0" r="255" g="255" b="255" lighteffect="1" trigger="1" intensity="0.5">
+						<size x="200" y="40" z="40"/>
+						<lightanimations/>
+						<offset>
+							<position x="2.949532" y="-21.57595" z="552.1704"/>
+							<quaternion qx="2.076483E-06" qy="-0.7070901" qz="-0.7071235" qw="-2.076385E-06"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight15" shadow="0" r="255" g="255" b="255" lighteffect="1" trigger="1" intensity="0.5">
+						<size x="200" y="40" z="40"/>
+						<lightanimations/>
+						<offset>
+							<position x="2.949532" y="-21.57594" z="528.6449"/>
+							<quaternion qx="2.076483E-06" qy="-0.7070901" qz="-0.7071235" qw="-2.076385E-06"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight16" shadow="0" r="255" g="255" b="255" lighteffect="1" trigger="1" intensity="0.5">
+						<size x="200" y="40" z="40"/>
+						<lightanimations/>
+						<offset>
+							<position x="2.949532" y="-21.57598" z="505.1194"/>
+							<quaternion qx="2.076483E-06" qy="-0.7070901" qz="-0.7071235" qw="-2.076385E-06"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight17" shadow="0" r="255" g="239" b="191" lighteffect="1" trigger="1" intensity="0.4">
+						<size x="80" y="30" z="30"/>
+						<lightanimations/>
+						<offset>
+							<position x="-46.11356" y="-39.72658" z="454.4186"/>
+							<quaternion qx="-6.181724E-08" qy="0.7071068" qz="6.181724E-08" qw="-0.7071067"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight18" shadow="0" r="255" g="239" b="191" lighteffect="1" trigger="1" intensity="0.4">
+						<size x="80" y="30" z="30"/>
+						<lightanimations/>
+						<offset>
+							<position x="46.114" y="-39.72658" z="454.4186"/>
+							<quaternion qx="-6.181724E-08" qy="0.7071068" qz="6.181724E-08" qw="-0.7071067"/>
+						</offset>
+					</box>
+					<omni name="XU Omni33" shadow="0" r="255" g="255" b="255" range="60" shadowrange="60" lighteffect="1" trigger="1" intensity="0.3">
+						<lightanimations/>
+						<offset>
+							<position x="0" y="-60.95854" z="342.6698"/>
+							<quaternion qx="-5.762485E-10" qy="3.576274E-07" qz="-0.9999987" qw="1.611308E-03"/>
+						</offset>
+					</omni>
+					<box name="XU BoxLight19" shadow="0" r="255" g="255" b="255" lighteffect="1" trigger="1" intensity="0.5">
+						<size x="300" y="20" z="20"/>
+						<lightanimations/>
+						<offset>
+							<position x="-67.14819" y="-16.15005" z="67.00713"/>
+							<quaternion qx="-0.5000002" qy="0.4999998" qz="0.5" qw="0.5"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight20" shadow="0" r="255" g="255" b="255" lighteffect="1" trigger="1" intensity="0.5">
+						<size x="300" y="20" z="20"/>
+						<lightanimations/>
+						<offset>
+							<position x="67.14801" y="-16.15005" z="67.00713"/>
+							<quaternion qx="-0.5000002" qy="0.4999998" qz="0.5" qw="0.5"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight21" shadow="0" r="255" g="255" b="255" lighteffect="1" trigger="1" intensity="0.5">
+						<size x="300" y="40" z="40"/>
+						<lightanimations/>
+						<offset>
+							<position x="-20.98939" y="-42.92938" z="67.00713"/>
+							<quaternion qx="-0.5000002" qy="0.4999998" qz="0.5" qw="0.5"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight22" shadow="0" r="255" g="255" b="255" lighteffect="1" trigger="1" intensity="0.5">
+						<size x="300" y="40" z="40"/>
+						<lightanimations/>
+						<offset>
+							<position x="20.989" y="-42.92938" z="67.00713"/>
+							<quaternion qx="-0.5000002" qy="0.4999998" qz="0.5" qw="0.5"/>
+						</offset>
+					</box>
+					<box name="XU BoxLight23" shadow="0" r="255" g="255" b="255" lighteffect="1" trigger="1" intensity="0.5">
+						<size x="300" y="100" z="100"/>
+						<lightanimations/>
+						<offset>
+							<position x="0" y="-16.781" z="67.00713"/>
+							<quaternion qx="-0.5000002" qy="0.4999998" qz="0.5" qw="0.5"/>
+						</offset>
+					</box>
+					<omni name="XU Omni34" shadow="0" r="255" g="255" b="255" range="70" shadowrange="70" lighteffect="1" trigger="1" intensity="0.4">
+						<lightanimations/>
+						<offset>
+							<position x="1.931398" y="98.71387" z="-528.0548"/>
+						</offset>
+					</omni>
+				</lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"/>
+			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="space" tags="ship">
+				<offset/>
+			</connection>
+			<connection name="Connection01" tags="part  ">
+				<offset>
+					<position x="0" y="5.00679E-06" z="0"/>
+				</offset>
+				<parts>
+					<part name="part_main" wreck="part_main_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_02"/>
+									<material id="2" ref="argon.ar_trims_01"/>
+									<material id="3" ref="generic.generic_tanks_01"/>
+									<material id="4" ref="argon.ar_unique_03"/>
+									<material id="5" ref="generic.generic_techtrims_01"/>
+									<material id="6" ref="argon.ar_windows_02"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_02"/>
+									<material id="2" ref="argon.ar_trims_01"/>
+									<material id="3" ref="generic.generic_tanks_01"/>
+									<material id="4" ref="argon.ar_unique_03"/>
+									<material id="5" ref="generic.generic_techtrims_01"/>
+									<material id="6" ref="argon.ar_windows_02"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_02"/>
+									<material id="2" ref="argon.ar_trims_01"/>
+									<material id="3" ref="generic.generic_tanks_01"/>
+									<material id="4" ref="argon.ar_unique_03"/>
+									<material id="5" ref="generic.generic_techtrims_01"/>
+									<material id="6" ref="argon.ar_windows_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="208.5308" y="144.1654" z="604.1725"/>
+							<center x="0" y="-9.312703" z="4.517578"/>
+						</size>
+						<sounds>
+							<sound name="XU SoundEmitter01" ref="anim_ice_collector_fire">
+								<offset>
+									<position x="0" y="-5.006792E-06" z="-147.9511"/>
+								</offset>
+							</sound>
+						</sounds>
+					</part>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection02" tags="part animation detail_s  ">
+				<offset>
+					<position x="-14.18492" y="-23.26161" z="-75.33149"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="240"/>
+				</animations>
+				<parts>
+					<part name="anim_icestones">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="environments.icepattern_solid"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="21.72159" y="5.792383" z="233.6619"/>
+							<center x="14.08713" y="-3.814697E-06" z="165.6453"/>
+						</size>
+						<size_raw>
+							<max x="7.634462" y="5.792387" z="7.116498"/>
+							<center x="14.08713" y="-3.814697E-06" z="203.2119"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection03" tags="part animation textureanimation detail_s  ">
+				<offset>
+					<position x="-0.2944431" y="-26.63051" z="48.78321"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="400"/>
+				</animations>
+				<parts>
+					<part name="anim_band">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_trims_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="25.92562" y="1.037289" z="117.4359"/>
+							<center x="0" y="0" z="3.814697E-06"/>
+						</size>
+						<size_raw>
+							<max x="25.92562" y="1.037289" z="117.4359"/>
+							<center x="0" y="0" z="3.814697E-06"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="400" value="1"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection04" tags="part animation textureanimation detail_l  ">
+				<offset>
+					<position x="0" y="-30.60659" z="-137.8729"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="120"/>
+				</animations>
+				<parts>
+					<part name="anim_lava">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="effects.gradient_orange"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="126.6489" y="26.30015" z="81.7169"/>
+							<center x="0" y="0" z="0"/>
+						</size>
+						<size_raw>
+							<max x="126.6489" y="26.30015" z="81.7169"/>
+							<center x="0" y="0" z="0"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="bezier_float">
+									<key frame="0" value="0" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="20" value="0.01" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="32" value="-0.01" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="52" value="0.01" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="62" value="-0.01" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="74" value="0" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="94" value="-0.01" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="110" value="0.01" in_tangent_type="auto" out_tangent_type="auto"/>
+									<key frame="120" value="0" in_tangent_type="auto" out_tangent_type="auto"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection05" tags="part detail_m nocollision  ">
+				<offset>
+					<position x="0" y="-10.33275" z="8.326513"/>
+				</offset>
+				<parts>
+					<part name="detail_m_alpha">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_alphatrims_01"/>
+									<material id="2" ref="generic.generic_alphaantennas_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="211.0831" y="143.8393" z="564.078"/>
+							<center x="0" y="1.907349E-06" z="38.61398"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection06" tags="part detail_m nocollision  ">
+				<offset>
+					<position x="0" y="-14.21309" z="25.66312"/>
+				</offset>
+				<parts>
+					<part name="detail_m_main">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_02"/>
+									<material id="2" ref="argon.ar_trims_01"/>
+									<material id="3" ref="argon.ar_unique_03"/>
+									<material id="4" ref="effects.lightcone_size_l_ice_collector"/>
+									<material id="5" ref="effects.lightcone_soft_near"/>
+									<!--
+									<material id="6" ref="argon.ar_masstraffic_01"/>
+									-->
+									<material id="7" ref="argon.ar_windows_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="233.5174" y="146.5975" z="583.2173"/>
+							<center x="0" y="-2.861023E-06" z="-3.051758E-05"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection07" tags="part animation textureanimation detail_s  ">
+				<offset>
+					<position x="-1.907349E-06" y="-8.881474E-02" z="16.74176"/>
+				</offset>
+				<animations>
+					<animation name="loop" start="1" end="100"/>
+				</animations>
+				<parts>
+					<part name="anim_poslights">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_tech_01"/>
+									<material id="2" ref="generic.generic_alphaantennas_01"/>
+									<material id="3" ref="effects.gradient_red"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="211.3427" y="133.5771" z="592.3557"/>
+							<center x="1.907349E-06" y="-6.67572E-06" z="6.103516E-05"/>
+						</size>
+						<size_raw>
+							<max x="211.3427" y="133.5771" z="592.3557"/>
+							<center x="1.907349E-06" y="-6.67572E-06" z="3.051758E-05"/>
+						</size_raw>
+						<uv_animations>
+							<uv_animation mapchannel="1">
+								<uv_property name="u_offset" controller="linear_float">
+									<key frame="0" value="0"/>
+									<key frame="100" value="-1"/>
+								</uv_property>
+							</uv_animation>
+						</uv_animations>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection08" tags="part detail_l nocollision  ">
+				<offset>
+					<position x="0" y="-10.33275" z="8.326513"/>
+				</offset>
+				<parts>
+					<part name="detail_l_alpha">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="generic.generic_alphatrims_01"/>
+									<material id="2" ref="generic.generic_alphaantennas_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="210.7127" y="120.4017" z="588.8582"/>
+							<center x="0" y="5.139284" z="-13.83381"/>
+						</size>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection09" tags="part  ">
+				<offset>
+					<position x="0" y="5.00679E-06" z="1527.546"/>
+				</offset>
+				<parts/>
+			</connection>
+
+			
+			<connection name="con_playercontrol" tags="playercontrol">
+				<offset>
+					<position x="0" y="63.8717" z="260.2368"/>
+				</offset>
+			</connection>
+			<connection name="connection_cockpit01" tags="cockpit  cockpit_visible">
+				<offset>
+					<position x="0" y="63.8717" z="260.2368"/>
+				</offset>
+			</connection>
+			<connection name="con_storage01" tags="storage ">
+				<offset/>
+			</connection>
+			<connection group="counterm" name="con_countermeasures_counterm_1" tags="countermeasures">
+				<offset>
+					<position x="-0.0" y="-20.3808" z="-608.6278"/>
+					<quaternion qw="-0.7071068967259818" qx="0.7071066656470943" qy="0.0" qz="-0.0"/>
+				</offset>
+			</connection>			
+<!-- Docking -->			
+			<connection name="con_shipstorage_s_01" tags="dockingbay ">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>
+			<connection name="con_dock_xs" tags="dock_xs ">
+				<offset>
+					<position x="-0.0" y="-111.47210000000001" z="457.7611"/>
+					<rotation pitch="90" yaw="0" roll="0"/>
+				</offset>
+			</connection>			
+			<connection name="connection_dock_s01" group="group01 " tags="dock_s ">
+				<offset>
+					<position x="0" y="-111.8107" z="433.2322"/>
+					<quaternion qx="0.7071066" qy="-1.067702E-07" qz="-1.067701E-07" qw="-0.7071069"/>
+				</offset>
+			</connection>									
+			<connection name="shipdock_left_s_01" tags="dockarea">
+				<offset>
+					<position x="-161.09009999999998" y="-181.2763" z="-137.392"/>
+					<quaternion qw="1.7320510330969933e-07" qx="-0.999999999999985" qy="0.0" qz="-0.0"/>
+				</offset>
+			</connection>
+			<connection name="shipdock_right_s_01" tags="dockarea">
+				<offset>
+					<position x="161.09009999999998" y="-181.2763" z="-137.392"/>
+					<quaternion qw="1.7320510330969933e-07" qx="-0.999999999999985" qy="-0.0" qz="0.0"/>
+				</offset>
+			</connection>
+			<connection name="shipdock_center_s_01" tags="dockarea">
+				<offset>
+					<position x="0.0" y="-211.212" z="-7.4961"/>
+					<quaternion qw="1.7320510330969933e-07" qx="-0.999999999735485" qy="-2.2999999993916155e-05" qz="-0.0"/>
+				</offset>
+			</connection>		
+<!-- Main Shields START -->
+			<connection name="con_ishield_01" tags="ishield shield mandatory ishield_units_size_l_ice_collector">
+				<offset>
+					<position x="0" y="0" z="0"/>
+					<quaternion qx="0" qy="0" qz="0" qw="0"/>
+				</offset>
+			</connection>			
+			<connection name="con_shieldgen_l_main_1" tags="large shield standard hittable">
+				<offset>
+					<position x="-0.0" y="-43.8364" z="435.08829999999995"/>
+					<quaternion qw="-8.267948966079389e-07" qx="-0.9999999999996582" qy="0.0" qz="-0.0"/>
+				</offset>
+			</connection>
+			<connection name="con_shieldgen_l_main-left_1" tags="large shield standard hittable">
+				<offset>
+					<position x="-75.7518" y="-3.2987" z="149.6566"/>
+					<quaternion qw="1.7320510330969933e-07" qx="-0.999999999999985" qy="-0.0" qz="0.0"/>
+				</offset>
+			</connection>
+			<connection name="con_shieldgen_l_main-right_1" tags="large shield standard hittable">
+				<offset>
+					<position x="75.7518" y="-3.2987" z="149.6566"/>
+					<quaternion qw="1.7320510330969933e-07" qx="-0.999999999999985" qy="0.0" qz="-0.0"/>
+				</offset>
+			</connection>
+			<connection name="con_shieldgen_l_main-left_2" tags="large shield standard hittable">
+				<offset>
+					<position x="-21.235599999999998" y="-37.7133" z="537.2828999999999"/>
+					<quaternion qw="-1" qx="0" qy="0" qz="0"/>
+				</offset>
+			</connection>
+			<connection name="con_shieldgen_l_main-right_2" tags="large shield standard hittable">
+				<offset>
+					<position x="21.235599999999998" y="-37.7133" z="537.2828999999999"/>
+					<quaternion qw="-1" qx="0" qy="0" qz="0"/>
+				</offset>
+			</connection>		
+			<!-- Engines START -->
+			<connection name="connection_engine_m01" group="engine" tags="engine large standard">
+				<offset>
+					<position x="0" y="10.39727" z="-533.5301"/>
+				</offset>
+			</connection>
+			<connection name="connection_engine_l01" group="engine" tags="engine large standard">
+				<offset>
+					<position x="-66.4346" y="0" z="-543.6783"/>
+				</offset>
+			</connection>
+			<connection name="connection_engine_l02" group="engine" tags="engine large standard">
+				<offset>
+					<position x="66.52048" y="0" z="-543.6783"/>
+				</offset>
+			</connection>
+			<connection group="engine" name="con_shieldgen_l_left-engine_1" tags="large shield standard hittable">
+				<offset>
+					<position x="-54.3542" y="-102.4299" z="-442.7591"/>
+					<quaternion qw="1.7320510330969933e-07" qx="-0.999999999999985" qy="0.0" qz="-0.0"/>
+				</offset>
+			</connection>
+			<connection group="engine" name="con_shieldgen_l_right-engine_1" tags="large shield standard hittable">
+				<offset>
+					<position x="54.3542" y="-102.4299" z="-442.7591"/>
+					<quaternion qw="1.7320510330969933e-07" qx="-0.999999999999985" qy="-0.0" qz="0.0"/>
+				</offset>
+			</connection>
+<!-- Mining Turrets Right END -->
+			<connection group="right-mining" name="con_shieldgen_m_right-mining_1" tags="medium shield standard hittable">
+				<offset>
+					<position x="50.2897" y="-36.2935" z="219.1492"/>
+					<quaternion qw="-4.232679488399718e-05" qx="0.0" qy="-0.0" qz="0.9999999991042212"/>
+				</offset>
+			</connection>			
+			<connection group="right-mining" name="con_m_turret_right-mining_1" tags="turret standard medium mining hittable">
+				<offset>
+					<position x="83.9628" y="-31.5911" z="379.4034"/>
+					<quaternion qw="-0.32678785634433066" qx="0.0" qy="-0.0" qz="0.9450977181994871"/>
+				</offset>
+			</connection>
+			<connection group="right-mining" name="con_m_turret_right-mining_2" tags="turret standard medium mining hittable">
+				<offset>
+					<position x="83.9627" y="-31.5911" z="348.474"/>
+					<quaternion qw="-0.32678785634433066" qx="0.0" qy="-0.0" qz="0.9450977181994871"/>
+				</offset>
+			</connection>		
+			<connection group="right-mining" name="con_m_turret_right-mining_3" tags="turret standard medium mining hittable">
+				<offset>
+					<position x="83.9627" y="-31.5911" z="318.48679999999996"/>
+					<quaternion qw="-0.32678785634433066" qx="0.0" qy="-0.0" qz="0.9450977181994871"/>
+				</offset>
+			</connection>			
+			<connection group="right-mining" name="con_m_turret_right-mining_4" tags="turret standard medium mining hittable">
+				<offset>
+					<position x="83.9628" y="-31.591" z="288.19"/>
+					<quaternion qw="-0.32678785634433066" qx="0.0" qy="-0.0" qz="0.9450977181994871"/>
+				</offset>
+			</connection>
+			<connection group="right-mining" name="con_m_turret_right-mining_5" tags="turret standard medium mining hittable">
+				<offset>
+					<position x="83.9628" y="-31.591" z="258.1042"/>
+					<quaternion qw="-0.32678785634433066" qx="0.0" qy="-0.0" qz="0.9450977181994871"/>
+				</offset>
+			</connection>
+<!-- Mining Turrets Left START -->
+			<connection group="left-mining" name="con_shieldgen_m_left-mining_1" tags="medium shield standard hittable">
+				<offset>
+					<position x="-50.2897" y="-36.2935" z="219.1492"/>
+					<quaternion qw="-4.232679488399718e-05" qx="0.0" qy="0.0" qz="-0.9999999991042212"/>
+				</offset>
+			</connection>
+			<connection group="left-mining" name="con_m_turret_left-mining_1" tags="turret standard medium mining hittable">
+				<offset>
+					<position x="-83.9628" y="-31.5911" z="379.4034"/>
+					<quaternion qw="-0.32678785634433066" qx="0.0" qy="0.0" qz="-0.9450977181994871"/>
+				</offset>
+			</connection>
+			<connection group="left-mining" name="con_m_turret_left-mining_2" tags="turret standard medium mining hittable">
+				<offset>
+					<position x="-83.9627" y="-31.5911" z="348.474"/>
+					<quaternion qw="-0.32678785634433066" qx="0.0" qy="0.0" qz="-0.9450977181994871"/>
+				</offset>
+			</connection>
+			<connection group="left-mining" name="con_m_turret_left-mining_3" tags="turret standard medium mining hittable">
+				<offset>
+					<position x="-83.9627" y="-31.5911" z="318.48679999999996"/>
+					<quaternion qw="-0.32678785634433066" qx="0.0" qy="0.0" qz="-0.9450977181994871"/>
+				</offset>
+			</connection>
+			<connection group="left-mining" name="con_m_turret_left-mining_4" tags="turret standard medium mining hittable">
+				<offset>
+					<position x="-83.9628" y="-31.591" z="288.19"/>
+					<quaternion qw="-0.32678785634433066" qx="0.0" qy="0.0" qz="-0.9450977181994871"/>
+				</offset>
+			</connection>
+			<connection group="left-mining" name="con_m_turret_left-mining_5" tags="turret standard medium mining hittable">
+				<offset>
+					<position x="-83.9628" y="-31.591" z="258.1042"/>
+					<quaternion qw="-0.32678785634433066" qx="0.0" qy="0.0" qz="-0.9450977181994871"/>
+				</offset>
+			</connection>
+<!-- Top Back turrets START -->
+			<connection group="top-back" name="con_shieldgen_m_top-back_1" tags="medium shield standard hittable">
+				<offset>
+					<position x="-0.0" y="56.637499999999996" z="-580.9599999999999"/>
+					<quaternion qw="-0.9832045861511763" qx="0.18250682310153554" qy="0.0" qz="-3.59538441510025e-05"/>
+				</offset>
+			</connection>
+			<connection group="top-back" name="con_m_turret_top-back_2" tags="turret combat medium standard hittable">
+				<offset>
+					<position x="-17.0999" y="56.637499999999996" z="-580.9594999999999"/>
+					<quaternion qw="-0.9832045861511763" qx="0.18250682279483285" qy="5.657711506639819e-06" qz="-3.704888502735107e-05"/>
+				</offset>
+			</connection>
+			<connection group="top-back" name="con_m_turret_top-back_3" tags="turret combat medium standard hittable">
+				<offset>
+					<position x="17.0999" y="56.637499999999996" z="-580.9599999999999"/>
+					<quaternion qw="-0.9832045861511763" qx="0.18250682279483285" qy="5.657711506639819e-06" qz="-3.704888502735107e-05"/>
+				</offset>
+			</connection>
+			<connection group="top-back" name="con_m_turret_top-back_1" tags="turret combat medium standard hittable">
+				<offset>
+					<position x="-0.0" y="134.0179" z="-357.5305"/>
+					<quaternion qw="-1.0" qx="-0.0" qy="0.0" qz="-0.0"/>
+				</offset>
+			</connection>
+<!-- Turrets Left Side START -->		
+			<connection group="left-side" name="con_shieldgen_m_left-side_1" tags="medium shield standard hittable">
+				<offset>
+					<position x="-97.97970000000001" y="-10.767" z="348.5823"/>
+					<quaternion qw="-0.7071068967259818" qx="-0.0" qy="0.0" qz="-0.7071066656470943"/>
+				</offset>
+			</connection>
+			<connection group="left-side" name="con_shieldgen_m_left-side_2" tags="medium shield standard hittable">
+				<offset>
+					<position x="-97.97970000000001" y="-10.7669" z="288.56440000000003"/>
+					<quaternion qw="-0.7071068967259818" qx="-0.0" qy="0.0" qz="-0.7071066656470943"/>
+				</offset>
+			</connection>	
+			<connection group="left-side" name="con_m_turret_left-side_1" tags="turret combat medium standard hittable">
+				<offset>
+					<position x="-97.97970000000001" y="-10.7774" z="379.5058"/>
+					<quaternion qw="-0.7071068967259818" qx="-0.0" qy="0.0" qz="-0.7071066656470943"/>
+				</offset>
+			</connection>
+			<connection group="left-side" name="con_m_turret_left-side_2" tags="turret combat medium standard hittable">
+				<offset>
+					<position x="-97.97970000000001" y="-10.7774" z="319.0091"/>
+					<quaternion qw="-0.7071068967259818" qx="-0.0" qy="0.0" qz="-0.7071066656470943"/>
+				</offset>
+			</connection>	
+			<connection group="left-side" name="con_m_turret_left-side_3" tags="turret combat medium standard hittable">
+				<offset>
+					<position x="-97.97970000000001" y="-10.7774" z="258.476"/>
+					<quaternion qw="-0.7071068967259818" qx="-0.0" qy="0.0" qz="-0.7071066656470943"/>
+				</offset>
+			</connection>
+			<connection group="left-side" name="con_m_turret_left-side_4" tags="turret combat medium standard hittable">
+				<offset>
+					<position x="-185.8913" y="17.8825" z="-364.2033"/>
+					<quaternion qw="-0.8609566392280305" qx="-0.0" qy="0.0" qz="-0.5086783515829773"/>
+				</offset>
+			</connection>
+<!-- Turrets Right Side START -->
+			<connection group="right-side" name="con_shieldgen_m_right-side_1" tags="medium shield standard hittable">
+				<offset>
+					<position x="97.97970000000001" y="-10.767" z="348.5823"/>
+					<quaternion qw="-0.7071068967259818" qx="-0.0" qy="-0.0" qz="0.7071066656470943"/>
+				</offset>
+			</connection>	
+			<connection group="right-side" name="con_shieldgen_m_right-side_2" tags="medium shield standard hittable">
+				<offset>
+					<position x="97.97970000000001" y="-10.7669" z="288.56440000000003"/>
+					<quaternion qw="-0.7071068967259818" qx="-0.0" qy="-0.0" qz="0.7071066656470943"/>
+				</offset>
+			</connection>	
+			<connection group="right-side" name="con_m_turret_right-side_1" tags="turret combat medium standard hittable">
+				<offset>
+					<position x="97.97970000000001" y="-10.7774" z="379.5058"/>
+					<quaternion qw="-0.7071068967259818" qx="-0.0" qy="-0.0" qz="0.7071066656470943"/>
+				</offset>
+			</connection>
+			<connection group="right-side" name="con_m_turret_right-side_2" tags="turret combat medium standard hittable">
+				<offset>
+					<position x="97.97970000000001" y="-10.7774" z="319.0091"/>
+					<quaternion qw="-0.7071068967259818" qx="-0.0" qy="-0.0" qz="0.7071066656470943"/>
+				</offset>
+			</connection>
+			<connection group="right-side" name="con_m_turret_right-side_3" tags="turret combat medium standard hittable">
+				<offset>
+					<position x="97.97970000000001" y="-10.7774" z="258.476"/>
+					<quaternion qw="-0.7071068967259818" qx="-0.0" qy="-0.0" qz="0.7071066656470943"/>
+				</offset>
+			</connection>
+			<connection group="right-side" name="con_m_turret_right-side_4" tags="turret combat medium standard hittable">
+				<offset>
+					<position x="185.8913" y="17.8825" z="-364.2033"/>
+					<quaternion qw="-0.8609566392280305" qx="-0.0" qy="-0.0" qz="0.5086783515829773"/>
+				</offset>
+			</connection>
+<!--Bottom START -->			
+			<connection group="bottom" name="con_m_turret_bottom_1" tags="turret combat medium standard hittable">
+				<offset>
+					<position x="-0.0" y="-134.0026" z="-286.19919999999996"/>
+					<quaternion qw="1.7320510330969933e-07" qx="-0.0" qy="0.0" qz="-0.999999999999985"/>
+				</offset>
+			</connection>			
+			<connection group="bottom" name="con_shieldgen_m_bottom_1" tags="medium shield standard hittable">
+				<offset>
+					<position x="-0.0" y="-71.1512" z="-92.1681"/>
+					<quaternion qw="-6.326794896668469e-06" qx="0.013224993994306577" qy="-0.0" qz="-0.9999125459228032"/>
+				</offset>
+			</connection>								
+		</connections>
+	</component>
+</components>

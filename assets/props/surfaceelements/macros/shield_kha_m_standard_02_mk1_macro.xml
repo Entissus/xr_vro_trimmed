@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Michael (192.168.3.68) at 25.05.2020_09-36-08-->
+<macros>
+  <macro name="shield_kha_m_standard_02_mk1_macro" class="shieldgenerator">
+    <component ref="shield_kha_m_standard_02_mk1" />
+    <properties>
+      <identification name="{20106,2104}" basename="{20106,2101}" shortname="{20106,2105}" makerrace="khaak" description="{20106,2102}" mk="2" />
+      <recharge max="5812" rate="35" delay="0" />
+      <hull max="5810" integrated="0" />
+    </properties>
+  </macro>
+</macros>

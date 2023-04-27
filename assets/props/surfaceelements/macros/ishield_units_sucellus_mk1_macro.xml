@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="ishield_units_sucellus_mk1_macro" class="shieldgenerator">
+	<component ref="ishield_units_sucellus_mk1" />
+    <properties>
+      <identification name="IG Sucellus Internal Generator" mk="1" />
+      <recharge max="105000" rate="1375" delay="0" />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>

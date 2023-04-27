@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="ishield_units_kha_l_dest_01_macro" class="shieldgenerator">
+	<component ref="ishield_units_kha_l_dest_01" />
+    <properties>
+      <identification name="IG Queen Internal Generator" mk="1" />
+      <recharge max="60606" rate="625" delay="0" />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>

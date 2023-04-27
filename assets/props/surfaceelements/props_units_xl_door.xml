@@ -1,0 +1,260 @@
+<?xml version="1.0"?>
+<components>
+	<component name="props_units_xl_door" class="destructible">
+		<properties>
+			<hull integrated="1" />
+		</properties>
+		<source geometry="extensions\Trimmed_XR\assets\props\surfaceelements\props_units_xl_door_data"/>
+		<layers>
+			<layer>
+				<waypoints/>
+				<lights/>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"/>
+			<connection name="position" tags="position" value="1" optional="1"/>
+			<connection name="space" tags="destructible">
+				<offset/>
+			</connection>
+			<connection name="Connection01" tags="part animation  ">
+				<offset>
+					<position x="0" y="-50.4798" z="0"/>
+				</offset>
+				<animations>
+					<animation name="doors_closed" start="1" end="1"/>
+					<animation name="doors_opening" start="1" end="500"/>
+					<animation name="doors_open" start="500" end="500"/>
+					<animation name="doors_closing" start="500" end="1000"/>
+				</animations>
+				<parts>
+					<part name="part_animation_dummy" wreck="part_animation_dummy_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_trims_01"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="argon.ar_trims_01"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="argon.ar_trims_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="0.2447467" y="0.2623716" z="0.2327893"/>
+							<center x="0" y="0.2623711" z="0"/>
+						</size>
+						<size_raw>
+							<max x="0.2447467" y="0" z="0.2327893"/>
+							<center x="0" y="0.2623711" z="0"/>
+						</size_raw>
+					</part>
+				</parts>
+				<waypoints/>
+			</connection>
+			<connection name="Connection02" tags="part iklink  " parent="part_animation_dummy">
+				<offset>
+					<position x="1.284843E-05" y="36.15539" z="-6.141602"/>
+				</offset>
+				<parts>
+					<part name="door_down_03">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01"/>
+									<material id="2" ref="generic.generic_fx_lowtech_01"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01"/>
+									<material id="2" ref="generic.generic_fx_lowtech_01"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01"/>
+									<material id="2" ref="generic.generic_fx_lowtech_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="203.597" y="43.43115" z="9.307279"/>
+							<center x="4.818672E-05" y="-17.86913" z="6.323805"/>
+						</size>
+						<size_raw>
+							<max x="203.597" y="25.57629" z="2.983509"/>
+							<center x="4.055733E-05" y="-7.13253E-03" z="6.323804"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection03" tags="part iklink  " parent="part_animation_dummy">
+				<offset>
+					<position x="1.185661E-05" y="20.31193" z="0.4787598"/>
+				</offset>
+				<parts>
+					<part name="door_down_02" wreck="door_down_02_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_02"/>
+									<material id="2" ref="generic.generic_tech_01"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_02"/>
+									<material id="2" ref="generic.generic_tech_01"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_02"/>
+									<material id="2" ref="generic.generic_tech_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="203.597" y="47.5317" z="18.2066"/>
+							<center x="1.866097E-05" y="-20.70854" z="-4.833221E-03"/>
+						</size>
+						<size_raw>
+							<max x="203.597" y="45.20268" z="18.21146"/>
+							<center x="2.629036E-05" y="-9.189754" z="-4.832268E-03"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection04" tags="part iklink  " parent="part_animation_dummy">
+				<offset>
+					<position x="1.13607E-05" y="10.92091" z="0"/>
+				</offset>
+				<parts>
+					<part name="door_down_01" wreck="door_down_01_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_02"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_02"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_02"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="203.597" y="31.70654" z="18.70171"/>
+							<center x="1.915688E-05" y="-4.201191" z="0"/>
+						</size>
+						<size_raw>
+							<max x="203.597" y="18.19752" z="18.70175"/>
+							<center x="2.678627E-05" y="4.653915" z="0"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection05" tags="part iklink  " parent="part_animation_dummy">
+				<offset>
+					<position x="1.260047E-05" y="114.087" z="-0.4475098"/>
+				</offset>
+				<parts>
+					<part name="door_up_01" wreck="door_up_01_wreck">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01"/>
+									<material id="2" ref="argon.ar_hulls_02"/>
+									<material id="3" ref="generic.generic_tech_01"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01"/>
+									<material id="2" ref="argon.ar_hulls_02"/>
+									<material id="3" ref="generic.generic_tech_01"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01"/>
+									<material id="2" ref="argon.ar_hulls_02"/>
+									<material id="3" ref="generic.generic_tech_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="202.6446" y="37.31834" z="38.11948"/>
+							<center x="-3.014871E-02" y="-19.73436" z="-18.93323"/>
+						</size>
+						<size_raw>
+							<max x="202.6748" y="57.0527" z="17.58397"/>
+							<center x="-3.014871E-02" y="-22.6447" z="0.7719383"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection06" tags="part iklink  " parent="door_up_01">
+				<offset>
+					<position x="-8.329571E-07" y="-44.9275" z="-5.701465"/>
+				</offset>
+				<parts>
+					<part name="door_up_02">
+						<lods>
+							<lod index="0">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01"/>
+									<material id="2" ref="argon.ar_hulls_02"/>
+									<material id="3" ref="generic.generic_tech_01"/>
+									<material id="4" ref="generic.generic_techtrims_01"/>
+								</materials>
+							</lod>
+							<lod index="1">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01"/>
+									<material id="2" ref="argon.ar_hulls_02"/>
+									<material id="3" ref="generic.generic_tech_01"/>
+									<material id="4" ref="generic.generic_techtrims_01"/>
+								</materials>
+							</lod>
+							<lod index="2">
+								<materials>
+									<material id="1" ref="argon.ar_hulls_01"/>
+									<material id="2" ref="argon.ar_hulls_02"/>
+									<material id="3" ref="generic.generic_tech_01"/>
+									<material id="4" ref="generic.generic_techtrims_01"/>
+								</materials>
+							</lod>
+						</lods>
+						<size>
+							<max x="203.597" y="39.59418" z="34.31015"/>
+							<center x="3.400885E-05" y="14.0179" z="-18.62738"/>
+						</size>
+						<size_raw>
+							<max x="203.597" y="25.57628" z="2.983118"/>
+							<center x="3.400885E-05" y="-5.151032" z="6.349832"/>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection07" tags="part  ">
+				<offset>
+					<position x="0" y="-50.4798" z="203.4209"/>
+				</offset>
+				<parts/>
+			</connection>
+		</connections>
+	</component>
+</components>

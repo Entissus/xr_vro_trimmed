@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <diff>
+  <add sel="/language">
+	<page id="87100" title="Short Ship Names" descr="Ship Names" voice="no">		 
+		 <t id="55502">Centurion</t>
+		 <t id="55503">Taranis</t>			 
+		 <t id="55504">Arawn</t>			 
+		 <t id="55505">Sucellus</t>			 
+		 <t id="55510">Boann \(Gas\)</t>			 		 
+		 <t id="55512">Sulaco \(Mineral\)</t>		 	 
+		 <t id="55518">Klendathu</t>		 		 
+		 <t id="55531">Q</t>		 		 
+		 <t id="55541">Queen</t>		 
+		 <t id="55548">Mirage \(Gas\)</t>		 
+		 <t id="55549">Mirage \(Mineral\)</t>		 
+	</page>
+	 <page id="87101" title="Ship Descriptions" descr="Ship Descriptions" voice="no">
+		 <t id="55502">The Centurion is the first ship that was built with extremely light and resistant nividium enforced armor plates. Even with only a single engine this destroyer is extremely fast and should not be underestimated on the battlefield.</t>
+		 <t id="55503">The Taranis is designed as frontline battleship with plenty of M-sized turrets to counter smaller vessels. With only a hand full of small docks and no launch tubes, carrier support is mandatory.</t>		 
+		 <t id="55504">Not only has the Arawn the greatest available firepower and armor in the argon fleet, it is also the biggest carrier able to supply and launch several wings of fighters. This monster is feared among all enemies on the battlefield.</t>
+		 <t id="55505">The Sucellus is the second ship produced with the innovative light and resistant nividium enforced armor plating. This battleship has huge firepower especially directed to its front and spreads fear amoung its enemies.</t>
+		 <t id="55510">The Boann Megaliner is a huge gas collector. It is designed to collect gas far away from home and can stay out in space for many months.</t>
+		 <t id="55512">The Sulaco Interstellar is a deep space mining ship with huge capacities for solid minerals. The Sulaco is often seen far away from its home system. </t>
+		 <t id="55518">The Terran fleet is increasingly relying on the upgraded version of the Centuron, the Klendathu. It has two additional weapon bays and three additional medium turret slots. Due to its slightly larger mass, it is slightly slower and more sluggish, but still ranks among the faster attack destroyers.  </t>
+		 <t id="55541">Khaak Destroyer.</t>
+		 <t id="55548">The Mirage is an excellent mining vessel. Its three large engines allow high speed, despite the large cargo hold. Due to the increasingly frequent Khaak and Xenon attacks, the ship has been equipped with additional defense turrets and shields, which allows her to perform her duties even in threatening areas. </t>
+		 <t id="55549">The Mirage is an excellent mining vessel. Its three large engines allow high speed, despite the large cargo hold. Due to the increasingly frequent Khaak and Xenon attacks, the ship has been equipped with additional defense turrets and shields, which allows her to perform her duties even in threatening areas. </t>		 	 
+	 </page> 	 
+	 
+	 <page id="87103" title="Name" descr="Name and Variant" voice="no">
+		 <t id="55501">Balor</t>			 
+		 <t id="55502">Centurion</t>
+		 <t id="55503">Taranis</t>			 
+		 <t id="55504">Arawn</t>			 
+		 <t id="55505">Sucellus</t>			 
+		 <t id="55510">Boann \(Gas\)</t>	
+		 <t id="55512">Sulaco \(Mineral\)</t>	
+		 <t id="55518">Klendathu</t>	
+		 <t id="55541">Queen</t>	
+		 <t id="55548">Mirage \(Gas\)</t>		 
+		 <t id="55549">Mirage \(Mineral\)</t>			 
+	 </page> 
+	 
+	 <page id="88001" title="Jobs" descr="Names and descriptions of ship jobs" voice="yes">
+		<t id="00001">Patrol Battleship</t>	
+	 </page> 
+	 
+	 	 <page id="88002" title="Licences" descr="Licences" voice="no">
+			<t id="00001">Super Capital Ship License</t>	
+			<t id="00002">Destroyer Ship License</t>	
+	 </page> 
+
+	 <page id="21221" title="Ship classes" descr="classes" voice="yes">
+			 <t id="3501">t</t>			 
+			 <t id="3531">t</t>			 
+			 <t id="3541">t</t>			 
+			 <t id="4501">t</t>			 
+			 <t id="5501">t</t>			 
+			 <t id="5511">t</t>			 
+			 <t id="5531">t</t>		
+	 </page> 
+	</add>
+
+	
+	<add sel="/language/page[@id='20221']">
+			 <t id="3501">t</t>			 
+			 <t id="3531">t</t>			 
+			 <t id="3541">t</t>			 
+			 <t id="4501">t</t>			 
+			 <t id="5501">t</t>			 
+			 <t id="5511">t</t>			 
+			 <t id="5531">t</t>	
+	</add>
+</diff>

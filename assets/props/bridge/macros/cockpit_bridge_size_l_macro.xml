@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Benedikt (192.168.3.113) at 24.04.2013_12-39-49-->
+<macros>
+  <macro name="cockpit_bridge_size_l_macro" class="cockpit">
+    <component ref="cockpit_bridge_size_l" />
+    <properties />
+  </macro>
+</macros>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Boann -->
+<macros>
+  <macro name="units_size_l_hydrogen_collector_macro" class="ship_xl">
+    <component ref="units_size_l_hydrogen_collector" />
+    <properties>
+	  <identification name="{87103,55510}" basename="{87100,55510}" description="{87101,55510}" variation="{87102,901}" shortvariation="{87100,55510}" icon="ship_xl_mine_01" />
+	  <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk1" default="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" default="1" />
+        <software ware="software_trademk1" compatible="1" />
+      </software>
+      <explosiondamage value="4000" shield="20000" />
+	  <storage missile="0" unit="52" countermeasure="50" deployable="100" />
+      <hull max="350000" />
+      <secrecy level="1" />
+      <purpose primary="mine" />
+	  <people capacity="215" />
+	  <sounds>
+        <shipdetail ref="shipdetail_ship_xl_01" />
+      </sounds>
+      <physics mass="629.202">
+        <inertia pitch="417.044" yaw="417.044" roll="493.635" />
+        <drag forward="190.84" reverse="400.362" horizontal="459.503" vertical="459.503" pitch="729.84" yaw="729.84" roll="729.84" />
+      </physics>
+      <thruster tags="extralarge" />
+      <ship type="largeminer" />
+	  <radar range="85000" />
+    </properties>
+	
+    <connections>		
+	  <connection ref="con_cockpit">
+		<macro ref="bridge_arg_xl_01_macro" connection="con_cockpit" />
+	  </connection>
+	  <connection ref="con_storage01">
+		<macro ref="storage_units_size_l_hydrogen_collector_macro" connection="ShipConnection" />
+	  </connection>	
+	  <connection ref="con_dock_xs">
+        <macro ref="dock_gen_xs_xrshippack_01_macro" connection="Connection_component" />
+      </connection>
+	  <connection ref="shipdock_s_01">
+        <macro ref="dockarea_arg_s_ship_01_macro" connection="Connection01" />
+      </connection>
+	  <connection ref="shipdock_left_s_01">
+        <macro ref="dockarea_arg_s_ship_01_macro" connection="Connection01" />
+      </connection>
+	  <connection ref="shipdock_right_s_01">
+        <macro ref="dockarea_arg_s_ship_01_macro" connection="Connection01" />
+      </connection>
+	  <connection ref="con_shipstorage_s_01">
+        <macro ref="ship_storage_s_ships_12_macro" connection="object" />
+      </connection>
+	  <connection ref="props_surf_ar_jumpdrive_l_1">
+        <macro>
+          <component ref="props_surf_ar_jumpdrive_l" connection="space" />
+        </macro>
+      </connection>	 
+	  <connection ref="props_surf_ar_jumpdrive_l_2">
+        <macro>
+          <component ref="props_surf_ar_jumpdrive_l" connection="space" />
+        </macro>
+      </connection>	 
+	  <connection ref="props_surf_ar_jumpdrive_l_3">
+        <macro>
+          <component ref="props_surf_ar_jumpdrive_l" connection="space" />
+        </macro>
+      </connection>	 
+	  <connection ref="props_surf_ar_jumpdrive_l_4">
+        <macro>
+          <component ref="props_surf_ar_jumpdrive_l" connection="space" />
+        </macro>
+      </connection>	 
+	  <connection ref="props_surf_ar_jumpdrive_l_5">
+        <macro>
+          <component ref="props_surf_ar_jumpdrive_l" connection="space" />
+        </macro>
+      </connection>	 
+	  <connection ref="props_surf_ar_jumpdrive_r_1">
+        <macro>
+          <component ref="props_surf_ar_jumpdrive_l" connection="space" />
+        </macro>
+      </connection>	 
+	  <connection ref="props_surf_ar_jumpdrive_r_2">
+        <macro>
+          <component ref="props_surf_ar_jumpdrive_l" connection="space" />
+        </macro>
+      </connection>	 
+	  <connection ref="props_surf_ar_jumpdrive_r_3">
+        <macro>
+          <component ref="props_surf_ar_jumpdrive_l" connection="space" />
+        </macro>
+      </connection>	 
+	  <connection ref="props_surf_ar_jumpdrive_r_4">
+        <macro>
+          <component ref="props_surf_ar_jumpdrive_l" connection="space" />
+        </macro>
+      </connection>	 
+	  <connection ref="props_surf_ar_jumpdrive_r_5">
+        <macro>
+          <component ref="props_surf_ar_jumpdrive_l" connection="space" />
+        </macro>
+      </connection>	 
+	  
+    </connections>
+  </macro>
+</macros>

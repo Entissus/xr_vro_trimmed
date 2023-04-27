@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<!--
+	<replace sel="//themes/theme[@id='painttheme_race_default']/group[@faction='player']">
+		<group faction="player" paintmod="paintmod_0039" />
+	</replace>	
+	-->	
+	<replace sel="//themes/theme[@id='painttheme_race_default']/group[@faction='antigone']">
+		<group faction="antigone" selection="random" paintmod="">
+		  <select paintmod="paintmod_0003" weight="4" />
+		  <select paintmod="paintmod_0027" weight="1" />
+		  <select paintmod="paintmod_0028" weight="1" />
+		  <select paintmod="paintmod_0029" weight="1" />
+		</group>   
+	</replace>	
+	<replace sel="//themes/theme[@id='painttheme_race_default']/group[@faction='argon']">
+		<group faction="argon" selection="random" paintmod="">
+		  <select paintmod="paintmod_0002" weight="4" />
+		  <select paintmod="paintmod_0024" weight="1" />
+		  <select paintmod="paintmod_0025" weight="1" />
+		  <select paintmod="paintmod_0026" weight="1" />
+		</group>
+	</replace>		
+	<replace sel="//themes/theme[@id='painttheme_race_default']/group[@faction='hatikvah']">
+		<group faction="hatikvah" selection="random" paintmod="">
+		  <select paintmod="paintmod_0007" weight="4" />
+		  <select paintmod="paintmod_0013" weight="1" />
+		  <select paintmod="paintmod_0021" weight="1" />
+		  <select paintmod="paintmod_0022" weight="1" />
+		  <select paintmod="paintmod_0023" weight="1" />
+		</group>
+	</replace>	
+</diff>
+

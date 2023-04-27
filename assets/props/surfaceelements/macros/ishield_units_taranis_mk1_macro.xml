@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="ishield_units_taranis_mk1_macro" class="shieldgenerator">
+	<component ref="ishield_units_taranis_mk1" />
+    <properties>
+      <identification name="IG Taranis Internal Generator" mk="1" />
+      <recharge max="116320" rate="1084" delay="0" />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>

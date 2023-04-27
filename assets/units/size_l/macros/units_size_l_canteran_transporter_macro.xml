@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: nick (192.168.3.120) at 10.05.2019_16-52-31-->
+<macros>
+	<macro name="units_size_l_canteran_transporter_macro" class="ship_l">
+    <component ref="units_size_l_canteran_transporter" />
+    <properties>
+      <identification name="{87103,55502}" basename="{87100,55502}" description="{87101,55502}" shortvariation="{87100,55502}" icon="ship_l_frigate" />
+      <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" default="1" />
+        <software ware="software_trademk1" compatible="1" />
+      </software>
+      <explosiondamage value="900" shield="5800" />
+      <storage missile="160" unit="14" countermeasure="22" deployable="50" />
+      <hull max="132000" />
+      <secrecy level="2" />
+      <purpose primary="fight" />
+      <people capacity="50" />
+      <sounds>
+        <shipdetail ref="shipdetail_ship_l_01" />
+      </sounds>
+      <physics mass="140.15">
+        <inertia pitch="148.15" yaw="148.15" roll="138.15" />
+        <drag forward="33.53" reverse="80.123" horizontal="47.123" vertical="47.123" pitch="181.123" yaw="181.123" roll="181.123" />
+      </physics>
+      <thruster tags="large" />
+      <ship type="frigate" />
+	  <radar range="55000" />
+    </properties>
+	
+    <connections>
+      <connection ref="con_cockpit">
+        <macro ref="bridge_ter_l_01_macro" connection="con_cockpit" />
+	  </connection>
+		<connection ref="con_dockarea_topdocks_01">
+        <macro ref="dockarea_arg_s_ship_01_macro" connection="Connection01" />
+      </connection>	  
+      <connection ref="con_frondockxs_1">
+        <macro ref="dock_gen_xs_xrshippack_01_macro" connection="Connection_component" />
+      </connection>	  
+      <connection ref="con_shipstorage_s_01">
+        <macro ref="ship_storage_s_ships_06_macro" connection="object" />
+      </connection>
+      <connection ref="con_shipstorage_xs_01">
+        <macro ref="shipstorage_gen_xs_01_macro" connection="object" />
+      </connection>
+      <connection ref="con_storage01">
+        <macro ref="storage_units_size_l_canteran_transporter_macro" connection="ShipConnection" />
+      </connection>
+    </connections>
+  </macro>
+</macros>

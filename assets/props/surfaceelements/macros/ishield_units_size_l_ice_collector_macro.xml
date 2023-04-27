@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="ishield_units_size_l_ice_collector_macro" class="shieldgenerator">
+	<component ref="ishield_units_size_l_ice_collector" />
+    <properties>
+      <identification name="IG Sulaco Internal Generator" mk="1" />
+      <recharge max="48090" rate="468" delay="0" />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>

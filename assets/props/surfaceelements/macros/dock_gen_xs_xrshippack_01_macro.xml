@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Matthias (192.168.3.144) at 09.05.2019_13-50-56-->
+<macros>
+  <macro name="dock_gen_xs_xrshippack_01_macro" class="dockingbay">
+    <component ref="dock_gen_xs_xrshippack_01" />
+    <properties>
+      <dock external="0" storage="0" allow="1" uselandinggear="0" />
+      <undock rotate="0" speed="30" distance="50" allow="1" />
+      <room walkable="0" />
+      <docksize tags="dock_xs spacesuit" />
+    </properties>
+  </macro>
+</macros>

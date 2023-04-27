@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mdscript name="FillEncyclopedia">
+  <cues>
+    <!-- define the current version of the cue -->
+    <cue name="Trimmed_XR_entries" version="1">
+      <conditions>
+        <check_any>
+          <event_cue_signalled cue="md.Setup.GameStart" />
+          <event_player_created/>
+          <event_cue_signalled/>
+        </check_any>
+      </conditions>
+	  <patch sinceversion="3">
+        <!-- simple reset so the sub cue is called again. -->
+        <reset_cue cue="this"/>
+      </patch>
+      <cues>
+        <!-- we can place our cue here without conditions, it'll just be run as a subcue after the delay. When the parent cue is being reset, this will be called again. -->
+        <cue name="VRO_ishields_encyclopedia" instantiate="false">
+          <delay exact="11s"/>
+          <actions>
+			<create_list name="$vro_ishield_ware_list"/>
+            <append_to_list name="$vro_ishield_ware_list" exact="ware.ishield_units_size_l_canteran_transporter"/>
+            <append_to_list name="$vro_ishield_ware_list" exact="ware.ishield_units_arawn_mk1"/>
+            <append_to_list name="$vro_ishield_ware_list" exact="ware.ishield_units_size_l_hydrogen_collector"/>
+            <append_to_list name="$vro_ishield_ware_list" exact="ware.ishield_units_size_l_ice_collector"/>
+            <append_to_list name="$vro_ishield_ware_list" exact="ware.ishield_units_sucellus_mk1"/>
+			<append_to_list name="$vro_ishield_ware_list" exact="ware.ishield_units_taranis_mk1"/>
+            <do_all exact="$vro_ishield_ware_list.count" counter="$i">
+              <set_value name="$Warescontainer" exact="$vro_ishield_ware_list.{$i}.objectmacro" />
+              <add_encyclopedia_entry type="shieldgentypes" item="$Warescontainer.id" />
+            </do_all>
+          </actions>
+        </cue>
+      </cues>
+    </cue>
+</cues>
+</mdscript>

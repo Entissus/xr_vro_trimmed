@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<components>
+	<component name="props_surf_ar_jumpdrive_l" class="destructible">
+		<source geometry="extensions\Trimmed_XR\assets\props\surfaceelements\props_surf_ar_jumpdrive_l_data"></source>
+		<layers>
+			<layer>
+				<waypoints></waypoints>
+				<lights></lights>
+			</layer>
+		</layers>
+		<connections>
+			<connection name="container" tags="contents" value="0" optional="0"></connection>
+			<connection name="position" tags="position" value="1" optional="1"></connection>
+			<connection name="space" tags="destructible">
+				<offset></offset>
+			</connection>
+			<connection name="Connection02" tags="part nocollision">
+				<offset></offset>
+				<parts>
+					<part name="anim_main" wreck="anim_main_wreck">
+						<size>
+							<max x="6.801188" y="1.711826" z="16.30584"></max>
+							<center x="-9.536743E-07" y="1.173729" z="1.339531E-02"></center>
+						</size>
+						<size_raw>
+							<max x="6.801188" y="0.5380976" z="16.29245"></max>
+							<center x="-7.152557E-07" y="1.173729" z="1.339531E-02"></center>
+						</size_raw>
+					</part>
+				</parts>
+				<waypoints></waypoints>
+			</connection>
+			<connection name="Connection03" tags="part nocollision" parent="anim_main">
+				<offset>
+					<position x="-1.800394E-03" y="1.402095" z="8.903407E-07"></position>
+				</offset>
+				<animations></animations>
+				<parts>
+					<part name="anim_plasma">
+						<size>
+							<max x="6.316312" y="1.383461" z="10.73076"></max>
+							<center x="3.334135E-07" y="0" z="6.333357E-08"></center>
+						</size>
+						<size_raw>
+							<max x="6.316311" y="1.383461" z="10.73076"></max>
+							<center x="3.334135E-07" y="0" z="6.333357E-08"></center>
+						</size_raw>
+					</part>
+				</parts>
+			</connection>
+			<connection name="Connection04" tags="part  ">
+				<offset>
+					<position x="0" y="0" z="40"></position>
+				</offset>
+				<parts></parts>
+			</connection>
+			<connection name="Connection01" tags="part nocollision">
+				<offset></offset>
+			</connection>
+		</connections>
+	</component>
+</components>
