@@ -64,8 +64,24 @@
 			<owner faction="holyorder" />
 			<owner faction="alliance" />
 			<owner faction="trinity" />
-		</ware> 	 
-
+		</ware> 
+		
+		<!-- Millenium -->
+		<ware id="units_tel_trans_xl_ware" name="{87100,55524}" description="{87101,55524}" group="ships_teladi" transport="ship" volume="1" tags="ship">
+			<price min="14703706" average="16945537" max="19187367" /> 
+			<production time="600" amount="1" method="default" name="{20206,101}">
+				<primary> 
+					<ware ware="energycells" amount="19212" />
+					<ware ware="hullparts" amount="12841" />
+				</primary> 
+			</production>
+			<component ref="units_tel_trans_xl_macro" amount="1" />
+			<restriction licence="capitalship" />
+			<owner faction="ministry" />
+			<owner faction="scaleplate" />
+			<owner faction="teladi" />
+		</ware> 
+		
 		<!-- Centurion -->
 		<ware id="units_size_l_canteran_transporter_ware" name="{87100,55502}" description="{87101,55502}" group="ships_terran" transport="ship" volume="1" tags="ship">
 			<price min="8648448" average="9998176" max="11347902" /> 
@@ -240,5 +256,11 @@
 			<component ref="ishield_units_taranis_mk1_macro" amount="1" />
 			<use threshold="0" />
 		</ware>
+		
+		<ware id="ishield_units_tel_trans_xl" name="Millenium Internal Generator" description="Millenium Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
+			<price min="1" average="1" max="1" />
+			<component ref="ishield_units_tel_trans_xl_macro" amount="1" />
+			<use threshold="0" />
+		</ware>		
 	</add>	
 </diff>
