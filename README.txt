@@ -22,7 +22,7 @@ There are still some leftover bits from the original XR_Ships but I have tried t
 I only updated the generic stats with the Arawn and Taranis. A friend requested they be apart of this so that is why they are present.
 
 As a note for the Terran ships: I do have some ideas for them and I am looking to replace their textures with Terran ones -- but as it stands right now: 
-The Secullus is balanced around being a "pocket battleship" it has roughly half the hull/shields than an Asgard but packs a big punch with the weapons but lacking in the turret department. I wanted to try and give an alternative playstyle for choice.
+The Secullus is balanced around being a "pocket battleship" it has roughly half the hull/shields than an Asgard but packs a big punch with the weapons but is lacking in the turret department. I wanted to try and give an alternative playstyle for choice.
 
 The Klendathu is balanced around being an alternative to the Syn. I gave it the option to fit a PSP in the turret slot but.. this ship will likely need to be downgraded since I don't believe it could stand toe-to-toe with a Syn. Suggestions would be very welcomed.
 
