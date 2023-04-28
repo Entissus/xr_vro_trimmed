@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- created by Sco -->
+<index>
+	<entry name="units_size_l_canteran_transporter_macro" 	value="extensions\Trimmed_XR\assets\units\size_l\macros\units_size_l_canteran_transporter_macro" />	
+    <entry name="units_arawn_mk1_macro" 					value="extensions\Trimmed_XR\assets\units\size_xl\macros\units_arawn_mk1_macro"/>	
+	<entry name="units_sucellus_mk1_macro" 					value="extensions\Trimmed_XR\assets\units\size_xl\macros\units_sucellus_mk1_macro"/>
+	<entry name="units_taranis_mk1_macro" 					value="extensions\Trimmed_XR\assets\units\size_xl\macros\units_taranis_mk1_macro"/>	
+	<entry name="units_size_l_hydrogen_collector_macro" 	value="extensions\Trimmed_XR\assets\units\size_xl\macros\units_size_l_hydrogen_collector_macro"/>	
+	<entry name="units_size_l_ice_collector_macro"			value="extensions\Trimmed_XR\assets\units\size_xl\macros\units_size_l_ice_collector_macro"/>	
+	<entry name="units_size_l_xenon_ls_02_macro" 			value="extensions\Trimmed_XR\assets\units\size_xl\macros\units_size_l_xenon_ls_02_macro"/>	
+	<entry name="units_kha_l_dest_01_macro" 				value="extensions\Trimmed_XR\assets\units\size_l\macros\units_kha_l_dest_01_macro"/>	
+	<entry name="units_size_l_canteran_dest_a_macro" 		value="extensions\Trimmed_XR\assets\units\size_l\macros\units_size_l_canteran_dest_a_macro"/>	
+	<entry name="units_size_l_canteran_liquid_a_macro" 		value="extensions\Trimmed_XR\assets\units\size_l\macros\units_size_l_canteran_liquid_a_macro"/>	
+	<entry name="units_size_l_canteran_solid_a_macro" 		value="extensions\Trimmed_XR\assets\units\size_l\macros\units_size_l_canteran_solid_a_macro"/>
+	<entry name="units_tel_trans_xl_macro" 					value="extensions\Trimmed_XR\assets\units\size_xl\macros\units_tel_trans_xl_macro"/>	
+	
+	<entry name="dockarea_arawn_xl_carrier_01_macro" 	value="extensions\Trimmed_XR\assets\structures\dock\macros\dockarea_arawn_xl_carrier_01_macro"/>
+	<entry name="dockarea_arawn_m_ship_01_macro" 		value="extensions\Trimmed_XR\assets\structures\dock\macros\dockarea_arawn_m_ship_01_macro"/>
+	
+	<entry name="storage_units_size_l_canteran_transporter_macro" 	value="extensions\Trimmed_XR\assets\units\size_l\macros\storage_units_size_l_canteran_transporter_macro"/>	
+	<entry name="storage_units_arawn_mk1_macro" 					value="extensions\Trimmed_XR\assets\units\size_xl\macros\storage_units_arawn_mk1_macro"/>	
+	<entry name="storage_units_size_l_hydrogen_collector_macro" 	value="extensions\Trimmed_XR\assets\units\size_xl\macros\storage_units_size_l_hydrogen_collector_macro"/>	
+	<entry name="storage_units_size_l_ice_collector_macro" 			value="extensions\Trimmed_XR\assets\units\size_xl\macros\storage_units_size_l_ice_collector_macro"/>		
+	<entry name="storage_units_sucellus_mk1_macro" 					value="extensions\Trimmed_XR\assets\units\size_xl\macros\storage_units_sucellus_mk1_macro"/>	
+	<entry name="storage_units_taranis_mk1_macro" 					value="extensions\Trimmed_XR\assets\units\size_xl\macros\storage_units_taranis_mk1_macro"/>	
+	<entry name="storage_units_size_l_canteran_solid_a_macro" 		value="extensions\Trimmed_XR\assets\units\size_l\macros\storage_units_size_l_canteran_solid_a_macro"/>
+	<entry name="storage_units_size_l_canteran_liquid_a_macro" 		value="extensions\Trimmed_XR\assets\units\size_l\macros\storage_units_size_l_canteran_liquid_a_macro"/>
+	<entry name="storage_units_size_l_canteran_dest_a_macro" 		value="extensions\Trimmed_XR\assets\units\size_l\macros\storage_units_size_l_canteran_dest_a_macro"/>
+	<entry name="storage_units_tel_trans_xl_macro" 					value="extensions\Trimmed_XR\assets\units\size_xl\macros\storage_units_tel_trans_xl_macro"/>	
+	
+	<entry name="ship_storage_m_ships_24_macro" value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_m_ships_24_macro"/>
+	<entry name="ship_storage_m_ships_4_macro" 	value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_m_ships_4_macro"/>
+	<entry name="ship_storage_s_ships_30_macro" value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_30_macro"/>
+	<entry name="ship_storage_s_ships_20_macro" value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_20_macro"/>			
+	<entry name="ship_storage_s_ships_18_macro" value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_18_macro"/>		
+	<entry name="ship_storage_s_ships_14_macro" value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_14_macro"/>		
+	<entry name="ship_storage_s_ships_16_macro" value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_16_macro"/>		
+	<entry name="ship_storage_s_ships_12_macro" value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_12_macro"/>	
+	<entry name="ship_storage_s_ships_10_macro" value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_10_macro"/>	
+	<entry name="ship_storage_s_ships_08_macro" value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_08_macro"/>	
+	<entry name="ship_storage_s_ships_06_macro" value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_06_macro"/>
+	<entry name="ship_storage_s_ships_04_macro" value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_04_macro"/>
+	
+	<entry name="cockpit_units_bridge_macro" 		value="extensions\Trimmed_XR\assets\props\bridge\macros\cockpit_units_bridge_macro"/>
+	<entry name="dock_gen_xs_xrshippack_01_macro" 	value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\dock_gen_xs_xrshippack_01_macro"/>
+
+	<entry name="props_units_explosive_tank_macro" 	value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\props_units_explosive_tank_macro"/>
+	<entry name="props_surf_ar_jumpdrive_l_macro" 	value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\props_surf_ar_jumpdrive_l_macro"/>
+		
+	<entry name="turret_kha_m_beam_02_mk1_macro" 		value="extensions\Trimmed_XR\assets\props\WeaponSystems\heavy\macros\turret_kha_m_beam_02_mk1_macro"/>
+	<entry name="shield_kha_m_standard_02_mk1_macro" 	value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\shield_kha_m_standard_02_mk1_macro"/>
+	<entry name="engine_kha_m_combat_03_mk1_macro" 		value="extensions\Trimmed_XR\assets\props\engines\macros\engine_kha_m_combat_03_mk1_macro"/>
+
+	<entry name="ishield_units_size_l_canteran_transporter_macro" 	value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ishield_units_size_l_canteran_transporter_macro"/>
+	<entry name="ishield_units_arawn_mk1_macro" 					value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ishield_units_arawn_mk1_macro"/>
+	<entry name="ishield_units_size_l_hydrogen_collector_macro" 	value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ishield_units_size_l_hydrogen_collector_macro"/>
+	<entry name="ishield_units_size_l_ice_collector_macro" 			value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ishield_units_size_l_ice_collector_macro"/>
+	<entry name="ishield_units_sucellus_mk1_macro" 					value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ishield_units_sucellus_mk1_macro"/>
+	<entry name="ishield_units_taranis_mk1_macro" 					value="extensions\Trimmed_XR\assets\props\SurfaceElements\macros\ishield_units_taranis_mk1_macro"/>
+	<entry name="ishield_units_size_l_xenon_ls_02_macro" 			value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ishield_units_size_l_xenon_ls_02_macro"/>
+	<entry name="ishield_units_kha_l_dest_01_macro" 				value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ishield_units_kha_l_dest_01_macro"/>
+	<entry name="ishield_units_size_l_canteran_dest_a_macro" 		value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ishield_units_size_l_canteran_dest_a_macro"/>
+	<entry name="ishield_units_size_l_canteran_liquid_a_macro" 		value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ishield_units_size_l_canteran_liquid_a_macro"/>
+	<entry name="ishield_units_size_l_canteran_solid_a_macro" 		value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ishield_units_size_l_canteran_solid_a_macro"/>
+	<entry name="ishield_units_tel_trans_xl_macro" 					value="extensions\Trimmed_XR\assets\props\SurfaceElements\macros\ishield_units_tel_trans_xl_macro"/>
+	
+</index>
