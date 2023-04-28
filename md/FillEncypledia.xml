@@ -26,7 +26,8 @@
             <append_to_list name="$vro_ishield_ware_list" exact="ware.ishield_units_size_l_hydrogen_collector"/>
             <append_to_list name="$vro_ishield_ware_list" exact="ware.ishield_units_size_l_ice_collector"/>
             <append_to_list name="$vro_ishield_ware_list" exact="ware.ishield_units_sucellus_mk1"/>
-			<append_to_list name="$vro_ishield_ware_list" exact="ware.ishield_units_taranis_mk1"/>
+	    <append_to_list name="$vro_ishield_ware_list" exact="ware.ishield_units_taranis_mk1"/>
+	    <append_to_list name="$vro_ishield_ware_list" exact="ware.ishield_units_tel_trans_xl"/>
             <do_all exact="$vro_ishield_ware_list.count" counter="$i">
               <set_value name="$Warescontainer" exact="$vro_ishield_ware_list.{$i}.objectmacro" />
               <add_encyclopedia_entry type="shieldgentypes" item="$Warescontainer.id" />
