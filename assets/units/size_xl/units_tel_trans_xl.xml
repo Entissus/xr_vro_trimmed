@@ -969,7 +969,7 @@
 <!-- Docks & Misc. -->
 				<connection name="con_dock_xs" tags="dock_xs ">
 					<offset>
-						<position x="-0.2546" y="-38.8673" z="1354.7968"/>
+						<position x="-0.2546" y="-28.8673" z="1404.7968"/>
 						<rotation pitch="90" yaw="0" roll="0"/>
 					</offset>
 				</connection>
