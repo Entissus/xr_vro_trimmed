@@ -6,6 +6,9 @@ Argon/Antigone
 Godrealm, Holy Order, Trinity
 -Boann
 
+Teladi
+-Millenium Transporter
+
 Terran
 -Secullus
 -Klendathu
