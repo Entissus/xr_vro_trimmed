@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="ishield_units_tel_trans_xl_macro" class="shieldgenerator">
+	<component ref="ishield_units_tel_trans_xl" />
+    <properties>
+      <identification name="IG Millenium Internal Generator" mk="1" />
+      <recharge max="64630" rate="625" delay="0" />
+      <hull integrated="1" />
+    </properties>
+  </macro>
+</macros>
