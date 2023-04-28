@@ -7,7 +7,7 @@ Godrealm, Holy Order, Trinity
 -Boann
 
 Teladi
--Millenium Transporter
+-Millennium Transporter
 
 Terran
 -Secullus
