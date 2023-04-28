@@ -869,6 +869,11 @@
 			<connection name="con_storage01" tags="storage ">
 				<offset/>
 			</connection>
+			<connection name="con_shipstorage_s_01" tags="dockingbay ">
+				<offset>
+					<position x="0" y="0" z="0"/>
+				</offset>
+			</connection>			
 			<connection group="counterm" name="con_countermeasures_counterm_1" tags="countermeasures">
 				<offset>
 					<position x="-0.0" y="-20.3808" z="-608.6278"/>
@@ -876,39 +881,33 @@
 				</offset>
 			</connection>			
 <!-- Docking -->			
-			<connection name="con_shipstorage_s_01" tags="dockingbay ">
+			<connection name="connection_dock_s01" tags="dockarea">
 				<offset>
-					<position x="0" y="0" z="0"/>
+					<position x="-69.6878" y="51.6188" z="-553.703"/>
+					<quaternion qw="-1.0" qx="-0.0" qy="-0.0" qz="-0.0"/>
 				</offset>
 			</connection>
-			<connection name="con_dock_xs" tags="dock_xs ">
+			<connection name="connection_dock_s02" tags="dockarea">
 				<offset>
-					<position x="-0.0" y="-111.47210000000001" z="457.7611"/>
-					<rotation pitch="90" yaw="0" roll="0"/>
+					<position x="69.6878" y="51.6188" z="-553.703"/>
+					<quaternion qw="-1.0" qx="-0.0" qy="0.0" qz="0.0"/>
+				</offset>
+			</connection>
+			<connection name="connection_dock_s03" tags="dockarea">
+				<offset>
+					<position x="-0.0" y="60.5787" z="-550.864"/>
+					<quaternion qw="-1.0" qx="-0.0" qy="-0.0" qz="-0.0"/>
 				</offset>
 			</connection>			
-			<connection name="connection_dock_s01" group="group01 " tags="dock_s ">
+			<connection name="con_dock_xs" tags="dock_xs ">
 				<offset>
-					<position x="0" y="-111.8107" z="433.2322"/>
-					<quaternion qx="0.7071066" qy="-1.067702E-07" qz="-1.067701E-07" qw="-0.7071069"/>
+					<position x="9.999999999999999e-05" y="3.0864" z="520.9735000000001"/>
+					<rotation pitch="90" yaw="0" roll="0"/>
 				</offset>
 			</connection>									
-			<connection name="shipdock_left_s_01" tags="dockarea">
+			<connection name="connection_dock_xs_01" tags="dock_xs ">
 				<offset>
-					<position x="-161.09009999999998" y="-181.2763" z="-137.392"/>
-					<quaternion qw="1.7320510330969933e-07" qx="-0.999999999999985" qy="0.0" qz="-0.0"/>
-				</offset>
-			</connection>
-			<connection name="shipdock_right_s_01" tags="dockarea">
-				<offset>
-					<position x="161.09009999999998" y="-181.2763" z="-137.392"/>
-					<quaternion qw="1.7320510330969933e-07" qx="-0.999999999999985" qy="-0.0" qz="0.0"/>
-				</offset>
-			</connection>
-			<connection name="shipdock_center_s_01" tags="dockarea">
-				<offset>
-					<position x="0.0" y="-211.212" z="-7.4961"/>
-					<quaternion qw="1.7320510330969933e-07" qx="-0.999999999735485" qy="-2.2999999993916155e-05" qz="-0.0"/>
+					<position x="0" y="60.4074" z="-561.0248"/>
 				</offset>
 			</connection>		
 <!-- Main Shields START -->
