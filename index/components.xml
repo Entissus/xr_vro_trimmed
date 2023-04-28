@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<entry name="engine_units_taranis" 				value="extensions\Trimmed_XR\assets\props\engines\engine_units_taranis"/>
+	<entry name="engine_units_arawn" 				value="extensions\Trimmed_XR\assets\props\engines\engine_units_arawn"/>
+	<entry name="units_taranis_mk1" 				value="extensions\Trimmed_XR\assets\units\size_xl\units_taranis_mk1"/>
+    <entry name="units_arawn_mk1" 					value="extensions\Trimmed_XR\assets\units\size_xl\units_arawn_mk1"/>		
+	<entry name="units_size_l_hydrogen_collector" 	value="extensions\Trimmed_XR\assets\units\size_xl\units_size_l_hydrogen_collector"/>		
+	<entry name="units_size_l_ice_collector" 		value="extensions\Trimmed_XR\assets\units\size_xl\units_size_l_ice_collector"/>					
+	<entry name="units_size_l_xenon_ls_02" 			value="extensions\Trimmed_XR\assets\units\size_xl\units_size_l_xenon_ls_02"/>		
+	<entry name="units_kha_l_dest_01" 				value="extensions\Trimmed_XR\assets\units\size_l\units_kha_l_dest_01"/>	
+	<entry name="units_sucellus_mk1" 				value="extensions\Trimmed_XR\assets\units\size_xl\units_sucellus_mk1"/>		
+	<entry name="units_size_l_canteran_liquid_a" 	value="extensions\Trimmed_XR\assets\units\size_l\units_size_l_canteran_liquid_a"/>
+	<entry name="units_size_l_canteran_solid_a" 	value="extensions\Trimmed_XR\assets\units\size_l\units_size_l_canteran_solid_a"/>
+	<entry name="units_size_l_canteran_dest_a" 		value="extensions\Trimmed_XR\assets\units\size_l\units_size_l_canteran_dest_a"/>
+	<entry name="units_size_l_canteran_transporter" value="extensions\Trimmed_XR\assets\units\size_l\units_size_l_canteran_transporter" />
+	<entry name="units_tel_trans_xl" 				value="extensions\Trimmed_XR\assets\units\size_xl\units_tel_trans_xl"/>		
+
+	<entry name="dock_gen_xs_xrshippack_01" 		value="extensions\Trimmed_XR\assets\props\surfaceelements\dock_gen_xs_xrshippack_01"/>
+	<entry name="dockarea_arawn_xl_carrier_01" 		value="extensions\Trimmed_XR\assets\structures\dock\dockarea_arawn_xl_carrier_01"/>	
+	<entry name="dockarea_arawn_m_ship_01" 			value="extensions\Trimmed_XR\assets\structures\dock\dockarea_arawn_m_ship_01"/>
+
+	<entry name="bridge_units_xl" 					value="extensions\Trimmed_XR\assets\props\bridge\bridge_units_xl"/>
+	<entry name="cockpit_bridge_size_l" 			value="extensions\Trimmed_XR\assets\props\bridge\cockpit_bridge_size_l"/>
+
+	<entry name="props_units_radar" 				value="extensions\Trimmed_XR\assets\props\surfaceelements\props_units_radar"/>
+	<entry name="props_units_explosive_tank" 		value="extensions\Trimmed_XR\assets\props\surfaceelements\props_units_explosive_tank"/>	
+	<entry name="props_units_elevator" 				value="extensions\Trimmed_XR\assets\props\surfaceelements\props_units_elevator"/>	
+	<entry name="props_units_xl_door" 				value="extensions\Trimmed_XR\assets\props\surfaceelements\props_units_xl_door"/>
+	<entry name="props_surf_ar_jumpdrive_l" 		value="extensions\Trimmed_XR\assets\props\surfaceelements\props_surf_ar_jumpdrive_l"/>	
+
+	<entry name="unit_kit_xl_ar_doors_b_01" 		value="extensions\Trimmed_XR\assets\props\surfaceelements\unit_kit_xl_ar_doors_b_01"/>	
+
+	<entry name="shield_kha_m_standard_02_mk1" 		value="extensions\Trimmed_XR\assets\props\surfaceelements\shield_kha_m_standard_02_mk1"/>
+
+	<entry name="ishield_units_arawn_mk1" 					value="extensions\Trimmed_XR\assets\props\surfaceelements\ishield_units_arawn_mk1" />
+	<entry name="ishield_units_kha_l_dest_01" 				value="extensions\Trimmed_XR\assets\props\surfaceelements\ishield_units_kha_l_dest_01" />
+	<entry name="ishield_units_size_l_canteran_dest_a" 		value="extensions\Trimmed_XR\assets\props\surfaceelements\ishield_units_size_l_canteran_dest_a" />
+	<entry name="ishield_units_size_l_canteran_liquid_a" 	value="extensions\Trimmed_XR\assets\props\surfaceelements\ishield_units_size_l_canteran_liquid_a" />
+	<entry name="ishield_units_size_l_canteran_solid_a" 	value="extensions\Trimmed_XR\assets\props\surfaceelements\ishield_units_size_l_canteran_solid_a" />
+	<entry name="ishield_units_size_l_canteran_transporter" value="extensions\Trimmed_XR\assets\props\surfaceelements\ishield_units_size_l_canteran_transporter" />
+	<entry name="ishield_units_size_l_ice_collector" 		value="extensions\Trimmed_XR\assets\props\surfaceelements\ishield_units_size_l_ice_collector" />
+	<entry name="ishield_units_size_l_hydrogen_collector" 	value="extensions\Trimmed_XR\assets\props\surfaceelements\ishield_units_size_l_hydrogen_collector" />
+	<entry name="ishield_units_size_l_xenon_ls_02" 			value="extensions\Trimmed_XR\assets\props\surfaceelements\ishield_units_size_l_xenon_ls_02" />
+	<entry name="ishield_units_sucellus_mk1" 				value="extensions\Trimmed_XR\assets\props\surfaceelements\ishield_units_sucellus_mk1" />
+	<entry name="ishield_units_taranis_mk1" 				value="extensions\Trimmed_XR\assets\props\surfaceelements\ishield_units_taranis_mk1" />
+	<entry name="ishield_units_tel_trans_xl" 				value="extensions\Trimmed_XR\assets\props\surfaceelements\ishield_units_tel_trans_xl" />	
+</index>
