@@ -907,7 +907,7 @@
 			</connection>									
 			<connection name="connection_dock_xs_01" tags="dock_xs ">
 				<offset>
-					<position x="0" y="60.4074" z="-561.0248"/>
+					<position x="0" y="68.4074" z="-561.0248"/>
 				</offset>
 			</connection>		
 <!-- Main Shields START -->
