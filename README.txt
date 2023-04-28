@@ -3,7 +3,7 @@ Argon/Antigone
 -Taranis
 -Sulaco
 
-Godrealm, Holy Order, Trinity
+Godrealm, Holy Order, Trinity, Alliance
 -Boann
 
 Terran
