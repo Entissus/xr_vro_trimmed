@@ -1,39 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <diff>
-<!--    ARGON FEDERATION --> 
-	<add sel="//groups/group[@name='arg_battleship_xl']">
-		<select macro="units_taranis_mk1_macro" weight="1"/>
-	</add>	
 <!-- Argon -->
 	<replace sel="/groups/group[@name='arg_carrier_xl']" >
 		<group name="arg_carrier_xl">
 			<select macro="ship_arg_xl_carrier_01_a_macro" weight="2"/>
 			<select macro="units_arawn_mk1_macro" weight="1"/>
 		</group>
-	</replace>   
+	</replace>
+	<add sel="//groups/group[@name='arg_battleship_xl']">
+		<select macro="units_taranis_mk1_macro" weight="1"/>
+	</add>
 	<add sel="/groups/group[@name='arg_miner_solid_mixed']" >
 		<select macro="units_size_l_ice_collector_macro" weight="30"/>
 	</add>	
-<!-- Antigone Republic -->		
+	
+<!-- Antigone Republic -->	
 	<replace sel="/groups/group[@name='ant_carrier_xl']" >
 		<group name="ant_carrier_xl">
 			<select macro="ship_arg_xl_carrier_01_b_macro" weight="3"/>
 			<select macro="units_arawn_mk1_macro" weight="1"/>
 		</group>
-	</replace>		
+	</replace>	
 	<add sel="/groups/group[@name='ant_miner_solid_mixed']" >
 		<select macro="units_size_l_ice_collector_macro" weight="30" />
+	</add>	
+
+<!-- Paranid -->	
+	<add sel="/groups/group[@name='tri_miner_liquid_l']" >
+		<select macro="units_size_l_hydrogen_collector_macro" weight="25" />
+	</add>
+	<add sel="//groups/group[@name='tri_miner_liquid_mixed']">
+		<select macro="units_size_l_hydrogen_collector_macro" weight="30" />
+	</add>
+	<add sel="/groups/group[@name='par_miner_liquid_l']" >
+		<select macro="units_size_l_hydrogen_collector_macro" weight="100" />
+	</add>	
+	<add sel="/groups/group[@name='par_miner_liquid_mixed']" >
+		<select macro="units_size_l_hydrogen_collector_macro" weight="25" />
+	</add>
+	<add sel="/groups/group[@name='hol_miner_liquid_l']" >
+		<select macro="units_size_l_hydrogen_collector_macro" weight="25" />
+	</add>	
+	<add sel="/groups/group[@name='hol_miner_liquid_mixed']" >
+		<select macro="units_size_l_hydrogen_collector_macro" weight="20" />
 	</add>	
 	
 <!-- Xenon -->
 	<add sel="/groups/group[@name='xen_destroyer_xl']" >
 		<select macro="units_size_l_xenon_ls_02_macro" weight="1" />
-	</add>			
+	</add>	
+	
 <!-- Kha'ak -->
 	<add sel="//groups">
 		<group name="kha_destroyer_l">
 			<select macro="units_kha_l_dest_01_macro" weight="1" />
 		</group>
-	</add>	
+	</add>
+	
+<!-- Misc. -->
+	<add sel="/groups/group[@name='mixed_miner_solid_l']" >
+		<select macro="units_size_l_canteran_solid_a_macro" weight="130" />
+		<select macro="units_size_l_ice_collector_macro" weight="330" />
+	</add>
+	<add sel="/groups/group[@name='mixed_miner_liquid_l']" >
+		<select macro="units_tel_size_l_liquid_a_macro" weight="330" />
+		<select macro="units_size_l_hydrogen_collector_macro" weight="130" />
+		<select macro="units_size_l_canteran_liquid_a_macro" weight="130" />	
+	</add>		
 </diff>
