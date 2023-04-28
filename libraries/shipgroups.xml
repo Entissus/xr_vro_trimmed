@@ -4,7 +4,6 @@
 <!-- Argon -->
 	<replace sel="/groups/group[@name='arg_carrier_xl']" >
 		<group name="arg_carrier_xl">
-			<select macro="ship_arg_xl_carrier_01_a_macro" weight="2"/>
 			<select macro="units_arawn_mk1_macro" weight="1"/>
 		</group>
 	</replace>
@@ -15,13 +14,15 @@
 		<select macro="units_size_l_ice_collector_macro" weight="30"/>
 	</add>	
 	
-<!-- Antigone Republic -->	
+<!-- Antigone Republic -->
 	<replace sel="/groups/group[@name='ant_carrier_xl']" >
 		<group name="ant_carrier_xl">
-			<select macro="ship_arg_xl_carrier_01_b_macro" weight="3"/>
-			<select macro="units_arawn_mk1_macro" weight="1"/>
+			<select macro="units_arawn_mk1_macro" weight="100"/>
 		</group>
-	</replace>	
+	</replace>
+	<add sel="//groups/group[@name='ant_battleship_xl']">
+		<select macro="units_taranis_mk1_macro" weight="100"/>
+	</add>		
 	<add sel="/groups/group[@name='ant_miner_solid_mixed']" >
 		<select macro="units_size_l_ice_collector_macro" weight="30" />
 	</add>	
@@ -46,6 +47,32 @@
 		<select macro="units_size_l_hydrogen_collector_macro" weight="20" />
 	</add>	
 	
+<!-- Terrans -->
+	
+	<add sel="/groups/group[@name='ter_miner_solid_l']" >
+		<select macro="units_size_l_canteran_solid_a_macro" weight="1" />
+	</add>		
+	<add sel="/groups/group[@name='ter_miner_solid_mixed']" >
+		<select macro="units_size_l_canteran_solid_a_macro" weight="20" />
+	</add>	
+	<add sel="/groups/group[@name='ter_miner_liquid_l']" >
+		<select macro="units_size_l_canteran_liquid_a_macro" weight="1" />
+	</add>		
+	<add sel="/groups/group[@name='ter_miner_liquid_mixed']" >
+		<select macro="units_size_l_canteran_liquid_a_macro" weight="20" />
+	</add>	
+	
+	<add sel="/groups/group[@name='atf_battleship_xl']" >
+		<select macro="units_sucellus_mk1_macro" weight="1" />
+	</add>		
+	<add sel="/groups/group[@name='atf_destroyer_l']" >
+		<select macro="units_size_l_canteran_dest_a_macro" weight="1" />
+		<select macro="units_size_l_canteran_transporter_macro" weight="1" />
+	</add>	
+	<add sel="/groups/group[@name='teratf_destroyer_l']" >
+		<select macro="units_size_l_canteran_dest_a_macro" weight="1" />
+		<select macro="units_size_l_canteran_transporter_macro" weight="1" />
+	</add>			
 <!-- Xenon -->
 	<add sel="/groups/group[@name='xen_destroyer_xl']" >
 		<select macro="units_size_l_xenon_ls_02_macro" weight="1" />
