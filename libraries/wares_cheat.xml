@@ -61,8 +61,6 @@
 			<component ref="units_arawn_mk1_macro" amount="1" />
 			<restriction licence="capitalship" />
 			<owner faction="argon" />
-			<owner faction="antigone" />
-			<owner faction="hatikvah" />
 		</ware>
 	  
 	  <!-- Sucellus -->	  
@@ -92,8 +90,6 @@
 		<component ref="units_taranis_mk1_macro" amount="1" />
 		<restriction licence="generaluseship" />
 		<owner faction="antigone" />
-		<owner faction="argon" />
-		<owner faction="hatikvah" />
 	  </ware>
 	  
 	  <!-- Millenium -->	  
