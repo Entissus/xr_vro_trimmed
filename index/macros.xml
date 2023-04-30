@@ -2,12 +2,11 @@
 <!-- created by Sco -->
 <index>
 	<entry name="units_size_l_canteran_transporter_macro" 	value="extensions\Trimmed_XR\assets\units\size_l\macros\units_size_l_canteran_transporter_macro" />	
-    <entry name="units_arawn_mk1_macro" 					value="extensions\Trimmed_XR\assets\units\size_xl\macros\units_arawn_mk1_macro"/>	
+        <entry name="units_arawn_mk1_macro" 					value="extensions\Trimmed_XR\assets\units\size_xl\macros\units_arawn_mk1_macro"/>	
 	<entry name="units_sucellus_mk1_macro" 					value="extensions\Trimmed_XR\assets\units\size_xl\macros\units_sucellus_mk1_macro"/>
 	<entry name="units_taranis_mk1_macro" 					value="extensions\Trimmed_XR\assets\units\size_xl\macros\units_taranis_mk1_macro"/>	
 	<entry name="units_size_l_hydrogen_collector_macro" 	value="extensions\Trimmed_XR\assets\units\size_xl\macros\units_size_l_hydrogen_collector_macro"/>	
-	<entry name="units_size_l_ice_collector_macro"			value="extensions\Trimmed_XR\assets\units\size_xl\macros\units_size_l_ice_collector_macro"/>	
-	<entry name="units_size_l_xenon_ls_02_macro" 			value="extensions\Trimmed_XR\assets\units\size_xl\macros\units_size_l_xenon_ls_02_macro"/>	
+	<entry name="units_size_l_ice_collector_macro"			value="extensions\Trimmed_XR\assets\units\size_xl\macros\units_size_l_ice_collector_macro"/>		
 	<entry name="units_kha_l_dest_01_macro" 				value="extensions\Trimmed_XR\assets\units\size_l\macros\units_kha_l_dest_01_macro"/>	
 	<entry name="units_size_l_canteran_dest_a_macro" 		value="extensions\Trimmed_XR\assets\units\size_l\macros\units_size_l_canteran_dest_a_macro"/>	
 	<entry name="units_size_l_canteran_liquid_a_macro" 		value="extensions\Trimmed_XR\assets\units\size_l\macros\units_size_l_canteran_liquid_a_macro"/>	
@@ -57,7 +56,6 @@
 	<entry name="ishield_units_size_l_ice_collector_macro" 			value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ishield_units_size_l_ice_collector_macro"/>
 	<entry name="ishield_units_sucellus_mk1_macro" 					value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ishield_units_sucellus_mk1_macro"/>
 	<entry name="ishield_units_taranis_mk1_macro" 					value="extensions\Trimmed_XR\assets\props\SurfaceElements\macros\ishield_units_taranis_mk1_macro"/>
-	<entry name="ishield_units_size_l_xenon_ls_02_macro" 			value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ishield_units_size_l_xenon_ls_02_macro"/>
 	<entry name="ishield_units_kha_l_dest_01_macro" 				value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ishield_units_kha_l_dest_01_macro"/>
 	<entry name="ishield_units_size_l_canteran_dest_a_macro" 		value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ishield_units_size_l_canteran_dest_a_macro"/>
 	<entry name="ishield_units_size_l_canteran_liquid_a_macro" 		value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ishield_units_size_l_canteran_liquid_a_macro"/>
