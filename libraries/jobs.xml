@@ -70,12 +70,7 @@
 		<select macro="units_size_l_canteran_dest_a_macro" weight="1" />
 		<select macro="units_size_l_canteran_transporter_macro" weight="1" />
 	</add>	
-	
-<!-- Xenon -->
-	<add sel="/groups/group[@name='xen_destroyer_xl']" >
-		<select macro="units_size_l_xenon_ls_02_macro" weight="1" />
-	</add>	
-	
+
 <!-- Kha'ak -->
 	<add sel="//groups">
 		<group name="kha_destroyer_l">
