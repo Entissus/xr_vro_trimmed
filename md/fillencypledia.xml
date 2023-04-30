@@ -20,7 +20,7 @@
         <cue name="VRO_ishields_encyclopedia" instantiate="false">
           <delay exact="11s"/>
           <actions>
-			<create_list name="$vro_ishield_ware_list"/>
+	    <create_list name="$vro_ishield_ware_list"/>
             <append_to_list name="$vro_ishield_ware_list" exact="ware.ishield_units_size_l_canteran_transporter"/>
             <append_to_list name="$vro_ishield_ware_list" exact="ware.ishield_units_arawn_mk1"/>
             <append_to_list name="$vro_ishield_ware_list" exact="ware.ishield_units_size_l_hydrogen_collector"/>
