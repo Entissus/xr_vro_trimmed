@@ -3,10 +3,9 @@
 	<entry name="engine_units_taranis" 				value="extensions\Trimmed_XR\assets\props\engines\engine_units_taranis"/>
 	<entry name="engine_units_arawn" 				value="extensions\Trimmed_XR\assets\props\engines\engine_units_arawn"/>
 	<entry name="units_taranis_mk1" 				value="extensions\Trimmed_XR\assets\units\size_xl\units_taranis_mk1"/>
-    <entry name="units_arawn_mk1" 					value="extensions\Trimmed_XR\assets\units\size_xl\units_arawn_mk1"/>		
+        <entry name="units_arawn_mk1" 					value="extensions\Trimmed_XR\assets\units\size_xl\units_arawn_mk1"/>		
 	<entry name="units_size_l_hydrogen_collector" 	value="extensions\Trimmed_XR\assets\units\size_xl\units_size_l_hydrogen_collector"/>		
-	<entry name="units_size_l_ice_collector" 		value="extensions\Trimmed_XR\assets\units\size_xl\units_size_l_ice_collector"/>					
-	<entry name="units_size_l_xenon_ls_02" 			value="extensions\Trimmed_XR\assets\units\size_xl\units_size_l_xenon_ls_02"/>		
+	<entry name="units_size_l_ice_collector" 		value="extensions\Trimmed_XR\assets\units\size_xl\units_size_l_ice_collector"/>							
 	<entry name="units_kha_l_dest_01" 				value="extensions\Trimmed_XR\assets\units\size_l\units_kha_l_dest_01"/>	
 	<entry name="units_sucellus_mk1" 				value="extensions\Trimmed_XR\assets\units\size_xl\units_sucellus_mk1"/>		
 	<entry name="units_size_l_canteran_liquid_a" 	value="extensions\Trimmed_XR\assets\units\size_l\units_size_l_canteran_liquid_a"/>
@@ -40,7 +39,6 @@
 	<entry name="ishield_units_size_l_canteran_transporter" value="extensions\Trimmed_XR\assets\props\surfaceelements\ishield_units_size_l_canteran_transporter" />
 	<entry name="ishield_units_size_l_ice_collector" 		value="extensions\Trimmed_XR\assets\props\surfaceelements\ishield_units_size_l_ice_collector" />
 	<entry name="ishield_units_size_l_hydrogen_collector" 	value="extensions\Trimmed_XR\assets\props\surfaceelements\ishield_units_size_l_hydrogen_collector" />
-	<entry name="ishield_units_size_l_xenon_ls_02" 			value="extensions\Trimmed_XR\assets\props\surfaceelements\ishield_units_size_l_xenon_ls_02" />
 	<entry name="ishield_units_sucellus_mk1" 				value="extensions\Trimmed_XR\assets\props\surfaceelements\ishield_units_sucellus_mk1" />
 	<entry name="ishield_units_taranis_mk1" 				value="extensions\Trimmed_XR\assets\props\surfaceelements\ishield_units_taranis_mk1" />
 	<entry name="ishield_units_tel_trans_xl" 				value="extensions\Trimmed_XR\assets\props\surfaceelements\ishield_units_tel_trans_xl" />	
