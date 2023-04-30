@@ -25,7 +25,7 @@
 	</add>
 	
 
-<!--    Khaak                		 --> 
+<!--	Khaak	--> 
 	<add sel="//ships">
 	  <ship id="khaak_destroyer_l" group="kha_destroyer_l" capturable="false">
 		<category tags="[military, destroyer, mission, leader]" faction="[khaak]" size="ship_l"/>
