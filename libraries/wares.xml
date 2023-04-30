@@ -13,8 +13,6 @@
 			<component ref="units_arawn_mk1_macro" amount="1" />
 			<restriction licence="capitalship" />
 			<owner faction="argon" />
-			<owner faction="antigone" />
-			<owner faction="hatikvah" />
 		</ware>
 		
 		<!-- Taranis -->
@@ -28,9 +26,7 @@
 			</production>
 			<component ref="units_taranis_mk1_macro" amount="1" />
 			<restriction licence="capitalship" />
-			<owner faction="argon" />
 			<owner faction="antigone" />
-			<owner faction="hatikvah" />
 		</ware>
 
 		<!-- Sulaco Deep Space -->
