@@ -7,19 +7,11 @@
 			<select macro="units_arawn_mk1_macro" weight="1"/>
 		</group>
 	</replace>
-	<add sel="//groups/group[@name='arg_battleship_xl']">
-		<select macro="units_taranis_mk1_macro" weight="1"/>
-	</add>
 	<add sel="/groups/group[@name='arg_miner_solid_mixed']" >
 		<select macro="units_size_l_ice_collector_macro" weight="30"/>
 	</add>	
 	
 <!-- Antigone Republic -->
-	<replace sel="/groups/group[@name='ant_carrier_xl']" >
-		<group name="ant_carrier_xl">
-			<select macro="units_arawn_mk1_macro" weight="100"/>
-		</group>
-	</replace>
 	<add sel="//groups/group[@name='ant_battleship_xl']">
 		<select macro="units_taranis_mk1_macro" weight="100"/>
 	</add>		
