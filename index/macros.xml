@@ -27,18 +27,18 @@
 	<entry name="storage_units_size_l_canteran_dest_a_macro" 		value="extensions\Trimmed_XR\assets\units\size_l\macros\storage_units_size_l_canteran_dest_a_macro"/>
 	<entry name="storage_units_tel_trans_xl_macro" 					value="extensions\Trimmed_XR\assets\units\size_xl\macros\storage_units_tel_trans_xl_macro"/>	
 	
-	<entry name="ship_storage_m_ships_24_macro" value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_m_ships_24_macro"/>
+	<entry name="ship_storage_m_ships_24_macro" 	value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_m_ships_24_macro"/>
 	<entry name="ship_storage_m_ships_4_macro" 	value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_m_ships_4_macro"/>
-	<entry name="ship_storage_s_ships_30_macro" value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_30_macro"/>
-	<entry name="ship_storage_s_ships_20_macro" value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_20_macro"/>			
-	<entry name="ship_storage_s_ships_18_macro" value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_18_macro"/>		
-	<entry name="ship_storage_s_ships_14_macro" value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_14_macro"/>		
-	<entry name="ship_storage_s_ships_16_macro" value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_16_macro"/>		
-	<entry name="ship_storage_s_ships_12_macro" value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_12_macro"/>	
-	<entry name="ship_storage_s_ships_10_macro" value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_10_macro"/>	
-	<entry name="ship_storage_s_ships_08_macro" value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_08_macro"/>	
-	<entry name="ship_storage_s_ships_06_macro" value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_06_macro"/>
-	<entry name="ship_storage_s_ships_04_macro" value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_04_macro"/>
+	<entry name="ship_storage_s_ships_30_macro" 	value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_30_macro"/>
+	<entry name="ship_storage_s_ships_20_macro" 	value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_20_macro"/>			
+	<entry name="ship_storage_s_ships_18_macro" 	value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_18_macro"/>		
+	<entry name="ship_storage_s_ships_14_macro" 	value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_14_macro"/>		
+	<entry name="ship_storage_s_ships_16_macro" 	value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_16_macro"/>		
+	<entry name="ship_storage_s_ships_12_macro" 	value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_12_macro"/>	
+	<entry name="ship_storage_s_ships_10_macro" 	value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_10_macro"/>	
+	<entry name="ship_storage_s_ships_08_macro" 	value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_08_macro"/>	
+	<entry name="ship_storage_s_ships_06_macro" 	value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_06_macro"/>
+	<entry name="ship_storage_s_ships_04_macro" 	value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\ship_storage_s_ships_04_macro"/>
 	
 	<entry name="cockpit_units_bridge_macro" 		value="extensions\Trimmed_XR\assets\props\bridge\macros\cockpit_units_bridge_macro"/>
 	<entry name="dock_gen_xs_xrshippack_01_macro" 	value="extensions\Trimmed_XR\assets\props\surfaceelements\macros\dock_gen_xs_xrshippack_01_macro"/>
