@@ -11,16 +11,16 @@
 	<replace sel="/*/collection[@name='argon']/material[@name='ar_trims_01']/@shader">P1_complex_surface.fx</replace>
 	
 	<!--
-	<replace sel="/*/collection[@name='argon']/material[@name='ar_hullpattern_05b']/properties/property[@name='diffuse_map']/@value">extensions\Trimmed_XR\assets\Trimmed_XR_textures\textures\argon_omicron\ar_hullpattern_05_diff</replace>
+	<replace sel="/*/collection[@name='argon']/material[@name='ar_hullpattern_05b']/properties/property[@name='diffuse_map']/@value">extensions\XR_ShipPack\assets\XR_ShipPack_textures\textures\argon_omicron\ar_hullpattern_05_diff</replace>
 	-->
 
 	<!-- used by paranid ships -->
 	<replace sel="/materiallibrary/collection[@name='argon']/material[@name='ar_hullpattern_05b']">
 		<material name="ar_hullpattern_05b" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
 			  <properties>
-				<property type="BitMap" name="diffuse_map" value="extensions\Trimmed_XR\assets\Trimmed_XR_textures\textures\argon\ar_hullpattern_05_diff" />
-				<property type="BitMap" name="smooth_map" value="extensions\Trimmed_XR\assets\Trimmed_XR_textures\textures\argon\ar_hullpattern_05_smooth" />
-				<property type="BitMap" name="metal_map" value="extensions\Trimmed_XR\assets\Trimmed_XR_textures\textures\argon\ar_hullpattern_05_metal" />
+				<property type="BitMap" name="diffuse_map" value="extensions\XR_ShipPack\assets\XR_ShipPack_textures\textures\argon\ar_hullpattern_05_diff" />
+				<property type="BitMap" name="smooth_map" value="extensions\XR_ShipPack\assets\XR_ShipPack_textures\textures\argon\ar_hullpattern_05_smooth" />
+				<property type="BitMap" name="metal_map" value="extensions\XR_ShipPack\assets\XR_ShipPack_textures\textures\argon\ar_hullpattern_05_metal" />
 				<property type="BitMap" name="normal_map" value="assets\legacy\textures\Argon\ar_hullpattern_05_bump" />
 				<property type="BitMap" name="diffuse_paint_map" value="assets\legacy\textures\paint\ar_paintoverlays" />
 				
@@ -57,9 +57,9 @@
 	<replace sel="/materiallibrary/collection[@name='argon']/material[@name='ar_hullpattern_05']">
     <material name="ar_hullpattern_05" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
       <properties>
-        <property type="BitMap" name="diffuse_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_hullpattern_05_diff" />
-        <property type="BitMap" name="smooth_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_hullpattern_05_smooth" />
-        <property type="BitMap" name="metal_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_hullpattern_05_metal" />
+        <property type="BitMap" name="diffuse_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_hullpattern_05_diff" />
+        <property type="BitMap" name="smooth_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_hullpattern_05_smooth" />
+        <property type="BitMap" name="metal_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_hullpattern_05_metal" />
         <property type="BitMap" name="normal_map" value="assets\legacy\textures\Argon\ar_hullpattern_05_bump" />
         <property type="BitMap" name="color_dirt_map" value="assets\fx\textures\dirt_diff" />
         <property type="BitMap" name="diffuse_paint_map" value="assets\legacy\textures\paint\ar_paintoverlays" />
@@ -79,9 +79,9 @@
  	<replace sel="/materiallibrary/collection[@name='argon']/material[@name='ar_trims_01b']">
 		<material name="ar_trims_01b" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
 		  <properties>
-		    <property type="BitMap" name="diffuse_map" value="extensions\Trimmed_XR\assets\Trimmed_XR_textures\textures\argon\ar_trims_01b_diff" />
-			<property type="BitMap" name="smooth_map" value="extensions\Trimmed_XR\assets\Trimmed_XR_textures\textures\argon\ar_hullpattern_05_smooth" />
-			<property type="BitMap" name="metal_map" value="extensions\Trimmed_XR\assets\Trimmed_XR_textures\textures\argon\ar_hullpattern_05_metal" />
+		    <property type="BitMap" name="diffuse_map" value="extensions\XR_ShipPack\assets\XR_ShipPack_textures\textures\argon\ar_trims_01b_diff" />
+			<property type="BitMap" name="smooth_map" value="extensions\XR_ShipPack\assets\XR_ShipPack_textures\textures\argon\ar_hullpattern_05_smooth" />
+			<property type="BitMap" name="metal_map" value="extensions\XR_ShipPack\assets\XR_ShipPack_textures\textures\argon\ar_hullpattern_05_metal" />
 			<!--<!{1}**<property type="BitMap" name="color_age_map" value="assets\fx\textures\dirt_diff" />**{1}>-->
 			<property type="BitMap" name="normal_map" value="assets\legacy\textures\Argon\ar_hullpattern_05_bump" />
 			<property type="BitMap" name="diffuse_paint_map" value="assets\legacy\textures\paint\ar_paintoverlays" />
@@ -119,9 +119,9 @@
 	<add sel="/*/collection[@name='split']">
 		<material name="sp_hulls_11" shader="XU_surface_test.fx" blendmode="NONE" preview="none">
 		  <properties>
-			<property type="BitMap" name="diffuse_map" value="extensions\Trimmed_XR\assets\Trimmed_XR_textures\Split\sp_hullpattern_01_diff" />
-			<property type="BitMap" name="specular_map" value="extensions\Trimmed_XR\assets\Trimmed_XR_textures\Split\sp_hullpattern_01_spec" />
-			<property type="BitMap" name="normal_map" value="extensions\Trimmed_XR\assets\Trimmed_XR_textures\Split\sp_hullpattern_01_bump" />
+			<property type="BitMap" name="diffuse_map" value="extensions\XR_ShipPack\assets\XR_ShipPack_textures\Split\sp_hullpattern_01_diff" />
+			<property type="BitMap" name="specular_map" value="extensions\XR_ShipPack\assets\XR_ShipPack_textures\Split\sp_hullpattern_01_spec" />
+			<property type="BitMap" name="normal_map" value="extensions\XR_ShipPack\assets\XR_ShipPack_textures\Split\sp_hullpattern_01_bump" />
 			<property type="BitMap" name="color_age_map" value="assets\fx\textures\dirt_diff" />
 			<property type="Float" name="color_glowStr" value="0.75" />
 			<property type="Float" name="Metallness" value="0.5" />
@@ -134,11 +134,11 @@
 	<add sel="/*/collection[@name='generic']">
 		<material name="generic_engines_11" shader="XU_surface_test.fx" blendmode="NONE" preview="none">
 		  <properties>
-			<property type="BitMap" name="diffuse_map" value="extensions\Trimmed_XR\assets\Trimmed_XR_textures\Generic\generic_engines_01_diff" />
-			<property type="BitMap" name="specular_map" value="extensions\Trimmed_XR\assets\Trimmed_XR_textures\Generic\generic_engines_01_spec" />
-			<property type="BitMap" name="normal_map" value="extensions\Trimmed_XR\assets\Trimmed_XR_textures\Generic\generic_engines_01_bump" />
-			<property type="BitMap" name="color_glow_map" value="extensions\Trimmed_XR\assets\Trimmed_XR_textures\Generic\generic_engines_01_glow" />
-			<property type="BitMap" name="environment_map" value="extensions\Trimmed_XR\assets\Trimmed_XR_textures\textures\envmap_lightbrown" />
+			<property type="BitMap" name="diffuse_map" value="extensions\XR_ShipPack\assets\XR_ShipPack_textures\Generic\generic_engines_01_diff" />
+			<property type="BitMap" name="specular_map" value="extensions\XR_ShipPack\assets\XR_ShipPack_textures\Generic\generic_engines_01_spec" />
+			<property type="BitMap" name="normal_map" value="extensions\XR_ShipPack\assets\XR_ShipPack_textures\Generic\generic_engines_01_bump" />
+			<property type="BitMap" name="color_glow_map" value="extensions\XR_ShipPack\assets\XR_ShipPack_textures\Generic\generic_engines_01_glow" />
+			<property type="BitMap" name="environment_map" value="extensions\XR_ShipPack\assets\XR_ShipPack_textures\textures\envmap_lightbrown" />
 
 			<!-- 0.75 -->
 		  </properties>
@@ -153,9 +153,9 @@
 	  <property type="Float" name="AnisoX" value="0.50" />
         <property type="Float" name="AnisoY" value="0.50" />
         <property type="Float" name="Smoothness" value="1.0" />
-        <property type="BitMap" name="smooth_map" value="extensions\Trimmed_XR\assets\textures\argon\generic_tech_01_smooth" />
+        <property type="BitMap" name="smooth_map" value="extensions\XR_ShipPack\assets\textures\argon\generic_tech_01_smooth" />
         <property type="Float" name="Metallness" value="1.0" />
-        <property type="BitMap" name="metal_map" value="extensions\Trimmed_XR\assets\textures\argon\generic_tech_01_metal" />
+        <property type="BitMap" name="metal_map" value="extensions\XR_ShipPack\assets\textures\argon\generic_tech_01_metal" />
         <property type="BitMap" name="diffuse_map" value="assets\legacy\textures\generic\generic_tech_01_diff" />
         <property type="Float" name="diffuseStr" value="1.0" />
         <property type="BitMap" name="normal_map" value="assets\textures\Generic\generic_tech_01_bump" />
@@ -213,9 +213,9 @@
       <properties>
 	  <property type="Float" name="AnisoX" value="0.50" />
         <property type="Float" name="AnisoY" value="0.50" />
-        <property type="BitMap" name="diffuse_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_hulls_01_diff" />
-        <property type="BitMap" name="smooth_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_hulls_01_smooth" />
-        <property type="BitMap" name="metal_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_hulls_01_metal" />
+        <property type="BitMap" name="diffuse_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_hulls_01_diff" />
+        <property type="BitMap" name="smooth_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_hulls_01_smooth" />
+        <property type="BitMap" name="metal_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_hulls_01_metal" />
         <property type="BitMap" name="normal_map" value="assets\legacy\textures\Argon\ar_hulls_01_bump" />
         <property type="BitMap" name="color_glow_map" value="assets\legacy\textures\Argon\ar_hulls_01_glow" />
         <property type="BitMap" name="color_dirt_map" value="assets\fx\textures\dirt_diff" />
@@ -250,9 +250,9 @@
 	<material name="ar_hulls_02" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
       <properties>
 	  
-        <property type="BitMap" name="diffuse_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_hulls_02_diff" />
-        <property type="BitMap" name="smooth_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_hulls_02_smooth" />
-        <property type="BitMap" name="metal_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_hulls_02_metal" />
+        <property type="BitMap" name="diffuse_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_hulls_02_diff" />
+        <property type="BitMap" name="smooth_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_hulls_02_smooth" />
+        <property type="BitMap" name="metal_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_hulls_02_metal" />
 		<property type="BitMap" name="normal_map" value="assets\legacy\textures\Argon\ar_hulls_02_bump" />
         <property type="BitMap" name="color_glow_map" value="assets\legacy\textures\Argon\ar_hulls_02_glow" />
         <property type="BitMap" name="color_dirt_map" value="assets\fx\textures\dirt_diff" />
@@ -288,9 +288,9 @@
 	<material name="ar_trims_01" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
       <properties>
 	  
-        <property type="BitMap" name="diffuse_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_trims_01_diff" />
-        <property type="BitMap" name="smooth_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_trims_01_smooth" />
-        <property type="BitMap" name="metal_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_trims_01_metal" />
+        <property type="BitMap" name="diffuse_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_trims_01_diff" />
+        <property type="BitMap" name="smooth_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_trims_01_smooth" />
+        <property type="BitMap" name="metal_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_trims_01_metal" />
         <property type="BitMap" name="normal_map" value="assets\legacy\textures\Argon\ar_trims_01_bump" />
         <property type="BitMap" name="color_dirt_map" value="assets\fx\textures\dirt_diff" />
         <property type="BitMap" name="diffuse_paint_map" value="assets\legacy\textures\paint\ar_paintoverlays" />
@@ -324,9 +324,9 @@
 	<replace sel="/materiallibrary/collection[@name='argon']/material[@name='ar_unique_01']">
 	<material name="ar_unique_01" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
       <properties>
-        <property type="BitMap" name="diffuse_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_unique_01_diff" />
-        <property type="BitMap" name="smooth_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_unique_01_smooth" />
-        <property type="BitMap" name="metal_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_unique_01_metal" />
+        <property type="BitMap" name="diffuse_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_unique_01_diff" />
+        <property type="BitMap" name="smooth_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_unique_01_smooth" />
+        <property type="BitMap" name="metal_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_unique_01_metal" />
         <property type="BitMap" name="normal_map" value="assets\legacy\textures\Argon\ar_unique_01_bump" />
         <property type="BitMap" name="color_dirt_map" value="assets\fx\textures\dirt_diff" />
         <property type="BitMap" name="diffuse_paint_map" value="assets\legacy\textures\paint\ar_paintoverlays" />
@@ -358,9 +358,9 @@
 	<replace sel="/materiallibrary/collection[@name='argon']/material[@name='ar_unique_02']">
 	<material name="ar_unique_02" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
       <properties>
-        <property type="BitMap" name="diffuse_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_unique_02_diff" />
-        <property type="BitMap" name="smooth_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_unique_02_smooth" />
-        <property type="BitMap" name="metal_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_unique_02_metal" />
+        <property type="BitMap" name="diffuse_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_unique_02_diff" />
+        <property type="BitMap" name="smooth_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_unique_02_smooth" />
+        <property type="BitMap" name="metal_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_unique_02_metal" />
         <property type="BitMap" name="normal_map" value="assets\legacy\textures\Argon\ar_unique_02_bump" />
         <property type="BitMap" name="color_dirt_map" value="assets\fx\textures\dirt_diff" />
         <property type="BitMap" name="diffuse_paint_map" value="assets\legacy\textures\paint\ar_paintoverlays" />
@@ -392,9 +392,9 @@
 	<replace sel="/materiallibrary/collection[@name='argon']/material[@name='ar_unique_03']">
 	<material name="ar_unique_03" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
       <properties>
-        <property type="BitMap" name="diffuse_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_unique_03_diff" />
-        <property type="BitMap" name="smooth_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_unique_03_smooth" />
-        <property type="BitMap" name="metal_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_unique_03_metal" />
+        <property type="BitMap" name="diffuse_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_unique_03_diff" />
+        <property type="BitMap" name="smooth_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_unique_03_smooth" />
+        <property type="BitMap" name="metal_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_unique_03_metal" />
         <property type="BitMap" name="normal_map" value="assets\legacy\textures\Argon\ar_unique_03_bump" />
         <property type="BitMap" name="color_glow_map" value="assets\legacy\textures\Argon\ar_unique_03_glow" />
         <property type="BitMap" name="color_dirt_map" value="assets\fx\textures\dirt_diff" />
@@ -429,9 +429,9 @@
 	<replace sel="/materiallibrary/collection[@name='argon']/material[@name='ar_hullpattern_01']">
 	<material name="ar_hullpattern_01" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
       <properties>
-        <property type="BitMap" name="diffuse_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_hullpattern_01_diff" />
-        <property type="BitMap" name="smooth_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_hullpattern_01_smooth" />
-        <property type="BitMap" name="metal_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_hullpattern_01_metal" />
+        <property type="BitMap" name="diffuse_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_hullpattern_01_diff" />
+        <property type="BitMap" name="smooth_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_hullpattern_01_smooth" />
+        <property type="BitMap" name="metal_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_hullpattern_01_metal" />
         <property type="BitMap" name="normal_map" value="assets\legacy\textures\Argon\ar_hullpattern_01_bump" />
         <property type="BitMap" name="color_dirt_map" value="assets\fx\textures\dirt_diff" />
         <property type="BitMap" name="diffuse_paint_map" value="assets\legacy\textures\paint\ar_paintoverlays" />
@@ -464,9 +464,9 @@
 	<replace sel="/materiallibrary/collection[@name='argon']/material[@name='ar_hullpattern_02']">
 	 <material name="ar_hullpattern_02" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
       <properties>
-        <property type="BitMap" name="diffuse_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_hullpattern_02_diff" />
-        <property type="BitMap" name="smooth_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_hullpattern_02_smooth" />
-        <property type="BitMap" name="metal_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_hullpattern_02_metal" />
+        <property type="BitMap" name="diffuse_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_hullpattern_02_diff" />
+        <property type="BitMap" name="smooth_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_hullpattern_02_smooth" />
+        <property type="BitMap" name="metal_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_hullpattern_02_metal" />
         <property type="BitMap" name="normal_map" value="assets\legacy\textures\Argon\ar_hullpattern_02_bump" />
         <property type="BitMap" name="color_dirt_map" value="assets\fx\textures\dirt_diff" />
         <property type="BitMap" name="diffuse_paint_map" value="assets\legacy\textures\paint\ar_paintoverlays" />
@@ -499,9 +499,9 @@
   <replace sel="/materiallibrary/collection[@name='argon']/material[@name='ar_hullpattern_03']">
     <material name="ar_hullpattern_03" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
       <properties>
-        <property type="BitMap" name="diffuse_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_hullpattern_03_diff" />
-        <property type="BitMap" name="smooth_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_hullpattern_03_smooth" />
-        <property type="BitMap" name="metal_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_hullpattern_03_metal" />
+        <property type="BitMap" name="diffuse_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_hullpattern_03_diff" />
+        <property type="BitMap" name="smooth_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_hullpattern_03_smooth" />
+        <property type="BitMap" name="metal_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_hullpattern_03_metal" />
         <property type="BitMap" name="normal_map" value="assets\legacy\textures\Argon\ar_hullpattern_03_bump" />
         <property type="BitMap" name="color_dirt_map" value="assets\fx\textures\dirt_diff" />
         <property type="BitMap" name="diffuse_paint_map" value="assets\legacy\textures\paint\ar_paintoverlays" />
@@ -534,9 +534,9 @@
 	<replace sel="/materiallibrary/collection[@name='argon']/material[@name='ar_hullpattern_04']">
     <material name="ar_hullpattern_04" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
       <properties>
-        <property type="BitMap" name="diffuse_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_hullpattern_04_diff" />
-        <property type="BitMap" name="smooth_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_hullpattern_04_smooth" />
-        <property type="BitMap" name="metal_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_hullpattern_04_metal" />
+        <property type="BitMap" name="diffuse_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_hullpattern_04_diff" />
+        <property type="BitMap" name="smooth_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_hullpattern_04_smooth" />
+        <property type="BitMap" name="metal_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_hullpattern_04_metal" />
         <property type="BitMap" name="normal_map" value="assets\legacy\textures\Argon\ar_hullpattern_04_bump" />
         <property type="BitMap" name="color_dirt_map" value="assets\fx\textures\dirt_diff" />
         <property type="BitMap" name="diffuse_paint_map" value="assets\legacy\textures\paint\ar_paintoverlays" />
@@ -569,9 +569,9 @@
 	<replace sel="/materiallibrary/collection[@name='argon']/material[@name='ar_hullpattern_05']">
     <material name="ar_hullpattern_05" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
       <properties>
-        <property type="BitMap" name="diffuse_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_hullpattern_05_diff" />
-        <property type="BitMap" name="smooth_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_hullpattern_05_smooth" />
-        <property type="BitMap" name="metal_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_hullpattern_05_metal" />
+        <property type="BitMap" name="diffuse_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_hullpattern_05_diff" />
+        <property type="BitMap" name="smooth_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_hullpattern_05_smooth" />
+        <property type="BitMap" name="metal_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_hullpattern_05_metal" />
         <property type="BitMap" name="normal_map" value="assets\legacy\textures\Argon\ar_hullpattern_05_bump" />
         <property type="BitMap" name="color_dirt_map" value="assets\fx\textures\dirt_diff" />
         <property type="BitMap" name="diffuse_paint_map" value="assets\legacy\textures\paint\ar_paintoverlays" />
@@ -605,15 +605,15 @@
 	<replace sel="/materiallibrary/collection[@name='xenon']/material[@name='xenon_unique_01']">
 	<material name="xenon_unique_01" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
       <properties>
-        <property type="BitMap" name="diffuse_map" value="extensions\Trimmed_XR\assets\textures\xenon\xen_unique_01_diff" />
+        <property type="BitMap" name="diffuse_map" value="extensions\XR_ShipPack\assets\textures\xenon\xen_unique_01_diff" />
         <property type="Float" name="diffuseStr" value="1.0" />
         <property type="Float" name="AnisoX" value="0.50" />
         <property type="Float" name="AnisoY" value="0.50" />
         <property type="Float" name="Smoothness" value="0.8" />
         <property type="Float" name="Metallness" value="0.8" />
         
-        <property type="BitMap" name="smooth_map" value="extensions\Trimmed_XR\assets\textures\xenon\xen_unique_01_smooth" />
-        <property type="BitMap" name="metal_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_unique_01_metal" />
+        <property type="BitMap" name="smooth_map" value="extensions\XR_ShipPack\assets\textures\xenon\xen_unique_01_smooth" />
+        <property type="BitMap" name="metal_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_unique_01_metal" />
         <property type="BitMap" name="normal_map" value="assets\legacy\textures\argon\ar_unique_01_bump" />
         <property type="BitMap" name="color_glow_map" value="assets\legacy\textures\xenon\xen_unique_01_glow" />
         <property type="Float" name="color_glowStr" value="3.0" />
@@ -624,9 +624,9 @@
 	<replace sel="/materiallibrary/collection[@name='xenon']/material[@name='xenon_unique_03']">
 	<material name="xenon_unique_03" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
       <properties>
-        <property type="BitMap" name="diffuse_map" value="extensions\Trimmed_XR\assets\textures\xenon\xen_hulllpattern_02_diff" />
-        <property type="BitMap" name="smooth_map" value="extensions\Trimmed_XR\assets\textures\xenon\xen_hulllpattern_02_smooth" />
-		<property type="BitMap" name="metal_map" value="extensions\Trimmed_XR\assets\textures\xenon\xen_hulllpattern_02_metal" />
+        <property type="BitMap" name="diffuse_map" value="extensions\XR_ShipPack\assets\textures\xenon\xen_hulllpattern_02_diff" />
+        <property type="BitMap" name="smooth_map" value="extensions\XR_ShipPack\assets\textures\xenon\xen_hulllpattern_02_smooth" />
+		<property type="BitMap" name="metal_map" value="extensions\XR_ShipPack\assets\textures\xenon\xen_hulllpattern_02_metal" />
         <property type="BitMap" name="normal_map" value="assets\legacy\textures\xenon\xen_hulllpattern_02_bump" />
         <property type="BitMap" name="color_age_map" value="assets\fx\textures\dirt_diff" />
 		<property type="Float" name="diffuseStr" value="1.0" />
@@ -641,7 +641,7 @@
 	<replace sel="/materiallibrary/collection[@name='p1xenon']/material[@name='xen_p1_hullpattern_02']">
 	<material name="xen_p1_hullpattern_02" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
       <properties>
-        <property type="BitMap" name="diffuse_map" value="extensions\Trimmed_XR\assets\textures\xenon\xen_p1_hullpattern_02_diff" />
+        <property type="BitMap" name="diffuse_map" value="extensions\XR_ShipPack\assets\textures\xenon\xen_p1_hullpattern_02_diff" />
         <property type="BitMap" name="normal_map" value="assets\textures\xenon\xen_p1_hullpattern_02_normal" />
         <property type="Float" name="mat_smoothness" value="1.0" />
         <property type="Float" name="mat_metallness" value="1.0" />
@@ -680,9 +680,9 @@
   	<add sel="/*/collection[@name='terran']">
 		<material name="terran_hulls_01" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
 		  <properties>
-				<property type="BitMap" name="diffuse_map" value="extensions\Trimmed_XR\assets\Trimmed_XR_textures\textures\argon\ar_hullpattern_05_diff" />
-				<property type="BitMap" name="smooth_map" value="extensions\Trimmed_XR\assets\Trimmed_XR_textures\textures\argon\ar_hullpattern_05_smooth" />
-				<property type="BitMap" name="metal_map" value="extensions\Trimmed_XR\assets\Trimmed_XR_textures\textures\argon\ar_hullpattern_05_metal" />
+				<property type="BitMap" name="diffuse_map" value="extensions\XR_ShipPack\assets\XR_ShipPack_textures\textures\argon\ar_hullpattern_05_diff" />
+				<property type="BitMap" name="smooth_map" value="extensions\XR_ShipPack\assets\XR_ShipPack_textures\textures\argon\ar_hullpattern_05_smooth" />
+				<property type="BitMap" name="metal_map" value="extensions\XR_ShipPack\assets\XR_ShipPack_textures\textures\argon\ar_hullpattern_05_metal" />
 				<property type="BitMap" name="normal_map" value="assets\legacy\textures\Argon\ar_hullpattern_05_bump" />
 				<property type="BitMap" name="diffuse_paint_map" value="assets\legacy\textures\paint\ar_paintoverlays" />
 				
@@ -706,9 +706,9 @@
 	  <property type="Float" name="AnisoX" value="0.50" />
         <property type="Float" name="AnisoY" value="0.50" />
         <property type="Float" name="Smoothness" value="1.0" />
-        <property type="BitMap" name="smooth_map" value="extensions\Trimmed_XR\assets\textures\argon\generic_tech_01_smooth" />
+        <property type="BitMap" name="smooth_map" value="extensions\XR_ShipPack\assets\textures\argon\generic_tech_01_smooth" />
         <property type="Float" name="Metallness" value="1.0" />
-        <property type="BitMap" name="metal_map" value="extensions\Trimmed_XR\assets\textures\argon\generic_tech_01_metal" />
+        <property type="BitMap" name="metal_map" value="extensions\XR_ShipPack\assets\textures\argon\generic_tech_01_metal" />
         <property type="BitMap" name="diffuse_map" value="assets\legacy\textures\generic\generic_tech_01_diff" />
         <property type="Float" name="diffuseStr" value="1.0" />
         <property type="BitMap" name="normal_map" value="assets\textures\Generic\generic_tech_01_bump" />
@@ -729,9 +729,9 @@
 	  <property type="Float" name="AnisoX" value="0.50" />
         <property type="Float" name="AnisoY" value="0.50" />
         <property type="Float" name="Smoothness" value="1.0" />
-        <property type="BitMap" name="smooth_map" value="extensions\Trimmed_XR\assets\textures\argon\generic_tech_01_smooth" />
+        <property type="BitMap" name="smooth_map" value="extensions\XR_ShipPack\assets\textures\argon\generic_tech_01_smooth" />
         <property type="Float" name="Metallness" value="1.0" />
-        <property type="BitMap" name="metal_map" value="extensions\Trimmed_XR\assets\textures\argon\generic_tech_01_metal" />
+        <property type="BitMap" name="metal_map" value="extensions\XR_ShipPack\assets\textures\argon\generic_tech_01_metal" />
         <property type="BitMap" name="diffuse_map" value="assets\legacy\textures\generic\generic_tech_01_diff" />
         <property type="Float" name="diffuseStr" value="1.0" />
         <property type="BitMap" name="normal_map" value="assets\textures\Generic\generic_tech_01_bump" />
@@ -750,9 +750,9 @@
 		<material name="terran_windows_01" shader="P1_complex_surface.fx" blendmode="NONE" preview="none">
 		<properties>
 	  
-        <property type="BitMap" name="diffuse_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_trims_01_diff" />
-        <property type="BitMap" name="smooth_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_trims_01_smooth" />
-        <property type="BitMap" name="metal_map" value="extensions\Trimmed_XR\assets\textures\argon\ar_trims_01_metal" />
+        <property type="BitMap" name="diffuse_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_trims_01_diff" />
+        <property type="BitMap" name="smooth_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_trims_01_smooth" />
+        <property type="BitMap" name="metal_map" value="extensions\XR_ShipPack\assets\textures\argon\ar_trims_01_metal" />
         <property type="BitMap" name="normal_map" value="assets\legacy\textures\Argon\ar_trims_01_bump" />
         <property type="BitMap" name="color_dirt_map" value="assets\fx\textures\dirt_diff" />
         <property type="BitMap" name="diffuse_paint_map" value="assets\legacy\textures\paint\ar_paintoverlays" />
