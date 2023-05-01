@@ -11,8 +11,7 @@
 		<delay exact="if (player.age lt 360000) then (360000 - player.age) else 0s"/>
 		<actions>
 			<debug_text text="'Advanced jobs I started...'" />
-			<set_job_active activate="true" job="'terran_battleship_patrol_xl_02'" />
-			<set_job_active activate="true" job="'pioneers_destroyer_patrol_l_exp_02'" />			
+			<set_job_active activate="true" job="'terran_battleship_patrol_xl_02'" />		
 		</actions>
     </cue>
 	<cue name="JobDelayedStart200h" version="1">
