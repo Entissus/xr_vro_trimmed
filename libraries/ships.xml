@@ -1,35 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <diff> 
-<!--    ARGON FEDERATION -->
-<!--	<add sel="//ships">
-		<ship id="argon_battleship_xl" group="arg_battleship_xl">
-			<category tags="[military, battleship, mission]" faction="[argon, hatikvah, alliance]" size="ship_xl"/>
-			<pilot>
-				<select faction="argon" tags="fighterpilot"/>
-			</pilot>
-			<drop ref="ship_large_military"/>
-			<people ref="argon_military_crew"/>
-		</ship>
-	</add>
--->
-<!--    ANTIGONE REPUBLIC -->
-<!--	<add sel="//ships">
-		<ship id="antigone_battleship_xl" group="ant_battleship_xl">
-			<category tags="[military, battleship, mission]" faction="[antigone, hatikvah, alliance]" size="ship_xl"/>
-			<pilot>
-				<select faction="argon" tags="fighterpilot"/>
-			</pilot>
-			<drop ref="ship_large_military"/>
-			<people ref="argon_military_crew"/>
-		</ship>
-	</add>
--->	
-
-<!--	Khaak	--> 
 	<add sel="//ships">
 	  <ship id="khaak_destroyer_l" group="kha_destroyer_l" capturable="false">
-		<category tags="[military, destroyer, mission, leader]" faction="[khaak]" size="ship_l"/>
+		<category tags="[military, destroyer]" faction="[khaak]" size="ship_l"/>
 		<pilot>
 		  <select faction="khaak" tags="fighterpilot"/>
 		</pilot>
