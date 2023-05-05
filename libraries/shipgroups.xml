@@ -2,18 +2,16 @@
 
 <diff>
 <!-- Argon -->
-	<replace sel="//groups/group[@name='arg_carrier_xl']" >
-		<group name="arg_carrier_xl">
-			<select macro="units_arawn_mk1_macro" weight="1"/>
-		</group>
-	</replace>
+	<add sel="//groups/group[@name='arg_carrier_xl']" >
+		<select macro="units_arawn_mk1_macro" weight="30"/>
+	</add>		
 	<add sel="//groups/group[@name='arg_miner_solid_1']" >
 		<select macro="units_size_l_ice_collector_macro" weight="30"/>
 	</add>	
 	
-<!-- Antigone Republic -->
+<!-- Antigone -->
 	<add sel="//groups/group[@name='ant_battleship_xl']">
-		<select macro="units_taranis_mk1_macro" weight="100"/>
+		<select macro="units_taranis_mk1_macro" weight="40"/>
 	</add>		
 	<add sel="//groups/group[@name='ant_miner_solid_1']" >
 		<select macro="units_size_l_ice_collector_macro" weight="30" />
@@ -21,72 +19,69 @@
 
 <!-- Paranid -->	
 	<add sel="//groups/group[@name='tri_miner_liquid_l']" >
-		<select macro="units_size_l_hydrogen_collector_macro" weight="25" />
+		<select macro="units_size_l_hydrogen_collector_macro" weight="40" />
 	</add>
 	<add sel="//groups/group[@name='tri_miner_liquid_mixed']">
-		<select macro="units_size_l_hydrogen_collector_macro" weight="30" />
+		<select macro="units_size_l_hydrogen_collector_macro" weight="15" />
 	</add>
 	<add sel="//groups/group[@name='par_miner_liquid_l']" >
-		<select macro="units_size_l_hydrogen_collector_macro" weight="100" />
+		<select macro="units_size_l_hydrogen_collector_macro" weight="40" />
 	</add>	
 	<add sel="//groups/group[@name='par_miner_liquid_mixed']" >
-		<select macro="units_size_l_hydrogen_collector_macro" weight="25" />
+		<select macro="units_size_l_hydrogen_collector_macro" weight="15" />
 	</add>
 	<add sel="//groups/group[@name='hol_miner_liquid_l']" >
-		<select macro="units_size_l_hydrogen_collector_macro" weight="25" />
+		<select macro="units_size_l_hydrogen_collector_macro" weight="40" />
 	</add>	
 	<add sel="//groups/group[@name='hol_miner_liquid_mixed']" >
-		<select macro="units_size_l_hydrogen_collector_macro" weight="20" />
+		<select macro="units_size_l_hydrogen_collector_macro" weight="15" />
 	</add>	
 
 <!-- Teladi -->
-
 	<add sel="//groups/group[@name='tel_trader_container_l']" >
-		<select macro="units_tel_trans_xl_macro" weight="200" />
+		<select macro="units_tel_trans_xl_macro" weight="20" />
 	</add>	
 	
-<!-- Terrans -->
-	
+<!-- Terrans -->	
 	<add sel="//groups/group[@name='ter_miner_solid_l']" >
-		<select macro="units_size_l_canteran_solid_a_macro" weight="1" />
+		<select macro="units_size_l_canteran_solid_a_macro" weight="40" />
 	</add>		
 	<add sel="//groups/group[@name='ter_miner_solid_mixed']" >
-		<select macro="units_size_l_canteran_solid_a_macro" weight="20" />
+		<select macro="units_size_l_canteran_solid_a_macro" weight="15" />
 	</add>	
 	<add sel="//groups/group[@name='ter_miner_liquid_l']" >
-		<select macro="units_size_l_canteran_liquid_a_macro" weight="1" />
+		<select macro="units_size_l_canteran_liquid_a_macro" weight="40" />
 	</add>		
 	<add sel="//groups/group[@name='ter_miner_liquid_mixed']" >
-		<select macro="units_size_l_canteran_liquid_a_macro" weight="20" />
+		<select macro="units_size_l_canteran_liquid_a_macro" weight="15" />
 	</add>	
 	
 	<add sel="//groups/group[@name='atf_battleship_xl']" >
-		<select macro="units_sucellus_mk1_macro" weight="1" />
+		<select macro="units_sucellus_mk1_macro" weight="45" />
 	</add>		
 	<add sel="//groups/group[@name='atf_destroyer_l']" >
-		<select macro="units_size_l_canteran_dest_a_macro" weight="1" />
-		<select macro="units_size_l_canteran_transporter_macro" weight="1" />
+		<select macro="units_size_l_canteran_dest_a_macro" weight="45" />
+		<select macro="units_size_l_canteran_transporter_macro" weight="45" />
 	</add>	
 	<add sel="//groups/group[@name='teratf_destroyer_l']" >
-		<select macro="units_size_l_canteran_dest_a_macro" weight="1" />
-		<select macro="units_size_l_canteran_transporter_macro" weight="1" />
+		<select macro="units_size_l_canteran_dest_a_macro" weight="45" />
+		<select macro="units_size_l_canteran_transporter_macro" weight="45" />
 	</add>			
 
 <!-- Kha'ak -->
 	<add sel="//groups">
 		<group name="kha_destroyer_l">
-			<select macro="units_kha_l_dest_01_macro" weight="1" />
+			<select macro="units_kha_l_dest_01_macro" weight="100" />
 		</group>
 	</add>
 	
 <!-- Misc. -->
 	<add sel="//groups/group[@name='mixed_miner_solid_l']" >
-		<select macro="units_size_l_canteran_solid_a_macro" weight="130" />
-		<select macro="units_size_l_ice_collector_macro" weight="330" />
+		<select macro="units_size_l_hydrogen_collector_macro" weight="415" />
+		<select macro="units_size_l_ice_collector_macro" weight="415"/>
 	</add>
 	<add sel="//groups/group[@name='mixed_miner_liquid_l']" >
-		<select macro="units_tel_size_l_liquid_a_macro" weight="330" />
-		<select macro="units_size_l_hydrogen_collector_macro" weight="130" />
-		<select macro="units_size_l_canteran_liquid_a_macro" weight="130" />	
+		<select macro="units_size_l_hydrogen_collector_macro" weight="415" />
+		<select macro="units_size_l_ice_collector_macro" weight="415"/>	
 	</add>		
 </diff>
