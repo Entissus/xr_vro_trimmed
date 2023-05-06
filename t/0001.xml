@@ -68,15 +68,4 @@
 			 <t id="5531">t</t>		
 	 </page> 
 	</add>
-
-	
-	<add sel="/language/page[@id='20221']">
-			 <t id="3501">t</t>			 
-			 <t id="3531">t</t>			 
-			 <t id="3541">t</t>			 
-			 <t id="4501">t</t>			 
-			 <t id="5501">t</t>			 
-			 <t id="5511">t</t>			 
-			 <t id="5531">t</t>	
-	</add>
 </diff>
