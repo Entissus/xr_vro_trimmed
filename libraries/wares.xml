@@ -72,9 +72,8 @@
 				</primary> 
 			</production>
 			<component ref="units_tel_trans_xl_macro" amount="1" />
-			<restriction licence="capitalship" />
+			<restriction licence="generaluseship" />
 			<owner faction="ministry" />
-			<owner faction="scaleplate" />
 			<owner faction="teladi" />
 		</ware> 
 		
