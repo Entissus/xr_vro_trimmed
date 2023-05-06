@@ -1,35 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
- <diff>
-  <add sel="/language">
-	<page id="87100" title="Short Ship Names" descr="Ship Names" voice="no">		 
-		 <t id="55502">Centurion</t>
-		 <t id="55503">Taranis</t>			 
-		 <t id="55504">Arawn</t>			 
-		 <t id="55505">Sucellus</t>			 
-		 <t id="55510">Boann \(Gas\)</t>			 		 
-		 <t id="55512">Sulaco \(Mineral\)</t>		 	 
-		 <t id="55518">Klendathu</t>
-		 <t id="55524">Millennium</t>		 		 
-		 <t id="55541">Queen</t>		 
-		 <t id="55548">Mirage \(Gas\)</t>		 
-		 <t id="55549">Mirage \(Mineral\)</t>		 
-	</page>
-	 <page id="87101" title="Ship Descriptions" descr="Ship Descriptions" voice="no">
+<diff>
+  <replace sel="//language/page[@id='87101']">
+    <page id="87101" title="Ship Descriptions" desc="Ship Descriptions" voice="no">
 		 <t id="55502">The Centurion is the first ship in the Terran's new "Experimental Program" which is aimed at producing an array of ships designed with a different doctrine to traditonal Terran concepts. The Centurion's hull is built from extremely light and resistant nividium enforced alloys and is intended to serve in an anti-fighter roll but with very limited anti-capital capacity.</t>
-		 <t id="55503">The Taranis is designed as frontline battleship with plenty of M-sized turrets to counter smaller vessels. With only a hand full of small docks and no launch tubes, carrier support is mandatory.</t>		 
+		 <t id="55503">The Taranis is designed as frontline battleship with plenty of M-sized turrets to counter smaller vessels. With only a hand full of small docks and no launch tubes, carrier support is mandatory.</t>
 		 <t id="55504">The Arawn is the pride of the Argon Fleet, serving as both their one of their most durable capital-class ships but also their largest carrier, able to supply and launch several wings of fighters. This monster is feared among all enemies on the battlefield.</t>
 		 <t id="55505">The Sucellus is the third ship produced in the new "Experimental Program" utilizing the innovative light and resistant nividium enforced alloys. Designated as a Battleship, the Sucellus is built around being faster and easier to produce than the Asgard and less reliant on Large turrets for firepower. Because of this the frontal weapons match that of a Destroyer, giving the primary pilot much great control of the ship's destructive capabilities.</t>
 		 <t id="55510">The Boann Megaliner is a huge gas collector and is designed to collect gas far away from home and capable of staying out in space for many months before returning.</t>
 		 <t id="55512">The Sulaco is a deep space mining ship with enormous capacity for raw minerals mined from distant asteroids. The Sulaco is often seen far away from its home system and is capable of operating completely on its own. </t>
 		 <t id="55518">Following the successful creation of the Centurion, Terran authorities authorized the "Experimental Program" for the development of a larger capital-class warship. The result is the Klendathu, an upgraded and enlarged evolution of the Centurion. The Klendathu is designated as a Destroyer within the program and due to an advanced reactor system is able to mount the devistatingly powerful PSP. However, due to the increased mass it is more sluggish than its predecessor and is much more reliant on medium turrets than traditional destroyers.  </t>
-		 <t id="55524">The Millennium Megatrans was founded by the Teladi Trading Company and is to date the largest and most advanced freighter that has ever gone into production. Designed to transport huge amounts of goods to and from remote planets, it has three enormous cargo holds and six landing bays. </t>
-		 <t id="55541">The Kha'ak's newy discover Destroyer, its capabilities are unknown.</t>
+		 <t id="55541">A newly discovered ship, little is known about this destroyer sized Kha'ak warship.</t>
 		 <t id="55548">An offshoot of the "Experimental Program", the Mirage class of industrial ships were the Terran's answer to the increasly frequent and destructive Kha'ak attacks as the result of the Program's increasing extraction of nividium. Its three large engines which allow for a modest speed, despite the large cargo hold. The ship has been equipped with additional defense turrets and shields, which allows her to perform her duties even in distant threatening areas outside of normal patrol routes.</t>
 		 <t id="55549">An offshoot of the "Experimental Program", the Mirage class of industrial ships were the Terran's answer to the increasly frequent and destructive Kha'ak attacks as the result of the Program's increasing extraction of nividium. Its three large engines which allow for a modest speed, despite the large cargo hold. The ship has been equipped with additional defense turrets and shields, which allows her to perform her duties even in distant threatening areas outside of normal patrol routes.</t>		 	 
-	 </page> 	 
-	 
-	 <page id="87103" title="Name" descr="Name and Variant" voice="no">
-		 <t id="55501">Balor</t>			 
+		 <t id="55552">A newly designated Xenon destroyer. Current capabilities are unknown.</t>	
+		 </page>
+  </replace>
+	<replace sel="//language/page[@id='87103']">
+	 <page id="87103" title="Name" descr="Name and Variant" voice="no">		 
 		 <t id="55502">Centurion</t>
 		 <t id="55503">Taranis</t>			 
 		 <t id="55504">Arawn</t>			 
@@ -38,34 +25,9 @@
 		 <t id="55512">Sulaco \(Mineral\)</t>	
 		 <t id="55518">Klendathu</t>
 		 <t id="55524">Millennium {20221,3031}</t>		 
-		 <t id="55541">Queen</t>	
+		 <t id="55541">Queen {20221,4001}</t>	
 		 <t id="55548">Mirage \(Gas\)</t>		 
 		 <t id="55549">Mirage \(Mineral\)</t>			 
-	 </page> 
-	 
-	 <page id="87102" title="Variations" descr="Variations" voice="no">
-		 <t id="201">Guardian</t>
-		 <t id="901">Megaliner</t>
-		 <t id="1001">Deep Space</t>
-	</page> 
-	
-	 <page id="88001" title="Jobs" descr="Names and descriptions of ship jobs" voice="yes">
-		<t id="00001">Patrol Battleship</t>	
-	 </page> 
-	 
-	 	 <page id="88002" title="Licences" descr="Licences" voice="no">
-			<t id="00001">Super Capital Ship License</t>	
-			<t id="00002">Destroyer Ship License</t>	
-	 </page> 
-
-	 <page id="21221" title="Ship classes" descr="classes" voice="yes">
-			 <t id="3501">t</t>			 
-			 <t id="3531">t</t>			 
-			 <t id="3541">t</t>			 
-			 <t id="4501">t</t>			 
-			 <t id="5501">t</t>			 
-			 <t id="5511">t</t>			 
-			 <t id="5531">t</t>		
-	 </page> 
-	</add>
+	 </page> 		
+  </replace>
 </diff>
