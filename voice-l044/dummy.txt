@@ -1,1 +1,0 @@
-do NOT remove this file, required for catalog building!
