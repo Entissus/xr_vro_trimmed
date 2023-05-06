@@ -1,5 +1,0 @@
-<diff> 
-	<replace sel="//macros/macro/properties/hull/@max">5500</replace>
-	<replace sel="//macros/macro/properties/rotationspeed/@max">25</replace>
-	<replace sel="//macros/macro/properties/rotationacceleration/@max">2</replace>
-</diff> 
