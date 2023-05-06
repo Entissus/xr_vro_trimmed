@@ -1,240 +1,213 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <diff>
-	<add sel="/wares">
-		<!-- Arawn -->
-		<ware id="units_arawn_mk1_macro_ware" name="{87100,55504}" description="{87101,55504}" group="ships_argon" transport="ship" volume="1" tags="ship">
-			<price min="46321068" average="54495375" max="62669681" /> 
-			<production time="1460" amount="1" method="default" name="{20206,101}">
-				<primary> 
-					<ware ware="energycells" amount="65275" />
-					<ware ware="hullparts" amount="47198" />
-				</primary> 
-			</production>
-			<component ref="units_arawn_mk1_macro" amount="1" />
-			<restriction licence="capitalship" />
-			<owner faction="argon" />
-		</ware>
-		
-		<!-- Taranis -->
-		<ware id="units_taranis_mk1_ware" name="{87100,55503}" description="{87101,55503}" group="ships_argon" transport="ship" volume="1" tags="ship">
-			<price min="20531770" average="24155023" max="27778277" /> 
-			<production time="585" amount="1" method="default" name="{20206,101}">
-				<primary> 
-					<ware ware="energycells" amount="17214" />
-					<ware ware="hullparts" amount="16732" />
-				</primary> 
-			</production>
-			<component ref="units_taranis_mk1_macro" amount="1" />
-			<restriction licence="capitalship" />
-			<owner faction="antigone" />
-		</ware>
+    <!-- Arawn -->	
+	<replace sel="/wares/ware[@id='units_arawn_mk1_macro_ware']/price/@min">46321068</replace>
+	<replace sel="/wares/ware[@id='units_arawn_mk1_macro_ware']/price/@average">54495375</replace>
+	<replace sel="/wares/ware[@id='units_arawn_mk1_macro_ware']/price/@max">62669681</replace>
+	<replace sel="/wares/ware[@id='units_arawn_mk1_macro_ware']/production/@time">1460</replace>
+	<replace sel="/wares/ware[@id='units_arawn_mk1_macro_ware']/production/primary/ware[@ware='energycells']/@amount">65275</replace>
+	<replace sel="/wares/ware[@id='units_arawn_mk1_macro_ware']/production/primary/ware[@ware='hullparts']/@amount">47198</replace>	
+	<remove sel="/wares/ware[@id='units_arawn_mk1_macro_ware']/owner[@faction='hatikvah']"/>
+	<remove sel="/wares/ware[@id='units_arawn_mk1_macro_ware']/owner[@faction='antigone']"/>	
 
-		<!-- Sulaco Deep Space -->
-		<ware id="units_size_l_ice_collector_macro_ware" name="{87100,55512}" description="{87101,55512}" group="ships_argon" transport="ship" volume="1" tags="ship">
-			<price min="13168273" average="14786203" max="16404133" /> 
-			<production time="375" amount="1" method="default" name="{20206,101}">
-				<primary> 
-					<ware ware="energycells" amount="13703" />
-					<ware ware="hullparts" amount="14774" />
-				</primary> 
-			</production>
-			<component ref="units_size_l_ice_collector_macro" amount="1" />
-			<restriction licence="generaluseship" />
-			<owner faction="argon" />
-			<owner faction="antigone" />
-			<owner faction="hatikvah" />
-		</ware>  
-
-		<!-- Boann -->
-		<ware id="units_size_l_hydrogen_collector_ware" name="{87100,55510}" description="{87101,55510}" group="ships_paranid" transport="ship" volume="1" tags="ship">
-			<price min="14466934" average="16314040" max="18161145" /> 
-			<production time="400" amount="1" method="default" name="{20206,101}">
-				<primary>
-					<ware ware="energycells" amount="14680" />
-					<ware ware="hullparts" amount="15655" />
-				</primary>
-			</production>
-			<component ref="units_size_l_hydrogen_collector_macro" amount="1" />
-			<restriction licence="generaluseship" />
-			<owner faction="paranid" />
-			<owner faction="holyorder" />
-			<owner faction="alliance" />
-			<owner faction="trinity" />
-		</ware> 
-		
-		<!-- Millenium -->
-		<ware id="units_tel_trans_xl_ware" name="{87100,55524}" description="{87101,55524}" group="ships_teladi" transport="ship" volume="1" tags="ship">
-			<price min="14703706" average="16945537" max="19187367" /> 
-			<production time="600" amount="1" method="default" name="{20206,101}">
-				<primary> 
-					<ware ware="energycells" amount="19212" />
-					<ware ware="hullparts" amount="12841" />
-				</primary> 
-			</production>
-			<component ref="units_tel_trans_xl_macro" amount="1" />
-			<restriction licence="generaluseship" />
-			<owner faction="ministry" />
-			<owner faction="teladi" />
-		</ware> 
-		
-		<!-- Centurion -->
-		<ware id="units_size_l_canteran_transporter_ware" name="{87100,55502}" description="{87101,55502}" group="ships_terran" transport="ship" volume="1" tags="ship">
-			<price min="8648448" average="9998176" max="11347902" /> 
-			<production time="210" amount="1" method="default" name="{20206,101}">
-				<primary> 
-					<ware ware="computronicsubstrate" amount="313" />
-					<ware ware="energycells" amount="2574" />
-					<ware ware="metallicmicrolattice" amount="448" />
-				</primary> 
-			</production>
-			<component ref="units_size_l_canteran_transporter_macro" amount="1" />
-			<restriction licence="capitalship" />
-			<owner faction="terran" />
-		</ware>
-		
-		<!-- Klendathu -->
-		<ware id="units_size_l_canteran_dest_a_ware" name="{87100,55518}" description="{87101,55518}" group="ships_terran" transport="ship" volume="1" tags="ship">
-			<price min="10075092" average="11853052" max="13631010" /> 
-			<production time="253" amount="1" method="default" name="{20206,101}">
-				<primary> 
-					<ware ware="computronicsubstrate" amount="427" />
-					<ware ware="energycells" amount="3416" />
-					<ware ware="metallicmicrolattice" amount="711" />
-				</primary> 
-			</production>
-			<component ref="units_size_l_canteran_dest_a_macro" amount="1" />
-			<restriction licence="capitalship" />
-			<owner faction="terran" />
-		</ware> 	
-		
-		<!-- Mirage Gas -->
-		<ware id="units_size_l_canteran_liquid_a_ware" name="{87100,55548}" description="{87101,55548}" group="ships_terran" transport="ship" volume="1" tags="ship">
-			<price min="2691630" average="3166625" max="3641618" /> 
-			<production time="138" amount="1" method="default" name="{20206,101}">
-				<primary> 
-					<ware ware="computronicsubstrate" amount="152" />
-					<ware ware="energycells" amount="541" />
-					<ware ware="metallicmicrolattice" amount="248" />
-				</primary> 
-			</production>
-			<component ref="units_size_l_canteran_liquid_a_macro" amount="1" />
-			<restriction licence="generaluseship" />
-			<owner faction="terran" />
-			<owner faction="pioneers" />
-		</ware> 	
-		
-		<!-- Mirage Solid -->
-		<ware id="units_size_l_canteran_solid_a_ware" name="{87100,55549}" description="{87101,55549}" group="ships_terran" transport="ship" volume="1" tags="ship">
-			<price min="2463734" average="2898512" max="3333289" /> 
-			<production time="115" amount="1" method="default" name="{20206,101}">
-				<primary> 
-					<ware ware="computronicsubstrate" amount="152" />
-					<ware ware="energycells" amount="541" />
-					<ware ware="metallicmicrolattice" amount="248" />
-				</primary> 
-			</production>
-			<component ref="units_size_l_canteran_solid_a_macro" amount="1" />
-			<restriction licence="generaluseship" />
-			<owner faction="terran" />
-			<owner faction="pioneers" />
-		</ware> 	
-
-		<!-- Sucellus -->
-		<ware id="units_sucellus_mk1_ware" name="{87100,55505}" description="{87101,55505}" group="ships_terran" transport="ship" volume="1" tags="ship">
-			<price min="19280728" average="22683210" max="26085691" /> 
-			<production time="582" amount="1" method="default" name="{20206,101}">
-				<primary> 
-					<ware ware="computronicsubstrate" amount="539" />
-					<ware ware="energycells" amount="20437" />
-					<ware ware="metallicmicrolattice" amount="903" />	
-				</primary> 
-			</production>
-			<component ref="units_sucellus_mk1_macro" amount="1" />
-			<restriction licence="capitalship" />
-			<owner faction="terran" />
-		</ware>  
-
-		<!-- Khaak Queen -->
-		<ware id="units_kha_l_dest_01_ware" name="{87100,55541}" description="{87101,55541}" transport="ship" tags="noblueprint noplayerblueprint ship">
-			<price min="0" average="0" max="0" />
-			<component ref="units_kha_l_dest_01_macro" amount="1" />
-			<restriction licence="militaryship" />
-			<owner faction="khaak" />
-		</ware>
-
-		<ware id="shield_kha_m_standard_02_mk1" name="{20106,2104}" description="{20106,2102}" group="shields" transport="equipment" volume="1" tags="equipment noblueprint noplayerblueprint shield">
-			<price min="0" average="0" max="0" />
-			<component ref="shield_kha_m_standard_02_mk1_macro" amount="1" />
-			<restriction licence="militaryequipment" />
-			<use threshold="0" factions="khaak" />
-			<owner faction="khaak" />
-		</ware>	
-		
-<!-- Internal Generators -->		
-		<ware id="ishield_units_size_l_canteran_transporter" name="Centurion Internal Generator" description="Centurion Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="1" average="1" max="1" />
-			<component ref="ishield_units_size_l_canteran_transporter_macro" amount="1" />
-			<use threshold="0" />
-		</ware>
-
-		<ware id="ishield_units_arawn_mk1" name="Arawn Internal Generator" description="Arawn Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="1" average="1" max="1" />
-			<component ref="ishield_units_arawn_mk1_macro" amount="1" />
-			<use threshold="0" />
-		</ware>
-
-		<ware id="ishield_units_size_l_hydrogen_collector" name="Hercules Internal Generator" description="Boann Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="1" average="1" max="1" />
-			<component ref="ishield_units_size_l_hydrogen_collector_macro" amount="1" />
-			<use threshold="0" />
-		</ware>
-
-		<ware id="ishield_units_size_l_ice_collector" name="Sulaco Internal Generator" description="Sulaco Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="1" average="1" max="1" />
-			<component ref="ishield_units_size_l_ice_collector_macro" amount="1" />
-			<use threshold="0" />
-		</ware>
-
-		<ware id="ishield_units_sucellus_mk1" name="Devastator Internal Generator" description="Sucellus Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="1" average="1" max="1" />
-			<component ref="ishield_units_sucellus_mk1_macro" amount="1" />
-			<use threshold="0" />
-		</ware>				
-		
-		<ware id="ishield_units_kha_l_dest_01" name="Queen Internal Generator" description="Queen Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="1" average="1" max="1" />
-			<component ref="ishield_units_kha_l_dest_01_macro" amount="1" />
-			<use threshold="0" />
-		</ware>	
 	
-		<ware id="ishield_units_size_l_canteran_dest_a" name="Klendathu Internal Generator" description="Klendathu Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="1" average="1" max="1" />
-			<component ref="ishield_units_size_l_canteran_dest_a_macro" amount="1" />
-			<use threshold="0" />
-		</ware>	
+	<!-- Taranis -->	
+	<replace sel="/wares/ware[@id='units_taranis_mk1_ware']/price/@min">20531770</replace>
+	<replace sel="/wares/ware[@id='units_taranis_mk1_ware']/price/@average">24155023</replace>
+	<replace sel="/wares/ware[@id='units_taranis_mk1_ware']/price/@max">27778277</replace>  
+	<replace sel="/wares/ware[@id='units_taranis_mk1_ware']/production/@time">585</replace>
+	<replace sel="/wares/ware[@id='units_taranis_mk1_ware']/production/primary/ware[@ware='energycells']/@amount">17214</replace>
+	<replace sel="/wares/ware[@id='units_taranis_mk1_ware']/production/primary/ware[@ware='hullparts']/@amount">16732</replace>  	
+	<replace sel="/wares/ware[@id='units_taranis_mk1_ware']/owner[@faction='argon']/@faction">antigone</replace>
+	<remove sel="/wares/ware[@id='units_taranis_mk1_ware']/owner[@faction='hatikvah']"/>	
+
+	
+	<!-- Sulaco Deep Space -->
+
+	<replace sel="/wares/ware[@id='units_size_l_ice_collector_macro_ware']/price/@min">13168273</replace>
+	<replace sel="/wares/ware[@id='units_size_l_ice_collector_macro_ware']/price/@average">14786203</replace>
+	<replace sel="/wares/ware[@id='units_size_l_ice_collector_macro_ware']/price/@max">16404133</replace>
+	<replace sel="/wares/ware[@id='units_size_l_ice_collector_macro_ware']/production/@time">375</replace>
+	<replace sel="/wares/ware[@id='units_size_l_ice_collector_macro_ware']/production/primary/ware[@ware='hullparts']/@amount">14774</replace>
+
+	
+    <!-- Boann -->
+	<replace sel="/wares/ware[@id='units_size_l_hydrogen_collector_ware']/price/@min">14466934</replace>
+	<replace sel="/wares/ware[@id='units_size_l_hydrogen_collector_ware']/price/@average">16314040</replace>
+	<replace sel="/wares/ware[@id='units_size_l_hydrogen_collector_ware']/price/@max">18161145</replace>
+	<replace sel="/wares/ware[@id='units_size_l_hydrogen_collector_ware']/production/primary/ware[@ware='hullparts']/@amount">15655</replace>	
+	<remove sel="/wares/ware[@id='units_size_l_hydrogen_collector_ware']/owner[@faction='buccaneers']"/>	
+
+	
+	<!-- Millenium -->	
+	<replace sel="/wares/ware[@id='units_tel_trans_xl_ware']/price/@min">14703706</replace>
+	<replace sel="/wares/ware[@id='units_tel_trans_xl_ware']/price/@average">16945537</replace>
+	<replace sel="/wares/ware[@id='units_tel_trans_xl_ware']/price/@max">19187367</replace>
+	<replace sel="/wares/ware[@id='units_tel_trans_xl_ware']/production/@time">600</replace>
+	<replace sel="/wares/ware[@id='units_tel_trans_xl_ware']/production/primary/ware[@ware='energycells']/@amount">19212</replace>
+	<replace sel="/wares/ware[@id='units_tel_trans_xl_ware']/production/primary/ware[@ware='hullparts']/@amount">12841</replace>
+	<replace sel="/wares/ware[@id='units_tel_trans_xl_ware']/restriction/@licence">generaluseship</replace>		
+	<remove sel="/wares/ware[@id='units_tel_trans_xl_ware']/owner[@faction='scaleplate']"/>		
+
+
+	<!-- Sucellus -->
+	<replace sel="/wares/ware[@id='units_sucellus_mk1_ware']/price/@min">19280728</replace>
+	<replace sel="/wares/ware[@id='units_sucellus_mk1_ware']/price/@average">22683210</replace>
+	<replace sel="/wares/ware[@id='units_sucellus_mk1_ware']/price/@max">26085691</replace>  
+	<replace sel="/wares/ware[@id='units_sucellus_mk1_ware']/production/primary/ware[@ware='computronicsubstrate']/@amount">539</replace>
+	<replace sel="/wares/ware[@id='units_sucellus_mk1_ware']/production/primary/ware[@ware='energycells']/@amount">20437</replace>
+	<replace sel="/wares/ware[@id='units_sucellus_mk1_ware']/production/primary/ware[@ware='metallicmicrolattice']/@amount">903</replace>  
+  
+	
+	<!-- Klendathu -->
+	<replace sel="/wares/ware[@id='units_size_l_canteran_dest_a_ware']/price/@min">10075092</replace>
+	<replace sel="/wares/ware[@id='units_size_l_canteran_dest_a_ware']/price/@average">11853052</replace>
+	<replace sel="/wares/ware[@id='units_size_l_canteran_dest_a_ware']/price/@max">13631010</replace>
+ 	<replace sel="/wares/ware[@id='units_size_l_canteran_dest_a_ware']/production/primary/ware[@ware='computronicsubstrate']/@amount">427</replace>
+	<replace sel="/wares/ware[@id='units_size_l_canteran_dest_a_ware']/production/primary/ware[@ware='energycells']/@amount">3416</replace>
+	<replace sel="/wares/ware[@id='units_size_l_canteran_dest_a_ware']/production/primary/ware[@ware='metallicmicrolattice']/@amount">711</replace>   
+
+	
+	<!-- Centurion -->
+	<replace sel="/wares/ware[@id='units_size_l_canteran_transporter_ware']/price/@min">8648448</replace>
+	<replace sel="/wares/ware[@id='units_size_l_canteran_transporter_ware']/price/@average">9998176</replace>
+	<replace sel="/wares/ware[@id='units_size_l_canteran_transporter_ware']/price/@max">11347902</replace>
+ 	<replace sel="/wares/ware[@id='units_size_l_canteran_transporter_ware']/production/primary/ware[@ware='computronicsubstrate']/@amount">313</replace>
+	<replace sel="/wares/ware[@id='units_size_l_canteran_transporter_ware']/production/primary/ware[@ware='energycells']/@amount">2574</replace>
+	<replace sel="/wares/ware[@id='units_size_l_canteran_transporter_ware']/production/primary/ware[@ware='metallicmicrolattice']/@amount">448</replace>   
+
+
+	<!-- Mirage Gas -->
+ 	<replace sel="/wares/ware[@id='units_size_l_canteran_liquid_a_ware']/production/primary/ware[@ware='computronicsubstrate']/@amount">152</replace>
+	<replace sel="/wares/ware[@id='units_size_l_canteran_liquid_a_ware']/production/primary/ware[@ware='energycells']/@amount">541</replace>
+	<replace sel="/wares/ware[@id='units_size_l_canteran_liquid_a_ware']/production/primary/ware[@ware='metallicmicrolattice']/@amount">248</replace>   
+	
+
+	<!-- Mirage Solid --> 	
+ 	<replace sel="/wares/ware[@id='units_size_l_canteran_solid_a_ware']/production/primary/ware[@ware='computronicsubstrate']/@amount">152</replace>
+	<replace sel="/wares/ware[@id='units_size_l_canteran_solid_a_ware']/production/primary/ware[@ware='energycells']/@amount">541</replace>
+	<replace sel="/wares/ware[@id='units_size_l_canteran_solid_a_ware']/production/primary/ware[@ware='metallicmicrolattice']/@amount">248</replace>   		
+	
 		
-		<ware id="ishield_units_size_l_canteran_liquid_a" name="Mirage Gas Internal Generator" description="Mirage Liquid Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="1" average="1" max="1" />
-			<component ref="ishield_units_size_l_canteran_liquid_a_macro" amount="1" />
-			<use threshold="0" />
-		</ware>	
-		
-		<ware id="ishield_units_size_l_canteran_solid_a" name="Mirage Solid Internal Generator" description="Mirage Solid Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="1" average="1" max="1" />
-			<component ref="ishield_units_size_l_canteran_solid_a_macro" amount="1" />
-			<use threshold="0" />			
-		</ware>
-		
-		<ware id="ishield_units_taranis_mk1" name="Taranis Internal Generator" description="Taranis Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="1" average="1" max="1" />
-			<component ref="ishield_units_taranis_mk1_macro" amount="1" />
-			<use threshold="0" />
-		</ware>
-		
-		<ware id="ishield_units_tel_trans_xl" name="Millenium Internal Generator" description="Millenium Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
-			<price min="1" average="1" max="1" />
-			<component ref="ishield_units_tel_trans_xl_macro" amount="1" />
-			<use threshold="0" />
-		</ware>		
-	</add>	
+
+	<!-- Removed Ships -->
+  <remove sel="/wares/ware[@id='units_size_xl_omicron_battleship_b_ware']"/>
+  <remove sel="/wares/ware[@id='units_size_l_single_attack_ship_ware']"/>  
+  <remove sel="/wares/ware[@id='units_size_xl_split_m1_ware']"/>
+  <remove sel="/wares/ware[@id='units_size_l_split_m7_ware']"/>
+  <remove sel="/wares/ware[@id='units_size_l_sp_energy_01_ware']"/> 
+  <remove sel="/wares/ware[@id='units_size_l_sp_kit_collector_liquid_ware']"/>
+  <remove sel="/wares/ware[@id='units_size_l_sp_container_01_ware']"/>	
+  <remove sel="/wares/ware[@id='units_arg_size_l_dest_b_ware']"/>
+  <remove sel="/wares/ware[@id='units_size_xl_cargo_hauler_2_ware']"/>
+  <remove sel="/wares/ware[@id='units_arg_trans_xl_ware']"/>
+  <remove sel="/wares/ware[@id='units_size_l_crystal_collector_macro_ware']"/>
+  <remove sel="/wares/ware[@id='units_size_l_liquid_freighter_macro_ware']"/>
+  <remove sel="/wares/ware[@id='units_arg_size_l_liquid_a_macro_ware']"/>
+  <remove sel="/wares/ware[@id='units_arg_size_l_liquid_b_macro_ware']"/>
+  <remove sel="/wares/ware[@id='units_arg_size_l_trans_a_macro_ware']"/>
+  <remove sel="/wares/ware[@id='units_arg_size_l_trans_b_macro_ware']"/>
+  <remove sel="/wares/ware[@id='units_size_l_combat_b_ware']"/>
+  <remove sel="/wares/ware[@id='units_size_l_combat_a_ware']"/>
+  <remove sel="/wares/ware[@id='units_arg_size_l_dest_a_ware']"/>
+  <remove sel="/wares/ware[@id='units_size_xl_avenger_ware']"/>
+  <remove sel="/wares/ware[@id='units_size_xl_avenger_mk2_ware']"/>
+  <remove sel="/wares/ware[@id='units_size_xl_cargo_hauler_3_ware']"/>
+  <remove sel="/wares/ware[@id='units_omi_size_xl_battle_a_ware']"/>
+  <remove sel="/wares/ware[@id='units_size_xl_omicron_carrier_a_ware']"/>
+  <remove sel="/wares/ware[@id='units_size_l_omicron_destroyer_b_ware']"/>
+  <remove sel="/wares/ware[@id='units_size_l_omicron_destroyer_a_ware']"/>
+  <remove sel="/wares/ware[@id='units_size_l_omicron_trans_a_ware']"/>
+  <remove sel="/wares/ware[@id='units_size_l_omicron_trans_b_ware']"/>
+  <remove sel="/wares/ware[@id='units_size_xl_omicron_trans_ware']"/>	
+  <remove sel="/wares/ware[@id='units_ter_size_xl_bat_a_ware']"/>
+  <remove sel="/wares/ware[@id='units_size_l_tel_dest_a_ware']"/>
+  <remove sel="/wares/ware[@id='units_tel_battleship_ware']"/>
+  <remove sel="/wares/ware[@id='units_tel_battleship_b_ware']"/>
+  <remove sel="/wares/ware[@id='units_size_l_ions_collector_ware']"/>
+  <remove sel="/wares/ware[@id='units_tel_size_l_liquid_a_ware']"/>
+  <remove sel="/wares/ware[@id='units_tel_size_l_solid_a_ware']"/>
+  <remove sel="/wares/ware[@id='units_tel_size_l_trans_a_ware']"/>
+  <remove sel="/wares/ware[@id='units_tel_size_l_dest_b_ware']"/>
+
+  
+    <!-- Internal Generators -->
+
+  <replace sel="/wares/ware[@id='units_size_l_xenon_ls_02_ware']">
+    <ware id="ishield_units_size_l_canteran_transporter" name="Centurion Internal Generator" description="Centurion Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
+      <price min="1" average="1" max="1"/>
+      <component ref="ishield_units_size_l_canteran_transporter_macro" amount="1"/>
+      <use threshold="0"/>
+    </ware>
+  </replace>
+  <add sel="/wares">
+    <ware id="ishield_units_arawn_mk1" name="Arawn Internal Generator" description="Arawn Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
+      <price min="1" average="1" max="1"/>
+      <component ref="ishield_units_arawn_mk1_macro" amount="1"/>
+      <use threshold="0"/>
+    </ware>
+  </add>
+  <add sel="/wares">
+    <ware id="ishield_units_size_l_hydrogen_collector" name="Hercules Internal Generator" description="Boann Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
+      <price min="1" average="1" max="1"/>
+      <component ref="ishield_units_size_l_hydrogen_collector_macro" amount="1"/>
+      <use threshold="0"/>
+    </ware>
+  </add>
+  <add sel="/wares">
+    <ware id="ishield_units_size_l_ice_collector" name="Sulaco Internal Generator" description="Sulaco Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
+      <price min="1" average="1" max="1"/>
+      <component ref="ishield_units_size_l_ice_collector_macro" amount="1"/>
+      <use threshold="0"/>
+    </ware>
+  </add>
+  <add sel="/wares">
+    <ware id="ishield_units_sucellus_mk1" name="Devastator Internal Generator" description="Sucellus Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
+      <price min="1" average="1" max="1"/>
+      <component ref="ishield_units_sucellus_mk1_macro" amount="1"/>
+      <use threshold="0"/>
+    </ware>
+  </add>
+  <add sel="/wares">
+    <ware id="ishield_units_kha_l_dest_01" name="Queen Internal Generator" description="Queen Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
+      <price min="1" average="1" max="1"/>
+      <component ref="ishield_units_kha_l_dest_01_macro" amount="1"/>
+      <use threshold="0"/>
+    </ware>
+  </add>
+  <add sel="/wares">
+    <ware id="ishield_units_size_l_canteran_dest_a" name="Klendathu Internal Generator" description="Klendathu Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
+      <price min="1" average="1" max="1"/>
+      <component ref="ishield_units_size_l_canteran_dest_a_macro" amount="1"/>
+      <use threshold="0"/>
+    </ware>
+  </add>
+  <add sel="/wares">
+    <ware id="ishield_units_size_l_canteran_liquid_a" name="Mirage Gas Internal Generator" description="Mirage Liquid Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
+      <price min="1" average="1" max="1"/>
+      <component ref="ishield_units_size_l_canteran_liquid_a_macro" amount="1"/>
+      <use threshold="0"/>
+    </ware>
+  </add>
+  <add sel="/wares">
+    <ware id="ishield_units_size_l_canteran_solid_a" name="Mirage Solid Internal Generator" description="Mirage Solid Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
+      <price min="1" average="1" max="1"/>
+      <component ref="ishield_units_size_l_canteran_solid_a_macro" amount="1"/>
+      <use threshold="0"/>
+    </ware>
+  </add>
+  <add sel="/wares">
+    <ware id="ishield_units_taranis_mk1" name="Taranis Internal Generator" description="Taranis Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
+      <price min="1" average="1" max="1"/>
+      <component ref="ishield_units_taranis_mk1_macro" amount="1"/>
+      <use threshold="0"/>
+    </ware>
+  </add>
+  <add sel="/wares">
+    <ware id="ishield_units_tel_trans_xl" name="Millenium Internal Generator" description="Millenium Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
+      <price min="1" average="1" max="1"/>
+      <component ref="ishield_units_tel_trans_xl_macro" amount="1"/>
+      <use threshold="0"/>
+    </ware>
+  </add>
 </diff>
