@@ -1,4 +1,4 @@
-### THESE SHIPS, THE VAST BULK OF THE INCLUDED CODE, AND ALL THE TIME AND EFFORT TO CREATE THE ORIGINAL 2 MODS ARE THE WORK OF MACBAIN81 AND THOSE WHO HELPED HIM. I HAVE ONLY CURATED THE SELECTION OF SHIPS, PERFORMED BALANCE PASS, AND MADE SOME ALTERATIONS TO SHIP CATEGORIES ###
+### Heavily trimmed version of XR_Ships with built-in VRO compatibility. Big thanks to MacBain81 for the original mod and to Sira for helping me assemble xmls ###
 
 The original mods are found at -- https://www.nexusmods.com/x4foundations/mods/354 and https://www.nexusmods.com/x4foundations/mods/420
 
