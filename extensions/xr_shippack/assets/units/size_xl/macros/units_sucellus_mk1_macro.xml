@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+<replace sel="//macros">
+<macros>
+	<macro name="units_sucellus_mk1_macro" class="ship_xl">
+    <component ref="units_sucellus_mk1" />
+    <properties>
+      <identification name="{87103,55505}" basename="{87100,55505}" description="{87101,55505}" shortvariation="{87100,55505}" icon="ship_xl_battleship" />
+	  <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" default="1" />
+        <software ware="software_trademk1" compatible="1" />
+      </software>
+      <explosiondamage value="1500" shield="9500" />
+	  <storage missile="200" unit="20" countermeasure="50" deployable="100" />
+      <hull max="582000" />
+      <secrecy level="2" />
+      <purpose primary="fight" />
+	  <people capacity="211" />
+	  <sounds>
+        <shipdetail ref="shipdetail_ship_xl_01" />
+      </sounds>
+      <physics mass="697.134">
+        <inertia pitch="513.044" yaw="474.044" roll="425.635" />
+        <drag forward="210.84" reverse="350.362" horizontal="259.503" vertical="389.503" pitch="609.84" yaw="609.84" roll="609.84" />
+      </physics>
+      <thruster tags="extralarge" />
+      <ship type="battleship" />
+	  <radar range="85000" />
+    </properties>	
+	
+    <connections>	
+		<connection ref="connection_bridge_xl">
+			<macro>
+				<component ref="bridge_units_xl" connection="Connection01" />
+			</macro>
+		</connection>
+		<connection ref="connection_radar_external01">
+			<macro>
+				<component ref="props_units_radar" connection="Connection01" />
+			</macro>
+		</connection>
+		<connection ref="con_cockpit">
+			<macro ref="bridge_ter_xl_01_macro" connection="con_cockpit" />
+		</connection>
+		<connection ref="con_storage01">
+			<macro ref="storage_units_sucellus_mk1_macro" connection="ShipConnection" />
+		</connection>	  
+		<connection ref="con_dockarea_arg_s_ship_01">
+			<macro ref="dockarea_arg_s_ship_01_macro" connection="Connection01" />
+		</connection>
+		<connection ref="con_dockarea_arg_s_ship_02">
+			<macro ref="dockarea_arg_s_ship_01_macro" connection="Connection01" />
+		</connection>
+		
+		<connection ref="con_dock_xs">
+			<macro ref="dock_gen_xs_xrshippack_01_macro" connection="Connection_component" />
+		</connection>
+		
+		<connection ref="con_shipstorage_s_01">
+			<macro ref="ship_storage_s_ships_10_macro" connection="object" />
+		</connection>
+	
+	</connections>
+	</macro>
+</macros>	
+</replace>
+</diff>

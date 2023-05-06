@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+<replace sel="//macros">
+<macros>
+  <macro name="units_taranis_mk1_macro" class="ship_xl">
+    <component ref="units_taranis_mk1" />
+    <properties>
+	  <identification name="{87103,55503}" basename="{87100,55503}" description="{87101,55503}" shortvariation="{87100,55503}" icon="ship_xl_battleship" />
+	  <software>
+        <software ware="software_dockmk2" compatible="1" />
+        <software ware="software_flightassistmk1" default="1" />
+        <software ware="software_scannerlongrangemk2" compatible="1" />
+        <software ware="software_scannerobjectmk2" compatible="1" />
+        <software ware="software_targetmk1" default="1" />
+        <software ware="software_trademk1" compatible="1" />
+      </software>
+      <explosiondamage value="1500" shield="9500" />
+	  <storage missile="220" unit="20" countermeasure="50" deployable="100" />
+      <hull max="662000" />
+      <secrecy level="2" />
+      <purpose primary="fight" />
+	  <people capacity="219" />
+	  <sounds>
+        <shipdetail ref="shipdetail_ship_xl_01" />
+      </sounds>
+      <physics mass="679.202">
+        <inertia pitch="517.044" yaw="517.044" roll="493.635" />
+        <drag forward="210.0" reverse="350.362" horizontal="259.503" vertical="389.503" pitch="609.84" yaw="609.84" roll="609.84" />
+      </physics>
+      <thruster tags="extralarge" />
+      <ship type="battleship" />
+	  <radar range="85000" />
+    </properties>
+	
+    <connections>
+	  <connection ref="con_cockpit">
+        <macro ref="bridge_arg_xl_01_macro" connection="con_cockpit" />
+      </connection>
+	  <connection ref="con_storage01">
+        <macro ref="storage_units_taranis_mk1_macro" connection="ShipConnection" />
+      </connection>
+	  <connection ref="connection_bridge_xl">
+		<macro>
+			<component ref="bridge_units_xl" connection="Connection01" />
+		</macro>
+      </connection>
+	  <connection ref="connection_radar_external01">
+		<macro>
+			<component ref="props_units_radar" connection="Connection01" />
+		</macro>
+	  </connection>
+	  
+      <connection ref="con_dock_xs">
+        <macro ref="dock_gen_xs_xrshippack_01_macro" connection="Connection_component" />
+      </connection>
+	  <connection ref="con_shipstorage_s_01">
+        <macro ref="ship_storage_s_ships_20_macro" connection="object" />
+      </connection>
+	  <connection ref="con_shipstorage_s_02">
+        <macro ref="ship_storage_s_ships_10_macro" connection="object" />
+      </connection>
+      <connection ref="con_shipstorage_xs_01">
+        <macro ref="shipstorage_gen_xs_01_macro" connection="object" />
+      </connection> 
+	  <connection ref="con_dockarea_sdock_1">
+        <macro ref="dockarea_arg_s_ship_01_macro" connection="Connection01" />
+      </connection>
+	  <connection ref="con_dockarea_sdock_2">
+        <macro ref="dockarea_arg_s_ship_01_macro" connection="Connection01" />
+      </connection>
+	  <connection ref="con_dockarea_sdock_3">
+        <macro ref="dockarea_arg_s_ship_01_macro" connection="Connection01" />
+      </connection>
+	  <connection ref="con_dockarea_sdock_4">
+        <macro ref="dockarea_arg_s_ship_01_macro" connection="Connection01" />
+      </connection>
+	  <connection ref="con_dockarea_sdock_5">
+        <macro ref="dockarea_arg_s_ship_01_macro" connection="Connection01" />
+      </connection>
+	  <connection ref="con_dockarea_sdock_6">
+        <macro ref="dockarea_arg_s_ship_01_macro" connection="Connection01" />
+      </connection>
+	  
+	  
+	  <connection ref="connection_destructible_small01">
+        <macro ref="props_units_explosive_tank_macro" connection="Connection01" />
+      </connection>
+      <connection ref="connection_destructible_small02">
+        <macro ref="props_units_explosive_tank_macro" connection="Connection01" />
+      </connection>
+      <connection ref="connection_destructible_small03">
+        <macro ref="props_units_explosive_tank_macro" connection="Connection01" />
+      </connection>
+      <connection ref="connection_destructible_small04">
+        <macro ref="props_units_explosive_tank_macro" connection="Connection01" />
+      </connection>
+      <connection ref="connection_destructible_small05">
+        <macro ref="props_units_explosive_tank_macro" connection="Connection01" />
+      </connection>
+      <connection ref="connection_destructible_small06">
+        <macro ref="props_units_explosive_tank_macro" connection="Connection01" />
+      </connection>
+      <connection ref="connection_destructible_small07">
+        <macro ref="props_units_explosive_tank_macro" connection="Connection01" />
+      </connection>
+      <connection ref="connection_destructible_small08">
+        <macro ref="props_units_explosive_tank_macro" connection="Connection01" />
+      </connection>	  
+    </connections>
+  </macro>
+</macros>
+</replace>
+</diff>
