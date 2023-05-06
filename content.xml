@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<content id="Trimmed_XR" name="Trimmed_XR" description="Heavily trimmed version of XRShips which has been balanced for VRO" author="MacBain81, curated by Entissus" version="1.2" date="2023-04-28" save="1">
+<content id="xr_vro_trimmed" name="XR VRO Trimmed" description="Heavily trimmed version of XRShips which has been balanced for VRO" author="MacBain81, curated by Entissus" version="130" date="2023-05-05" save="1" enabled="1">
   <dependency id="ego_dlc_split" optional="false" name="Split Vendetta"/>
   <dependency id="ego_dlc_terran" optional="false" name="Cradle of Humanity"/>
   <dependency id="ego_dlc_pirate" optional="false" name="Tides of Avarice"/>
   <dependency id="ego_dlc_boron" optional="false" name="Kingdom End"/>
   <dependency id="ws_1696862840" optional="false" name="Variety and Rebalance Overhaul" />
+  <dependency id="ws_1905655811" optional="false" name="XR ShipPack"/>      
 </content>
