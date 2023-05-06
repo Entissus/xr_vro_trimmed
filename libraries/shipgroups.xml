@@ -1,87 +1,166 @@
-<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version='1.0' encoding='utf-8'?>
 <diff>
-<!-- Argon -->
-	<add sel="//groups/group[@name='arg_carrier_xl']" >
-		<select macro="units_arawn_mk1_macro" weight="30"/>
-	</add>		
-	<add sel="//groups/group[@name='arg_miner_solid_l']" >
-		<select macro="units_size_l_ice_collector_macro" weight="30"/>
-	</add>	
-	
-<!-- Antigone -->
-	<add sel="//groups/group[@name='ant_battleship_xl']">
-		<select macro="units_taranis_mk1_macro" weight="40"/>
-	</add>		
-	<add sel="//groups/group[@name='ant_miner_solid_l']" >
-		<select macro="units_size_l_ice_collector_macro" weight="30" />
-	</add>	
+<!-- Argon -->  
+	<replace sel="/groups/group[@name='arg_carrier_xl']/select[@macro='units_arawn_mk1_macro']/@weight">30</replace>
+	<replace sel="/groups/group[@name='arg_miner_solid_l']/select[@macro='units_size_l_crystal_collector_macro']/@macro">units_size_l_ice_collector_macro</replace>
+	<replace sel="/groups/group[@name='arg_miner_solid_l']/select[@macro='units_size_l_ice_collector_macro']/@weight">30</replace>
 
-<!-- Paranid -->	
-	<add sel="//groups/group[@name='tri_miner_liquid_l']" >
-		<select macro="units_size_l_hydrogen_collector_macro" weight="40" />
-	</add>
-	<add sel="//groups/group[@name='tri_miner_liquid_mixed']">
-		<select macro="units_size_l_hydrogen_collector_macro" weight="15" />
-	</add>
-	<add sel="//groups/group[@name='par_miner_liquid_l']" >
-		<select macro="units_size_l_hydrogen_collector_macro" weight="40" />
-	</add>	
-	<add sel="//groups/group[@name='par_miner_liquid_mixed']" >
-		<select macro="units_size_l_hydrogen_collector_macro" weight="15" />
-	</add>
-	<add sel="//groups/group[@name='hol_miner_liquid_l']" >
-		<select macro="units_size_l_hydrogen_collector_macro" weight="40" />
-	</add>	
-	<add sel="//groups/group[@name='hol_miner_liquid_mixed']" >
-		<select macro="units_size_l_hydrogen_collector_macro" weight="15" />
-	</add>	
+	
+<!-- Antigone -->  
+	<replace sel="/groups/group[@name='ant_miner_solid_l']/select[@macro='units_size_l_crystal_collector_macro']/@macro">units_size_l_ice_collector_macro</replace>
+	<replace sel="/groups/group[@name='ant_miner_solid_l']/select[@macro='units_size_l_ice_collector_macro']/@weight">30</replace>
 
-<!-- Teladi -->
-	<add sel="//groups/group[@name='tel_trader_container_l']" >
-		<select macro="units_tel_trans_xl_macro" weight="20" />
-	</add>	
 	
-<!-- Terrans -->	
-	<add sel="//groups/group[@name='ter_miner_solid_l']" >
-		<select macro="units_size_l_canteran_solid_a_macro" weight="40" />
-	</add>		
-	<add sel="//groups/group[@name='ter_miner_solid_mixed']" >
-		<select macro="units_size_l_canteran_solid_a_macro" weight="15" />
-	</add>	
-	<add sel="//groups/group[@name='ter_miner_liquid_l']" >
-		<select macro="units_size_l_canteran_liquid_a_macro" weight="40" />
-	</add>		
-	<add sel="//groups/group[@name='ter_miner_liquid_mixed']" >
-		<select macro="units_size_l_canteran_liquid_a_macro" weight="15" />
-	</add>	
-	
-	<add sel="//groups/group[@name='atf_battleship_xl']" >
-		<select macro="units_sucellus_mk1_macro" weight="45" />
-	</add>		
-	<add sel="//groups/group[@name='atf_destroyer_l']" >
-		<select macro="units_size_l_canteran_dest_a_macro" weight="45" />
-		<select macro="units_size_l_canteran_transporter_macro" weight="45" />
-	</add>	
-	<add sel="//groups/group[@name='teratf_destroyer_l']" >
-		<select macro="units_size_l_canteran_dest_a_macro" weight="45" />
-		<select macro="units_size_l_canteran_transporter_macro" weight="45" />
-	</add>			
+<!-- Paranid -->  
+	<replace sel="/groups/group[@name='par_miner_liquid_l']/select[@macro='units_size_l_hydrogen_collector_macro']/@weight">40</replace>
+	<replace sel="/groups/group[@name='par_miner_liquid_mixed']/select[@macro='units_size_l_hydrogen_collector_macro']/@weight">15</replace>
+	<!---->
+	<replace sel="/groups/group[@name='hol_miner_liquid_l']/select[@macro='units_size_l_hydrogen_collector_macro']/@weight">40</replace>
+	<replace sel="/groups/group[@name='hol_miner_liquid_mixed']/select[@macro='units_size_l_hydrogen_collector_macro']/@weight">15</replace>
+	<!---->
+	<replace sel="/groups/group[@name='tri_miner_liquid_l']/select[@macro='units_size_l_hydrogen_collector_macro']/@weight">40</replace>
+	<replace sel="/groups/group[@name='tri_miner_liquid_mixed']/select[@macro='units_size_l_hydrogen_collector_macro']/@weight">15</replace>
 
-<!-- Kha'ak -->
-	<add sel="//groups">
-		<group name="kha_destroyer_l">
-			<select macro="units_kha_l_dest_01_macro" weight="100" />
-		</group>
-	</add>
 	
-<!-- Misc. -->
-	<add sel="//groups/group[@name='mixed_miner_solid_l']" >
-		<select macro="units_size_l_hydrogen_collector_macro" weight="415" />
-		<select macro="units_size_l_ice_collector_macro" weight="415"/>
-	</add>
-	<add sel="//groups/group[@name='mixed_miner_liquid_l']" >
-		<select macro="units_size_l_hydrogen_collector_macro" weight="415" />
-		<select macro="units_size_l_ice_collector_macro" weight="415"/>	
-	</add>		
+<!-- Teladi -->  
+	<replace sel="/groups/group[@name='tel_trader_container_l']/select[@macro='units_tel_trans_xl_macro']/@weight">20</replace>
+
+	
+<!-- Terran -->
+	<replace sel="/groups/group[@name='atf_battleship_xl']/select[@macro='units_sucellus_mk1_macro']/@weight">45</replace>
+	<replace sel="/groups/group[@name='atf_destroyer_l']/select[@macro='ship_atf_l_destroyer_01_a_macro']/@weight">100</replace>
+	<replace sel="/groups/group[@name='atf_destroyer_l']/select[@macro='units_size_l_canteran_dest_a_macro']/@weight">45</replace>
+	<replace sel="/groups/group[@name='atf_destroyer_l']/select[@macro='units_size_l_canteran_transporter_macro']/@weight">45</replace>  
+	<replace sel="/groups/group[@name='teratf_destroyer_l']/select[@macro='ship_ter_l_destroyer_01_a_macro']/@weight">100</replace>
+	<replace sel="/groups/group[@name='teratf_destroyer_l']/select[@macro='units_size_l_canteran_dest_a_macro']/@weight">45</replace>
+	<replace sel="/groups/group[@name='teratf_destroyer_l']/select[@macro='units_size_l_canteran_transporter_macro']/@weight">45</replace> 
+	<replace sel="/groups/group[@name='ter_miner_solid_l']/select[@macro='units_size_l_canteran_solid_a_macro']/@weight">40</replace>
+	<replace sel="/groups/group[@name='ter_miner_liquid_l']/select[@macro='units_size_l_canteran_liquid_a_macro']/@weight">40</replace>
+	<replace sel="/groups/group[@name='ter_miner_solid_mixed']/select[@macro='units_size_l_canteran_solid_a_macro']/@weight">15</replace>
+	<replace sel="/groups/group[@name='ter_miner_liquid_mixed']/select[@macro='units_size_l_canteran_liquid_a_macro']/@weight">15</replace>  
+
+	
+<!-- Xenon -->
+	<!-- TBD -->
+
+	
+<!-- Kha'ak -->  
+	<!-- TBD -->	
+
+	
+<!-- Mixed --> 
+	<replace sel="/groups/group[@name='mixed_miner_solid_l']/select[@macro='units_size_l_canteran_solid_a_macro']/@macro">units_size_l_hydrogen_collector_macro</replace>
+	<replace sel="/groups/group[@name='mixed_miner_solid_l']/select[@macro='units_size_l_hydrogen_collector_macro']/@weight">415</replace>
+	<replace sel="/groups/group[@name='mixed_miner_solid_l']/select[@macro='units_tel_size_l_solid_a_macro']/@macro">units_size_l_ice_collector_macro</replace>
+	<replace sel="/groups/group[@name='mixed_miner_solid_l']/select[@macro='units_size_l_ice_collector_macro'][@weight='330'][1]/@weight">415</replace> 
+	<!---->
+	<replace sel="/groups/group[@name='mixed_miner_liquid_l']/select[@macro='units_size_l_ions_collector_macro']/@macro">units_size_l_hydrogen_collector_macro</replace>
+	<replace sel="/groups/group[@name='mixed_miner_liquid_l']/select[@macro='units_size_l_hydrogen_collector_macro'][@weight='330']/@weight">415</replace>
+	<replace sel="/groups/group[@name='mixed_miner_liquid_l']/select[@macro='units_tel_size_l_liquid_a_macro']/@macro">units_size_l_ice_collector_macro</replace>
+	<replace sel="/groups/group[@name='mixed_miner_liquid_l']/select[@macro='units_size_l_ice_collector_macro']/@weight">415</replace>
+
+	
+	
+<!-- Removed Groups -->
+	<!-- Argon -->
+  <remove sel="/groups/group[@name='arg_trader_container_l']/select[@macro='units_size_xl_cargo_hauler_2_macro']"/>
+  <remove sel="/groups/group[@name='arg_miner_liquid_l']/select[@macro='units_size_l_liquid_freighter_macro']"/>
+  <remove sel="/groups/group[@name='arg_miner_solid_mixed']/select[@macro='units_size_l_crystal_collector_macro']"/>
+  <remove sel="/groups/group[@name='arg_miner_solid_mixed']/select[@macro='units_size_l_ice_collector_macro']"/>
+  <remove sel="/groups/group[@name='arg_miner_liquid_mixed']/select[@macro='units_size_l_liquid_freighter_macro']"/>
+  <remove sel="/groups/group[@name='arg_miner_liquid_mixed']/select[@macro='units_arg_size_l_liquid_a_macro']"/>
+  <remove sel="/groups/group[@name='arg_miner_liquid_mixed']/select[@macro='units_arg_size_l_liquid_b_macro']"/>
+  <remove sel="/groups/group[@name='arg_destroyer_l']/select[@macro='units_size_l_single_attack_ship_macro']"/>
+  <remove sel="/groups/group[@name='arg_destroyer_l']/select[@macro='units_arg_size_l_dest_b_macro']"/>
+  
+	<!-- Antigone -->
+  <remove sel="/groups/group[@name='ant_trader_container_l']/select[@macro='units_arg_trans_xl_macro']"/>
+  <remove sel="/groups/group[@name='ant_trader_container_l']/select[@macro='units_arg_size_l_trans_a_macro']"/>
+  <remove sel="/groups/group[@name='ant_trader_container_l']/select[@macro='units_arg_size_l_trans_b_macro']"/>
+  <remove sel="/groups/group[@name='ant_miner_liquid_l']/select[@macro='units_size_l_liquid_freighter_macro']"/>
+  <remove sel="/groups/group[@name='ant_miner_liquid_l']/select[@macro='units_arg_size_l_liquid_a_macro']"/>
+  <remove sel="/groups/group[@name='ant_miner_liquid_l']/select[@macro='units_arg_size_l_liquid_b_macro']"/>
+  <remove sel="/groups/group[@name='ant_miner_solid_mixed']/select[@macro='units_size_l_crystal_collector_macro']"/>
+  <remove sel="/groups/group[@name='ant_miner_solid_mixed']/select[@macro='units_size_l_ice_collector_macro']"/>
+  <remove sel="/groups/group[@name='ant_miner_liquid_mixed']/select[@macro='units_size_l_liquid_freighter_macro']"/>
+  <remove sel="/groups/group[@name='ant_miner_liquid_mixed']/select[@macro='units_arg_size_l_liquid_a_macro']"/>
+  <remove sel="/groups/group[@name='ant_miner_liquid_mixed']/select[@macro='units_arg_size_l_liquid_b_macro']"/>
+  <remove sel="/groups/group[@name='ant_carrier_xl']/select[@macro='units_size_xl_cargo_hauler_3_macro']"/>
+  <remove sel="/groups/group[@name='ant_destroyer_l']/select[@macro='units_size_l_combat_a_macro']"/>
+  <remove sel="/groups/group[@name='ant_destroyer_l']/select[@macro='units_size_l_combat_b_macro']"/>
+  <remove sel="/groups/group[@name='ant_destroyer_l']/select[@macro='units_arg_size_l_dest_a_macro']"/>
+  
+	<!-- Paranid -->  
+  <remove sel="/groups/group[@name='hol_trader_container_l']/select[@macro='units_size_xl_omicron_trans_macro']"/>
+  <remove sel="/groups/group[@name='hol_carrier_xl']/select[@macro='units_size_xl_omicron_carrier_a_macro']"/>
+  <remove sel="/groups/group[@name='tri_carrier_xl']/select[@macro='units_size_xl_omicron_carrier_a_macro']"/>
+  
+	<!-- Teladi -->  
+  <remove sel="/groups/group[@name='tel_trader_container_l']/select[@macro='units_tel_size_l_trans_a_macro']"/>
+  <remove sel="/groups/group[@name='tel_miner_solid_l']/select[@macro='units_tel_size_l_solid_a_macro']"/>
+  <remove sel="/groups/group[@name='tel_miner_liquid_l']/select[@macro='units_size_l_ions_collector_macro']"/>
+  <remove sel="/groups/group[@name='tel_miner_liquid_l']/select[@macro='units_tel_size_l_liquid_a_macro']"/>
+  <remove sel="/groups/group[@name='tel_miner_solid_mixed']/select[@macro='units_tel_size_l_solid_a_macro']"/>
+  <remove sel="/groups/group[@name='tel_miner_liquid_mixed']/select[@macro='units_size_l_ions_collector_macro']"/>
+  <remove sel="/groups/group[@name='tel_miner_liquid_mixed']/select[@macro='units_tel_size_l_liquid_a_macro']"/>
+  <remove sel="/groups/group[@name='tel_destroyer_l']/select[@macro='units_size_l_tel_dest_a_macro']"/>
+  <remove sel="/groups/group[@name='tel_destroyer_l']/select[@macro='units_tel_size_l_dest_b_macro']"/>
+
+	<!-- Split -->
+  <remove sel="/groups/group[@name='spl_trader_container_l']/select[@macro='units_size_l_sp_container_01_macro']"/>
+  <remove sel="/groups/group[@name='spl_miner_solid_l']/select[@macro='units_size_l_sp_energy_01_macro']"/>
+  <remove sel="/groups/group[@name='spl_miner_liquid_l']/select[@macro='units_size_l_sp_kit_collector_liquid_macro']"/>
+  <remove sel="/groups/group[@name='spl_miner_solid_mixed']/select[@macro='units_size_l_sp_energy_01_macro']"/>
+  <remove sel="/groups/group[@name='spl_miner_liquid_mixed']/select[@macro='units_size_l_sp_kit_collector_liquid_macro']"/>
+  <remove sel="/groups/group[@name='spl_destroyer_l']/select[@macro='units_size_l_split_m7_macro']"/>
+
+	<!-- Terran -->
+  <remove sel="/groups/group[@name='atf_battleship_xl']/select[@macro='units_ter_size_xl_bat_a_macro']"/>
+  
+	<!-- BUC/SCA -->  
+  <remove sel="/groups/group[@name='sca_pirate_l']/select[@macro='units_size_l_combat_a_macro']"/>
+  <remove sel="/groups/group[@name='sca_pirate_l']/select[@macro='units_size_l_combat_b_macro']"/>
+  <remove sel="/groups/group[@name='sca_pirate_l']/select[@macro='units_arg_size_l_dest_a_macro']"/>
+  <remove sel="/groups/group[@name='sca_pirate_l']/select[@macro='units_size_l_single_attack_ship_macro']"/>
+  <remove sel="/groups/group[@name='sca_pirate_l']/select[@macro='units_arg_size_l_dest_b_macro']"/>
+  <remove sel="/groups/group[@name='sca_pirate_l']/select[@macro='units_size_l_tel_dest_a_macro']"/>
+  <remove sel="/groups/group[@name='sca_pirate_l']/select[@macro='units_tel_size_l_dest_b_macro']"/>
+  <remove sel="/groups/group[@name='sca_pirate_l']/select[@macro='units_size_xl_avenger_macro']"/>
+  <remove sel="/groups/group[@name='buc_military_carrier_xl']/select[@macro='units_size_xl_cargo_hauler_3_macro']"/>
+  <remove sel="/groups/group[@name='buc_military_destroyer_l']/select[@macro='units_size_l_combat_a_macro']"/>
+  <remove sel="/groups/group[@name='buc_military_destroyer_l']/select[@macro='units_size_l_combat_b_macro']"/>
+  <remove sel="/groups/group[@name='buc_military_destroyer_l']/select[@macro='units_arg_size_l_dest_a_macro']"/>
+  <remove sel="/groups/group[@name='buc_military_destroyer_l']/select[@macro='units_size_l_single_attack_ship_macro']"/>
+  <remove sel="/groups/group[@name='buc_military_destroyer_l']/select[@macro='units_arg_size_l_dest_b_macro']"/>
+  <remove sel="/groups/group[@name='buc_military_destroyer_l']/select[@macro='units_size_xl_avenger_macro']"/>
+  <remove sel="/groups/group[@name='buc_military_destroyer_l']/select[@macro='units_omi_size_xl_battle_a_macro']"/>
+  <remove sel="/groups/group[@name='buc_military_destroyer_l']/select[@macro='units_sucellus_mk1_macro']"/>
+  <remove sel="/groups/group[@name='buc_military_destroyer_l']/select[@macro='units_size_l_canteran_dest_a_macro']"/>
+  <remove sel="/groups/group[@name='buc_military_destroyer_l']/select[@macro='units_size_l_canteran_transporter_macro']"/>
+  
+	<!-- Mixed --> 
+  <remove sel="/groups/group[@name='mixed_miner_solid_l']/select[@macro='units_size_l_ice_collector_macro'][@weight='330']"/>
+  <remove sel="/groups/group[@name='mixed_miner_solid_l']/select[@macro='units_size_l_crystal_collector_macro']"/>
+  <remove sel="/groups/group[@name='mixed_miner_liquid_l']/select[@macro='units_size_l_hydrogen_collector_macro'][@weight='130']"/>
+  <remove sel="/groups/group[@name='mixed_miner_liquid_l']/select[@macro='units_size_l_canteran_liquid_a_macro']"/>
+  <remove sel="/groups/group[@name='mixed_miner_liquid_l']/select[@macro='units_size_l_liquid_freighter_macro']"/>
+  <remove sel="/groups/group[@name='mixed_miner_liquid_l']/select[@macro='units_arg_size_l_liquid_a_macro']"/>
+  <remove sel="/groups/group[@name='mixed_miner_liquid_l']/select[@macro='units_arg_size_l_liquid_b_macro']"/>
+
+
+<!--
+  <remove sel="/groups/group[@name='arg_cyclops_l'][2]"/>
+  <remove sel="/groups/group[@name='par_hyperion_l'][2]"/> 
+  <remove sel="/groups/group[@name='hol_hyperion_l'][2]"/>
+  <remove sel="/groups/group[@name='tel_shrike_l'][2]"/>
+  <remove sel="/groups/group[@name='ter_lightcarrier_l'][2]"/>
+  
+  <remove sel="/groups/group[@name='arg_battleship_xl'][2]"/>
+  <remove sel="/groups/group[@name='ant_battleship_xl'][2]"/>
+  <remove sel="/groups/group[@name='par_battleship_xl'][2]"/>
+  <remove sel="/groups/group[@name='hol_battleship_xl'][2]"/>
+  <remove sel="/groups/group[@name='tri_battleship_xl']"/>
+  <remove sel="/groups/group[@name='tel_battleship_xl'][2]"/>
+  <remove sel="/groups/group[@name='spl_battleship_xl'][2]"/>
+-->  
 </diff>
