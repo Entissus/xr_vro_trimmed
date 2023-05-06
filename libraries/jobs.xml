@@ -1,29 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <diff>
-  <add sel="//jobs">
-	  <job id="khaak_destroyer_l_single" name="{20204,3401}">
-		<modifiers commandeerable="true"/>
-		<orders>
-		  <order order="Patrol" default="true">
-			<param name="range" value="class.sector"/>
-		  </order>
-		</orders>
-		<category faction="khaak" tags="[military, destroyer]" size="ship_l"/>
-		<quota galaxy="4"/>
-		<time interval="7200"/>
-		<location class="galaxy" macro="xu_ep2_universe_macro" matchextension="false">
-			<security min="0.0" max="0.5" />
-		</location>
-		<environment buildatshipyard="false" gate="true" spawninsector="false" spawnoutofsector="true"/>
-		<ship>
-		  <select faction="khaak" tags="[military, destroyer]" size="ship_l"/>
-		  <owner exact="khaak" overridenpc="true"/>
-		</ship>		
-		<subordinates>
-		  <subordinate job="khaak_fighter_escort_s"/>
-		  <subordinate job="khaak_fighter_escort_s"/>
-		</subordinates>		
-	  </job>	  
-  </add>
+  <remove sel="//jobs/job[@id='argon_carrier_patrol_xl_01']" />
+  <remove sel="//jobs/job[@id='argon_battleship_patrol_xl_01']" />
+  <remove sel="//jobs/job[@id='argon_battleship_patrol_xl_02']" />
+  <remove sel="//jobs/job[@id='argon_battleship_patrol_xl_03']" />
+  <remove sel="//jobs/job[@id='argon_battleship_escort_xl_01']" />
+  
+  <remove sel="//jobs/job[@id='antigone_carrier_patrol_xl_01']" />
+  <remove sel="//jobs/job[@id='antigone_battleship_patrol_xl_01']" />
+  <remove sel="//jobs/job[@id='antigone_battleship_patrol_xl_02']" />
+  <remove sel="//jobs/job[@id='antigone_battleship_patrol_xl_03']" />
+  <remove sel="//jobs/job[@id='antigone_battleship_escort_xl_01']" />
+  
+  <remove sel="//jobs/job[@id='paranid_carrier_patrol_xl_01']" />
+  <remove sel="//jobs/job[@id='paranid_battleship_patrol_xl_01']" />
+  <remove sel="//jobs/job[@id='paranid_battleship_patrol_xl_02']" />
+  <remove sel="//jobs/job[@id='paranid_battleship_patrol_xl_03']" />
+  <remove sel="//jobs/job[@id='paranid_battleship_escort_xl_01']" />
+  
+  <remove sel="//jobs/job[@id='holyorder_carrier_patrol_xl_01']" />
+  <remove sel="//jobs/job[@id='holyorder_battleship_patrol_xl_01']" />
+  <remove sel="//jobs/job[@id='holyorder_battleship_patrol_xl_02']" />
+  <remove sel="//jobs/job[@id='holyorder_battleship_patrol_xl_03']" />
+  <remove sel="//jobs/job[@id='holyorder_battleship_escort_xl_01']" />
+  <remove sel="//jobs/job[@id='holyorder_fighter_escort_s_carrier']" />
+  
+  <remove sel="//jobs/job[@id='trinity_carrier_patrol_xl_01']" />    
+  <remove sel="//jobs/job[@id='trinity_battleship_patrol_xl_01']" />
+  <remove sel="//jobs/job[@id='trinity_battleship_patrol_xl_02']" />
+  <remove sel="//jobs/job[@id='trinity_battleship_patrol_xl_03']" /> 
+  <remove sel="//jobs/job[@id='trinity_battleship_escort_xl_01']" />  
+  
+  <remove sel="//jobs/job[@id='teladi_carrier_patrol_xl_01']" />
+  <remove sel="//jobs/job[@id='teladi_battleship_patrol_xl_01']" />
+  <remove sel="//jobs/job[@id='teladi_battleship_patrol_xl_02']" />
+  <remove sel="//jobs/job[@id='teladi_battleship_patrol_xl_03']" />
+  
+  <remove sel="//jobs/job[@id='ministry_carrier_patrol_xl_01']" />
+  <remove sel="//jobs/job[@id='ministry_battleship_patrol_xl_01']" />
+  <remove sel="//jobs/job[@id='ministry_battleship_patrol_xl_02']" />
+  <remove sel="//jobs/job[@id='ministry_battleship_patrol_xl_03']" />
+  <remove sel="//jobs/job[@id='ministry_battleship_escort_xl_01']" />
+  
+  <remove sel="//jobs/job[@id='zyarth_carrier_patrol_xl_01']" />
+  <remove sel="//jobs/job[@id='zyarth_battleship_patrol_xl_01']" />
+  <remove sel="//jobs/job[@id='zyarth_battleship_patrol_xl_02']" />  
+  <remove sel="//jobs/job[@id='zyarth_battleship_patrol_xl_03']" />
+  <remove sel="//jobs/job[@id='zyarth_battleship_escort_xl_01']" />
+  
+  <remove sel="//jobs/job[@id='court_carrier_patrol_xl_01']" />
+  <remove sel="//jobs/job[@id='court_battleship_patrol_xl_01']" />
+  <remove sel="//jobs/job[@id='court_battleship_patrol_xl_02']" />
+  <remove sel="//jobs/job[@id='court_battleship_escort_xl_01']" />
+  
+  <remove sel="//jobs/job[@id='terran_carrier_patrol_xl_01']" />
+  <remove sel="//jobs/job[@id='terran_battleship_patrol_xl_01']" />
+  <remove sel="//jobs/job[@id='terran_battleship_patrol_xl_02']" />
+  <remove sel="//jobs/job[@id='terran_battleship_escort_xl_01']" /> 
+  
+  <remove sel="//jobs/job[@id='pioneers_destroyer_patrol_l_segaris_02']" />
+  <remove sel="//jobs/job[@id='pioneers_destroyer_patrol_l_exp_02']" />
+  <remove sel="//jobs/job[@id='pioneers_destroyer_escort_l']" /> 
+  
+  <remove sel="//jobs/job[@id='xenon_carrier_patrol_xl_02']" />
+  <remove sel="//jobs/job[@id='xenon_carrier_patrol_xl_border_cluster_02']" />
+  <remove sel="//jobs/job[@id='xenon_carrier_escort_xl_01']" />  
+   
 </diff>
