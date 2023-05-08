@@ -22,6 +22,9 @@ Terran/PIO
 -Mirage (Gas)
 -Mirage (Mineral)
 
+Xenon
+-Q
+
 Kha'ak
 -Queen
 
