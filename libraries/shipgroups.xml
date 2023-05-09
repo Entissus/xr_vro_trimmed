@@ -8,8 +8,7 @@
 	
 <!-- Antigone -->  
 	<replace sel="/groups/group[@name='ant_miner_solid_l']/select[@macro='units_size_l_crystal_collector_macro']/@macro">units_size_l_ice_collector_macro</replace>
-	<replace sel="/groups/group[@name='ant_miner_solid_l']/select[@macro='units_size_l_ice_collector_macro']/@weight">30</replace>
-
+	<replace sel="/groups/group[@name='ant_miner_solid_l']/select[@macro='units_size_l_ice_collector_macro']/@weight">30</replace> 	
 	
 <!-- Paranid -->  
 	<replace sel="/groups/group[@name='par_miner_liquid_l']/select[@macro='units_size_l_hydrogen_collector_macro']/@weight">40</replace>
@@ -71,7 +70,8 @@
   <remove sel="/groups/group[@name='arg_miner_liquid_mixed']/select[@macro='units_arg_size_l_liquid_a_macro']"/>
   <remove sel="/groups/group[@name='arg_miner_liquid_mixed']/select[@macro='units_arg_size_l_liquid_b_macro']"/>
   <remove sel="/groups/group[@name='arg_destroyer_l']/select[@macro='units_size_l_single_attack_ship_macro']"/>
-  <remove sel="/groups/group[@name='arg_destroyer_l']/select[@macro='units_arg_size_l_dest_b_macro']"/>
+  <remove sel="/groups/group[@name='arg_destroyer_l']/select[@macro='units_arg_size_l_dest_b_macro']"/> 
+  <remove sel="/groups/group[@name='arg_battleship_xl']"/>  
   
 	<!-- Antigone -->
   <remove sel="/groups/group[@name='ant_trader_container_l']/select[@macro='units_arg_trans_xl_macro']"/>
@@ -89,11 +89,15 @@
   <remove sel="/groups/group[@name='ant_destroyer_l']/select[@macro='units_size_l_combat_a_macro']"/>
   <remove sel="/groups/group[@name='ant_destroyer_l']/select[@macro='units_size_l_combat_b_macro']"/>
   <remove sel="/groups/group[@name='ant_destroyer_l']/select[@macro='units_arg_size_l_dest_a_macro']"/>
+  <remove sel="/groups/group[@name='ant_battleship_xl']"/> 
   
 	<!-- Paranid -->  
   <remove sel="/groups/group[@name='hol_trader_container_l']/select[@macro='units_size_xl_omicron_trans_macro']"/>
   <remove sel="/groups/group[@name='hol_carrier_xl']/select[@macro='units_size_xl_omicron_carrier_a_macro']"/>
   <remove sel="/groups/group[@name='tri_carrier_xl']/select[@macro='units_size_xl_omicron_carrier_a_macro']"/>
+  <remove sel="/groups/group[@name='par_battleship_xl']"/>
+  <remove sel="/groups/group[@name='hol_battleship_xl']"/>
+  <remove sel="/groups/group[@name='tri_battleship_xl']"/>  
   
 	<!-- Teladi -->  
   <remove sel="/groups/group[@name='tel_trader_container_l']/select[@macro='units_tel_size_l_trans_a_macro']"/>
@@ -105,6 +109,8 @@
   <remove sel="/groups/group[@name='tel_miner_liquid_mixed']/select[@macro='units_tel_size_l_liquid_a_macro']"/>
   <remove sel="/groups/group[@name='tel_destroyer_l']/select[@macro='units_size_l_tel_dest_a_macro']"/>
   <remove sel="/groups/group[@name='tel_destroyer_l']/select[@macro='units_tel_size_l_dest_b_macro']"/>
+  <remove sel="/groups/group[@name='tel_shrike_l']"/>  
+  <remove sel="/groups/group[@name='tel_battleship_xl']"/>  
 
 	<!-- Split -->
   <remove sel="/groups/group[@name='spl_trader_container_l']/select[@macro='units_size_l_sp_container_01_macro']"/>
@@ -113,9 +119,11 @@
   <remove sel="/groups/group[@name='spl_miner_solid_mixed']/select[@macro='units_size_l_sp_energy_01_macro']"/>
   <remove sel="/groups/group[@name='spl_miner_liquid_mixed']/select[@macro='units_size_l_sp_kit_collector_liquid_macro']"/>
   <remove sel="/groups/group[@name='spl_destroyer_l']/select[@macro='units_size_l_split_m7_macro']"/>
-
+  <remove sel="/groups/group[@name='spl_battleship_xl']"/>
+  
 	<!-- Terran -->
   <remove sel="/groups/group[@name='atf_battleship_xl']/select[@macro='units_ter_size_xl_bat_a_macro']"/>
+  <remove sel="/groups/group[@name='ter_lightcarrier_l']"/>
   
 	<!-- BUC/SCA -->  
   <remove sel="/groups/group[@name='sca_pirate_l']/select[@macro='units_size_l_combat_a_macro']"/>
@@ -152,15 +160,6 @@
   <remove sel="/groups/group[@name='arg_cyclops_l'][2]"/>
   <remove sel="/groups/group[@name='par_hyperion_l'][2]"/> 
   <remove sel="/groups/group[@name='hol_hyperion_l'][2]"/>
-  <remove sel="/groups/group[@name='tel_shrike_l'][2]"/>
-  <remove sel="/groups/group[@name='ter_lightcarrier_l'][2]"/>
-  
-  <remove sel="/groups/group[@name='arg_battleship_xl'][2]"/>
-  <remove sel="/groups/group[@name='ant_battleship_xl'][2]"/>
-  <remove sel="/groups/group[@name='par_battleship_xl'][2]"/>
-  <remove sel="/groups/group[@name='hol_battleship_xl'][2]"/>
-  <remove sel="/groups/group[@name='tri_battleship_xl']"/>
-  <remove sel="/groups/group[@name='tel_battleship_xl'][2]"/>
-  <remove sel="/groups/group[@name='spl_battleship_xl'][2]"/>
+
 -->  
 </diff>
