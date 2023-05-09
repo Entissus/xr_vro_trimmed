@@ -133,81 +133,77 @@
   
     <!-- Internal Generators -->
 
-  <replace sel="/wares/ware[@id='units_size_l_xenon_ls_02_ware']">
-    <ware id="ishield_units_size_l_canteran_transporter" name="Centurion Internal Generator" description="Centurion Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
-      <price min="1" average="1" max="1"/>
-      <component ref="ishield_units_size_l_canteran_transporter_macro" amount="1"/>
-      <use threshold="0"/>
-    </ware>
-  </replace>
   <add sel="/wares">
+    <ware id="ishield_units_size_l_xenon_ls_02" name="Q Internal Generator" description="Q Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
+	<price min="1" average="1" max="1" />
+	<component ref="ishield_units_size_l_xenon_ls_02_macro" amount="1" />
+	<use threshold="0" />
+    </ware>		
+ 
     <ware id="ishield_units_arawn_mk1" name="Arawn Internal Generator" description="Arawn Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
       <price min="1" average="1" max="1"/>
       <component ref="ishield_units_arawn_mk1_macro" amount="1"/>
       <use threshold="0"/>
     </ware>
-  </add>
-  <add sel="/wares">
+
     <ware id="ishield_units_size_l_hydrogen_collector" name="Hercules Internal Generator" description="Boann Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
       <price min="1" average="1" max="1"/>
       <component ref="ishield_units_size_l_hydrogen_collector_macro" amount="1"/>
       <use threshold="0"/>
     </ware>
-  </add>
-  <add sel="/wares">
+
     <ware id="ishield_units_size_l_ice_collector" name="Sulaco Internal Generator" description="Sulaco Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
       <price min="1" average="1" max="1"/>
       <component ref="ishield_units_size_l_ice_collector_macro" amount="1"/>
       <use threshold="0"/>
     </ware>
-  </add>
-  <add sel="/wares">
+
     <ware id="ishield_units_sucellus_mk1" name="Devastator Internal Generator" description="Sucellus Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
       <price min="1" average="1" max="1"/>
       <component ref="ishield_units_sucellus_mk1_macro" amount="1"/>
       <use threshold="0"/>
     </ware>
-  </add>
-  <add sel="/wares">
+
     <ware id="ishield_units_kha_l_dest_01" name="Queen Internal Generator" description="Queen Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
       <price min="1" average="1" max="1"/>
       <component ref="ishield_units_kha_l_dest_01_macro" amount="1"/>
       <use threshold="0"/>
     </ware>
-  </add>
-  <add sel="/wares">
+
+    <ware id="ishield_units_size_l_canteran_transporter" name="Centurion Internal Generator" description="Centurion Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
+	<price min="1" average="1" max="1" />
+	<component ref="ishield_units_size_l_canteran_transporter_macro" amount="1" />
+	<use threshold="0" />
+     </ware>	
+	
     <ware id="ishield_units_size_l_canteran_dest_a" name="Klendathu Internal Generator" description="Klendathu Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
       <price min="1" average="1" max="1"/>
       <component ref="ishield_units_size_l_canteran_dest_a_macro" amount="1"/>
       <use threshold="0"/>
     </ware>
-  </add>
-  <add sel="/wares">
+
     <ware id="ishield_units_size_l_canteran_liquid_a" name="Mirage Gas Internal Generator" description="Mirage Liquid Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
       <price min="1" average="1" max="1"/>
       <component ref="ishield_units_size_l_canteran_liquid_a_macro" amount="1"/>
       <use threshold="0"/>
     </ware>
-  </add>
-  <add sel="/wares">
+
     <ware id="ishield_units_size_l_canteran_solid_a" name="Mirage Solid Internal Generator" description="Mirage Solid Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
       <price min="1" average="1" max="1"/>
       <component ref="ishield_units_size_l_canteran_solid_a_macro" amount="1"/>
       <use threshold="0"/>
     </ware>
-  </add>
-  <add sel="/wares">
+
     <ware id="ishield_units_taranis_mk1" name="Taranis Internal Generator" description="Taranis Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
       <price min="1" average="1" max="1"/>
       <component ref="ishield_units_taranis_mk1_macro" amount="1"/>
       <use threshold="0"/>
     </ware>
-  </add>
-  <add sel="/wares">
+
     <ware id="ishield_units_tel_trans_xl" name="Millenium Internal Generator" description="Millenium Internal Generator" group="shields" transport="equipment" volume="1" tags="equipment shield">
       <price min="1" average="1" max="1"/>
       <component ref="ishield_units_tel_trans_xl_macro" amount="1"/>
       <use threshold="0"/>
-    </ware>
+    </ware>			
   </add>
 </diff>
