@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <diff>
   <remove sel="//jobs/job[@id='argon_carrier_patrol_xl_01']" />
   <remove sel="//jobs/job[@id='argon_battleship_patrol_xl_01']" />
@@ -60,7 +61,6 @@
   
   <remove sel="//jobs/job[@id='pioneers_destroyer_patrol_l_segaris_02']" />
   <remove sel="//jobs/job[@id='pioneers_destroyer_patrol_l_exp_02']" />
-  <remove sel="//jobs/job[@id='pioneers_destroyer_escort_l']" /> 
   
   <remove sel="//jobs/job[@id='xenon_carrier_patrol_xl_02']" />
   <remove sel="//jobs/job[@id='xenon_carrier_patrol_xl_border_cluster_02']" />
